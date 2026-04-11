@@ -1,0 +1,66 @@
+export async function POST(req) {
+  const { messages } = await req.json()
+
+  if (!process.env.GEMINI_API_KEY) {
+    return Response.json(
+      { role: 'assistant', content: "Matey is offline right now — the API key hasn't been configured. Check back soon! 🦘" },
+      { status: 200 }
+    )
+  }
+
+  // Build conversation history for Gemini format
+  const contents = messages.map(msg => ({
+    role: msg.role === 'assistant' ? 'model' : 'user',
+    parts: [{ text: msg.content }]
+  }))
+
+  try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents,
+          systemInstruction: {
+            parts: [{
+              text: `You are a friendly, warm assistant for international students who have just arrived in Australia. Your name is Matey (a play on the Australian word "mate").
+
+Your job is to help them navigate their new life — visa rules, university systems, daily life, Australian culture, slang, budgeting, housing, transport, healthcare, and anything else they need.
+
+RULES:
+- Be warm, encouraging, and non-judgmental. There are no stupid questions.
+- Use simple, clear English. Avoid jargon unless you're explaining it.
+- If asked about visa rules or work hour limits, give general guidance but ALWAYS remind them to check official sources (homeaffairs.gov.au).
+- If asked about specific legal or medical advice, recommend they speak to a professional.
+- Keep answers concise but thorough. Use short paragraphs.
+- If you detect the user is writing in a non-English language, respond in that same language.
+- You can explain Australian slang, acronyms (TFN, ABN, OSHC, Myki, Opal, etc.), and cultural norms.
+- Be aware this covers ALL of Australia — not just Melbourne or one city.
+- If relevant, mention that rules or services may vary by state/territory.
+
+PERSONALITY:
+- Think of yourself as a friendly senior student who's been in Australia for a few years.
+- Use occasional light humour but never be condescending.
+- If a student seems stressed or overwhelmed, acknowledge their feelings before giving practical advice.`
+            }]
+          },
+          generationConfig: {
+            temperature: 0.7,
+            maxOutputTokens: 1024
+          }
+        })
+      }
+    )
+
+    const data = await response.json()
+    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't process that. Try again!"
+
+    return Response.json({ role: 'assistant', content: reply })
+  } catch {
+    return Response.json(
+      { role: 'assistant', content: "Matey is taking a nap. Try again in a moment! 🦘" },
+      { status: 200 }
+    )
+  }
+}
