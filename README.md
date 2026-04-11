@@ -1,87 +1,116 @@
-# 30DaysAustralia
+# 30 Days in Australia
 
-30DaysAustralia is a clean, mobile-responsive Next.js App Router project with Tailwind CSS and Supabase integration. It includes login/signup auth, AI-powered analysis, saved history, and a protected dashboard.
+The central hub for international students arriving in Australia. A mobile-first web app that guides students through their first 30 days with a step-by-step timeline, curated resources, AI-powered chat, budgeting tools, blog posts, and a private journal.
 
-## Project structure
+---
 
-- `app/page.tsx` � Landing page with CTA
-- `app/auth/page.tsx` � Login/signup auth page
-- `app/analyze/page.tsx` � AI analysis input page
-- `app/dashboard/page.tsx` � Protected results dashboard
-- `app/api/analyze/route.ts` � API route for AI analysis and saving results
-- `components/Navbar.tsx` � Navigation bar with auth controls
-- `components/AnalysisForm.tsx` � Analysis input and submit form
-- `components/ResultCard.tsx` � Result display card
-- `components/Spinner.tsx` � Loading spinner component
-- `lib/supabaseClient.ts` � Supabase client init
-- `supabase/schema.sql` � Database schema for `users` and `analyses`
-- `.env.example` � Example environment configuration
+## Features
 
-## Setup instructions
+- **30-Day Timeline** — Tick off tasks day by day, synced to Supabase (or localStorage if not logged in)
+- **Resource Hub** — 7 categories of curated guides: Housing, Banking, Transport, Health, Work Rights, University Life, Wellbeing
+- **AI Chat (Matey)** — Google Gemini-powered assistant that knows Australia inside out
+- **Budget Snapshot** — Weekly cost estimates by city + suburb, and an interactive budget calculator
+- **Blog & Stories** — 6 full posts
+- **Private Journal** — Daily prompts + entry editor, stored securely in Supabase
+- **Emergency Contacts** — Critical numbers and state-specific services
+- **Aussie Glossary** — 50+ terms: slang, government acronyms, uni jargon, transport, housing
+- **Auth + Onboarding** — Supabase Auth with personalisation wizard (university, city, country)
 
-1. Install dependencies:
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | JavaScript (JSX) |
+| Styling | Tailwind CSS v4 |
+| Icons | Lucide React |
+| AI | Google Gemini API (gemini-2.0-flash) |
+| Auth + DB | Supabase (PostgreSQL + Auth) |
+| Deployment | Vercel |
+
+---
+
+## Setup
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-2. Copy the example env file:
+### 2. Configure environment variables
+
+Copy the example and fill in your values:
 
 ```bash
-copy .env.example .env.local
+cp env.example.txt .env.local
 ```
 
-3. Fill in your Supabase and OpenAI values in `.env.local`:
+Edit `.env.local`:
 
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-- `SUPABASE_URL`
-- `SUPABASE_SERVICE_ROLE_KEY`
-- `OPENAI_API_KEY` (optional)
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-4. Configure Supabase:
+- **Supabase**: Create a project at [supabase.com](https://supabase.com), then find your URL and anon key under **Settings → API**
+- **Gemini**: Get a free API key at [aistudio.google.com](https://aistudio.google.com/app/apikey)
 
-- Create a new Supabase project
-- Enable email/password authentication
-- Run the SQL in `supabase/schema.sql` inside the Supabase SQL editor
+### 3. Set up Supabase
 
-5. Start the app:
+In your Supabase project, go to **SQL Editor** and run the contents of `supabase/schema.sql`. This creates:
+
+- `user_profiles` — university, city, country, language preference
+- `checklist_progress` — timeline task completion, synced per user
+- `journal_entries` — private journal entries
+
+Enable **Email/Password** authentication under **Authentication → Providers**.
+
+### 4. Run the development server
 
 ```bash
 npm run dev
 ```
 
-6. Open the app in your browser:
+Open [http://localhost:3000](http://localhost:3000).
 
-```bash
-http://localhost:3000
+---
+
+## Project Structure
+
+```
+/app
+  layout.js              # Root layout — providers, nav, footer
+  page.js                # Landing page
+  /timeline/page.js      # 30-day checklist
+  /resources/            # Resource hub + category pages
+  /chat/page.js          # AI chat (Matey)
+  /budget/page.js        # Budget calculator
+  /blog/                 # Blog listing + individual posts
+  /journal/page.js       # Private journal (auth required)
+  /emergency/page.js     # Emergency contacts
+  /glossary/page.js      # Aussie glossary
+  /auth/                 # Login + signup pages
+  /onboarding/page.js    # Post-signup personalisation wizard
+  /api/chat/route.js     # Gemini API proxy
+  /api/translate/route.js # Future: translation endpoint
+/components              # All UI components, organised by feature
+/context                 # AuthContext, UserPreferencesContext
+/data                    # JSON data files (timeline, resources, costs, posts, etc.)
+/lib                     # supabase.js, supabase-server.js, translate.js
+/supabase/schema.sql     # Database schema + RLS policies
 ```
 
-## Supabase tables
+---
 
-### `users`
+## Deployment (Vercel)
 
-- `id` � uuid primary key
-- `email` � email address
-- `created_at` � timestamp
+1. Push to GitHub
+2. Import the repo in [Vercel](https://vercel.com)
+3. Add environment variables in Vercel project settings
+4. Deploy — Vercel handles everything automatically
 
-### `analyses`
 
-- `id` � uuid primary key
-- `user_id` � foreign key to `users.id`
-- `input_text` � original text submitted for analysis
-- `result` � AI response
-- `created_at` � timestamp
-
-## Notes
-
-- The app uses a mock OpenAI analysis if `OPENAI_API_KEY` is not provided.
-- The dashboard route is protected in the client and redirects to `/auth` if no user is signed in.
-- Supabase auth state is managed in the Navbar and persisted across pages.
-
-## Run commands
-
-- `npm run dev` � start development server
-- `npm run build` � build production app
-- `npm run start` � run production server
-- `npm run lint` � run ESLint
