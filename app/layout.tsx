@@ -1,37 +1,37 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import "./globals.css";
+import { Inter } from 'next/font/google'
+import { AuthProvider } from '@/context/AuthContext'
+import { UserPreferencesProvider } from '@/context/UserPreferencesContext'
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
+import MobileBottomNav from '@/components/layout/MobileBottomNav'
+import './globals.css'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+export const metadata = {
+  title: '30 Days in Australia',
+  description: 'The central hub for international students arriving in Australia. Guides, resources, budgeting, AI help — everything you need for your first 30 days.',
+}
 
-export const metadata: Metadata = {
-  title: "30DaysAustralia",
-  description: "AI-powered internationalization assistant with Supabase authentication.",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased bg-slate-50 text-slate-950 dark:bg-slate-950 dark:text-white`}
-    >
-      <body className="min-h-full flex flex-col">
-        <Navbar />
-        <main className="flex-1">{children}</main>
+    <html lang="en" className={inter.variable}>
+      <body className="min-h-screen flex flex-col bg-white text-[#1C1917]">
+        <AuthProvider>
+          <UserPreferencesProvider>
+            <Navbar />
+            <main className="flex-1 pb-16 md:pb-0">
+              {children}
+            </main>
+            <Footer />
+            <MobileBottomNav />
+          </UserPreferencesProvider>
+        </AuthProvider>
       </body>
     </html>
-  );
+  )
 }

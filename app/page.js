@@ -37,39 +37,45 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-white via-white to-teal-50 py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative bg-gradient-to-br from-[#0D2B28] via-[#0F4F49] to-[#0D766E] py-24 px-4 overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-10 right-20 w-72 h-72 rounded-full bg-[#F97316] blur-3xl" />
+          <div className="absolute bottom-0 left-10 w-96 h-96 rounded-full bg-[#0D9488] blur-3xl" />
+        </div>
+
+        <div className="relative max-w-4xl mx-auto text-center">
           {/* Decorative icons */}
-          <div className="flex justify-center items-center gap-6 mb-8 opacity-60">
-            <Briefcase size={28} className="text-[#0F766E]" />
+          <div className="flex justify-center items-center gap-6 mb-8 opacity-80">
+            <Briefcase size={28} className="text-white/60" />
             <MapPin size={36} className="text-[#F97316]" />
-            <GraduationCap size={32} className="text-[#0F766E]" />
+            <GraduationCap size={32} className="text-white/60" />
             <Compass size={28} className="text-[#FBBF24]" />
           </div>
 
-          <div className="inline-flex items-center gap-2 bg-teal-50 text-[#0F766E] text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-teal-100">
+          <div className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-white/20 backdrop-blur-sm">
             <span>🦘</span> For international students across Australia
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#1C1917] tracking-tight mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight mb-6 leading-tight">
             Your first 30 days,{' '}
-            <span className="text-[#0F766E]">sorted.</span>
+            <span className="text-[#4ADE80]">sorted.</span>
           </h1>
 
-          <p className="text-lg sm:text-xl text-[#78716C] max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-lg sm:text-xl text-white/75 max-w-2xl mx-auto mb-10 leading-relaxed">
             The central hub for international students in Australia. Guides, resources, budgeting, AI help — everything you need to settle in.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/timeline"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#0F766E] text-white font-semibold text-base shadow-md hover:bg-[#0a5c56] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#F97316] text-white font-semibold text-base shadow-lg hover:bg-[#EA6C0C] hover:-translate-y-0.5"
             >
               Start Your Journey <ArrowRight size={18} />
             </Link>
             <Link
               href="/resources"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border-2 border-[#0F766E] text-[#0F766E] font-semibold text-base hover:bg-teal-50"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border-2 border-white/30 text-white font-semibold text-base hover:bg-white/10 backdrop-blur-sm"
             >
               Explore Resources
             </Link>
@@ -78,7 +84,7 @@ export default function HomePage() {
       </section>
 
       {/* How it works */}
-      <section className="py-20 px-4 bg-[#F5F5F4]">
+      <section className="py-20 px-4 bg-[#F4F4F5]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#1C1917] mb-3">How it works</h2>
