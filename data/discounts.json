@@ -1,0 +1,155 @@
+[
+  {
+    "id": "unidays",
+    "name": "UNiDAYS",
+    "description": "The world's largest student discount platform. Offers discounts at hundreds of brands including ASOS, Nike, Apple, Dell, Samsung, Levi's, and many more. You verify your student status once and get access to all deals.",
+    "how_to_access": "Sign up at myunidays.com with your university email address. Verification is instant for most Australian universities.",
+    "url": "https://www.myunidays.com",
+    "savings": "10–50% off at major retailers. Apple devices often get 7–10% off plus free AirPods promotions.",
+    "category": "General"
+  },
+  {
+    "id": "student-edge",
+    "name": "Student Edge",
+    "description": "Australia's largest student membership program, with 1,000+ discounts for Australian students. Covers food, entertainment, travel, software, and more. Particularly strong for Australian-specific deals.",
+    "how_to_access": "Sign up free at studentedge.com.au with your student email. Some deals require your student ID at point of purchase.",
+    "url": "https://www.studentedge.com.au",
+    "savings": "Free membership. Individual discounts range from 5–50% depending on the retailer.",
+    "category": "General"
+  },
+  {
+    "id": "isic",
+    "name": "ISIC Card (International Student Identity Card)",
+    "description": "The globally recognised student ID card, accepted in over 130 countries. Provides discounts on travel, accommodation, museums, and software internationally. Especially useful if you travel during semester breaks.",
+    "how_to_access": "Apply online at isic.org or through your student union. Costs approximately $30 AUD per year. Requires proof of enrolment.",
+    "url": "https://www.isic.org",
+    "savings": "$30/year card fee. Discounts at 150,000+ locations worldwide including museums, hostels, and transport.",
+    "category": "General"
+  },
+  {
+    "id": "myki-concession",
+    "name": "Myki Concession Card (Melbourne)",
+    "description": "Victorian international students are eligible for concession-priced Myki travel, which is approximately half the adult fare. This applies to trams, trains, and buses in Melbourne and regional Victoria.",
+    "how_to_access": "Apply through Public Transport Victoria (ptv.vic.gov.au). You'll need proof of enrolment and a valid student visa. Your university student card also needs to show concession eligibility.",
+    "url": "https://www.ptv.vic.gov.au/tickets/myki/concession-myki/",
+    "savings": "Approximately 50% off all metropolitan and regional public transport in Victoria.",
+    "category": "Transport"
+  },
+  {
+    "id": "opal-concession",
+    "name": "Opal Concession (Sydney)",
+    "description": "NSW full-time international students can apply for a concession Opal card, giving half-price travel on trains, buses, ferries, and light rail across Greater Sydney and the Hunter region.",
+    "how_to_access": "Apply through Transport for NSW (transportnsw.info). Requires proof of full-time enrolment. Your university's international student office can assist with the application.",
+    "url": "https://transportnsw.info/tickets-opal/opal/concession-opal-cards",
+    "savings": "Approximately 50% off all Opal-network travel including the Sydney Trains network and ferry services.",
+    "category": "Transport"
+  },
+  {
+    "id": "go-card-concession",
+    "name": "Go Card Concession (Brisbane/SEQ)",
+    "description": "Queensland international students can apply for a concession Go card for use across South East Queensland's TransLink network, including Brisbane trains, buses, and ferries.",
+    "how_to_access": "Apply through Translink (translink.com.au). Requires a valid student visa and full-time enrolment in a Queensland institution.",
+    "url": "https://translink.com.au/tickets-and-fares/go-card/go-card-types/student",
+    "savings": "Approximately 50% off all TransLink travel across South East Queensland zones.",
+    "category": "Transport"
+  },
+  {
+    "id": "ngv-free",
+    "name": "NGV International — Free General Admission",
+    "description": "The National Gallery of Victoria (NGV) offers free general admission to its permanent collection at NGV International in St Kilda Road, Melbourne. One of the world's great art museums with major works from ancient to contemporary. Major ticketed exhibitions are separate.",
+    "how_to_access": "Walk in — no booking required for the permanent collection. Bring your student ID for any concession-priced special exhibitions.",
+    "url": "https://www.ngv.vic.gov.au",
+    "savings": "Free entry to the permanent collection (usually open daily 10am–5pm). Special exhibitions from ~$26 full price, ~$20 concession.",
+    "category": "Entertainment"
+  },
+  {
+    "id": "melbourne-museum-free",
+    "name": "Melbourne Museum — Free Entry for Victorian Students",
+    "description": "Melbourne Museum offers free entry for all Victorian school students and concession prices for university students. The museum houses Australia's largest dinosaur skeleton, a living rainforest gallery, and the Melbourne Story permanent exhibition.",
+    "how_to_access": "Show your student concession card or university ID at the ticket counter. Pre-booking online is recommended on weekends.",
+    "url": "https://museumsvictoria.com.au/melbournemuseum/",
+    "savings": "Concession entry approximately $15 (vs $27 adult price). Many school holidays programs are free.",
+    "category": "Entertainment"
+  },
+  {
+    "id": "agnsw-free",
+    "name": "Art Gallery of NSW — Free General Admission",
+    "description": "Sydney's Art Gallery of NSW (now in two buildings: the original Domain building and the new SANAA-designed North Building) offers free admission to its permanent collection. One of Australia's most important art collections spanning Australian, Asian, Pacific, and European art.",
+    "how_to_access": "Walk in — no booking needed for the permanent collection. Check agnsw.gov.au for opening hours. Ticketed exhibitions are separate.",
+    "url": "https://www.agnsw.gov.au",
+    "savings": "Free entry to the permanent collection. Concession prices for ticketed exhibitions, approximately 20% off adult prices.",
+    "category": "Entertainment"
+  },
+  {
+    "id": "spotify-student",
+    "name": "Spotify Student Plan",
+    "description": "Spotify's student plan gives you Premium at roughly half price. Ad-free listening, offline downloads, unlimited skips. Includes Hulu in some countries but not currently in Australia — you just get Spotify Premium.",
+    "how_to_access": "Sign up at spotify.com/au/student. Verification is via SheerID using your university email. Re-verify every 12 months for as long as you're enrolled (up to 4 years).",
+    "url": "https://www.spotify.com/au/student/",
+    "savings": "Approximately $7.99/month vs $12.99/month standard price — saving around $60/year.",
+    "category": "Digital"
+  },
+  {
+    "id": "apple-music-student",
+    "name": "Apple Music Student Plan",
+    "description": "Apple Music's student plan gives full access to over 100 million songs, spatial audio, lossless audio, and Apple Music TV — all at half the standard price.",
+    "how_to_access": "Sign up through the Apple Music app or music.apple.com/student. Verification via UNiDAYS. Eligible for up to 4 years while enrolled.",
+    "url": "https://music.apple.com/subscribe",
+    "savings": "Approximately $7.99/month vs $12.99/month standard — saving around $60/year.",
+    "category": "Digital"
+  },
+  {
+    "id": "adobe-student",
+    "name": "Adobe Creative Cloud Student & Teacher Edition",
+    "description": "Full access to all Adobe Creative Cloud apps — Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom, and 20+ more. Includes 100GB cloud storage. Essential for design, media, and architecture students.",
+    "how_to_access": "Purchase at adobe.com/au/creativecloud/plans/students.html. Verify with your university email. Must be enrolled at an eligible institution (all major Australian universities qualify).",
+    "url": "https://www.adobe.com/au/creativecloud/plans/students.html",
+    "savings": "Approximately $21.99/month for students vs $87.99/month full price — saving over $800/year.",
+    "category": "Digital"
+  },
+  {
+    "id": "microsoft-365-student",
+    "name": "Microsoft 365 Education (Free)",
+    "description": "Microsoft offers free access to Word, Excel, PowerPoint, OneNote, Teams, and 1TB of OneDrive storage for students at eligible institutions. Available through your university account — you may already have access and not know it.",
+    "how_to_access": "Check with your university IT helpdesk or go to microsoft.com/en-au/education/students. Log in with your university email address — many institutions provide this automatically.",
+    "url": "https://www.microsoft.com/en-au/education/students",
+    "savings": "Free (normally $159/year for Microsoft 365 Personal). This is one of the best free benefits you get as a student.",
+    "category": "Digital"
+  },
+  {
+    "id": "uni-gym",
+    "name": "University Gym Memberships",
+    "description": "Almost every Australian university operates a gym or sports centre on campus. Student memberships are dramatically cheaper than commercial gyms — often $100–$200 for the whole semester, compared to $60–$100/month at commercial gyms.",
+    "how_to_access": "Visit your campus sports centre or student services. Many are included in your student services fee (SSAF) or available at a steep discount. Bring your student ID.",
+    "url": "https://www.universitysport.com.au",
+    "savings": "Approximately $100–$250/semester vs $720–$1200/year at commercial gyms. Some universities include pool and group class access.",
+    "category": "Health"
+  },
+  {
+    "id": "free-legal-advice",
+    "name": "Free Student Legal Services",
+    "description": "Every major Australian university has a free legal advice service for enrolled students, run by the student union or student services. These services handle tenancy disputes, employment issues, visa questions, consumer disputes, and more — completely free.",
+    "how_to_access": "Search '[your university] student legal service' or contact your student union. Book an appointment in advance as demand is high, especially during semester.",
+    "url": "https://www.nusa.org.au/legal-services",
+    "savings": "Free (commercial lawyers charge $200–$500/hour). You get typically 30–60 minutes of real legal advice at no cost.",
+    "category": "General"
+  },
+  {
+    "id": "student-bank-account",
+    "name": "Student Bank Accounts (No Monthly Fees)",
+    "description": "Major Australian banks offer fee-free everyday bank accounts for international students. Commonwealth Bank's Smart Access, ANZ Access Advantage, NAB Classic Banking, and Westpac Choice all waive the $5–$6/month maintenance fee for full-time students.",
+    "how_to_access": "Bring your passport, student visa, and university enrolment letter to any branch, or open online. Some banks like Ubank and ING also offer fee-free accounts with no student requirement.",
+    "url": "https://www.commbank.com.au/banking/smart-access.html",
+    "savings": "Saves $60–$72/year in account fees. Look for accounts with no international transaction fees if you receive money from overseas.",
+    "category": "General"
+  },
+  {
+    "id": "library-digital",
+    "name": "University Library Digital Resources",
+    "description": "Your university library subscription is one of the most underrated benefits of being a student. You get free access to databases worth thousands of dollars: JSTOR, Springer, Elsevier, LinkedIn Learning, Lynda.com, Kanopy (streaming films), PressReader (newspapers worldwide), and more.",
+    "how_to_access": "Log in to your university library website with your student credentials. Remote access is available 24/7 from anywhere in the world.",
+    "url": "https://www.caul.edu.au",
+    "savings": "Equivalent to thousands of dollars in journal subscriptions, software training (LinkedIn Learning alone is $400+/year), and streaming services.",
+    "category": "Digital"
+  }
+]

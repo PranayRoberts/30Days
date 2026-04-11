@@ -1,0 +1,373 @@
+[
+  {
+    "id": "arvo",
+    "term": "Arvo",
+    "definition": "Afternoon. Australians love shortening words — 'arvo' is one of the most common you'll hear.",
+    "category": "Slang",
+    "example": "\"See you this arvo!\" = \"See you this afternoon!\""
+  },
+  {
+    "id": "brekkie",
+    "term": "Brekkie",
+    "definition": "Breakfast. Often encountered in café names and casual conversation.",
+    "category": "Slang",
+    "example": "\"Want to grab brekkie before class?\""
+  },
+  {
+    "id": "servo",
+    "term": "Servo",
+    "definition": "A service station (petrol station / gas station). Often also sells snacks, drinks, and basic groceries.",
+    "category": "Slang",
+    "example": "\"I need to stop at the servo to grab some water.\""
+  },
+  {
+    "id": "barbie",
+    "term": "Barbie",
+    "definition": "A barbecue. Australia has a genuine outdoor barbecue culture, and many parks have free electric or gas barbecue facilities.",
+    "category": "Slang",
+    "example": "\"We're having a barbie at the park on Saturday — come along.\""
+  },
+  {
+    "id": "thongs",
+    "term": "Thongs",
+    "definition": "Flip-flops (the footwear). Not underwear. This is one of the most commonly confusing words for international students, particularly those from North America.",
+    "category": "Slang",
+    "example": "\"Don't forget your thongs — the beach path gets hot.\""
+  },
+  {
+    "id": "sunnies",
+    "term": "Sunnies",
+    "definition": "Sunglasses. Essential in Australia given the high UV index. Usually worn year-round.",
+    "category": "Slang",
+    "example": "\"Have you seen my sunnies? The glare is brutal today.\""
+  },
+  {
+    "id": "rego",
+    "term": "Rego",
+    "definition": "Vehicle registration. Also refers to the annual registration fee paid to the state government to legally operate a vehicle on public roads.",
+    "category": "Slang",
+    "example": "\"My rego is due next month — another $800 I don't have.\""
+  },
+  {
+    "id": "mozzies",
+    "term": "Mozzies",
+    "definition": "Mosquitoes. Common in tropical and subtropical Australia, particularly in Queensland and the Northern Territory. Can carry Ross River virus in some areas.",
+    "category": "Slang",
+    "example": "\"The mozzies were terrible at the barbecue — I'm covered in bites.\""
+  },
+  {
+    "id": "footy",
+    "term": "Footy",
+    "definition": "In Victoria, South Australia, and Western Australia, this almost always means AFL (Australian Football League). In NSW and Queensland, it usually refers to rugby league (NRL). The sport meant by 'footy' varies by state — be aware of this when joining a conversation.",
+    "category": "Slang",
+    "example": "\"Are you watching the footy on Saturday?\" (VIC = AFL; NSW/QLD = NRL)"
+  },
+  {
+    "id": "mate",
+    "term": "Mate",
+    "definition": "Friend, or a generic term of address for anyone. Australians use 'mate' with strangers, colleagues, and close friends alike. It's a term of warmth, not necessarily intimacy.",
+    "category": "Slang",
+    "example": "\"Thanks mate\" — can be said to a stranger who held the door, to your best friend, or to a shopkeeper."
+  },
+  {
+    "id": "heaps",
+    "term": "Heaps",
+    "definition": "A lot, very much. Used both as an adjective and an adverb. Very common in casual speech.",
+    "category": "Slang",
+    "example": "\"That was heaps good\" = \"That was really good.\" / \"There were heaps of people\" = \"There were a lot of people.\""
+  },
+  {
+    "id": "reckon",
+    "term": "Reckon",
+    "definition": "Think or believe. Australians use 'reckon' constantly as a replacement for 'think' or 'suppose'.",
+    "category": "Slang",
+    "example": "\"I reckon it'll rain this afternoon.\" = \"I think it'll rain this afternoon.\""
+  },
+  {
+    "id": "no-worries",
+    "term": "No worries",
+    "definition": "You're welcome, no problem, don't stress about it. One of the most common Australian phrases. The automatic response to 'thank you', an apology, or any expression of concern.",
+    "category": "Slang",
+    "example": "\"Sorry I'm late!\" → \"No worries, we only just got here.\""
+  },
+  {
+    "id": "strewth",
+    "term": "Strewth",
+    "definition": "An exclamation of surprise or disbelief. Somewhat old-fashioned but still heard. Similar to 'gosh' or 'wow'.",
+    "category": "Slang",
+    "example": "\"Strewth, that's expensive!\" = \"Wow, that's expensive!\""
+  },
+  {
+    "id": "dobber",
+    "term": "Dobber",
+    "definition": "Someone who tells on another person — a tattletale or informant. 'Dobbing someone in' means reporting them to an authority. Strongly negative connotation in Australian culture — there is a strong social norm against dobbing.",
+    "category": "Slang",
+    "example": "\"Don't be a dobber\" = \"Don't tell on me/us.\""
+  },
+  {
+    "id": "bottle-o",
+    "term": "Bottle-o",
+    "definition": "A bottle shop — a liquor store. In Australia, alcohol is not sold in supermarkets (except in some specific circumstances) but in separate, licensed bottle shops.",
+    "category": "Slang",
+    "example": "\"I'll grab some wine from the bottle-o on the way.\""
+  },
+  {
+    "id": "arvo-smash",
+    "term": "Smashed avo",
+    "definition": "Smashed avocado on toast — an iconic Australian café brunch item. Has become a cultural symbol of millennial spending habits and Australian café culture more broadly.",
+    "category": "Slang",
+    "example": "A popular café brunch menu item, typically $18–$22 with feta, dukkah, and a poached egg."
+  },
+  {
+    "id": "tfn",
+    "term": "TFN",
+    "definition": "Tax File Number. Your unique identifier in the Australian tax system. Required for employment, bank accounts (to avoid withholding tax on interest), and ATO interactions. Apply through the ATO website — free, online, takes 15 minutes.",
+    "category": "Government",
+    "example": "\"Have you got your TFN yet? You'll need it before you start work.\""
+  },
+  {
+    "id": "abn",
+    "term": "ABN",
+    "definition": "Australian Business Number. Required if you work as a contractor or run any kind of business (including as a sole trader doing freelance work). ABN holders invoice clients rather than receiving payslips — you are responsible for your own tax. Do not get an ABN to avoid having tax withheld from wages — this is illegal if you're actually an employee.",
+    "category": "Government",
+    "example": "Delivery drivers on platforms like UberEats typically require an ABN."
+  },
+  {
+    "id": "oshc",
+    "term": "OSHC",
+    "definition": "Overseas Student Health Cover. Mandatory private health insurance for all international students on a student visa. Covers GP visits, hospital treatment, and some specialist care. Your university likely arranged it before you arrived.",
+    "category": "Government",
+    "example": "\"Show your OSHC card at the front desk and they'll bulk bill directly to your insurer.\""
+  },
+  {
+    "id": "medicare",
+    "term": "Medicare",
+    "definition": "Australia's universal public health insurance scheme, available to Australian citizens and permanent residents. Most international students are NOT eligible for Medicare — you have OSHC instead. Some countries have bilateral Medicare agreements with Australia (UK, Ireland, New Zealand, and a few others) — check if yours does.",
+    "category": "Government",
+    "example": "As a student visa holder from most countries, you will use OSHC rather than Medicare."
+  },
+  {
+    "id": "centrelink",
+    "term": "Centrelink",
+    "definition": "The Australian government's welfare payment agency, part of Services Australia. International students on student visas are generally NOT eligible for Centrelink payments (including Youth Allowance, JobSeeker, or rent assistance). This is an important distinction from what some students expect.",
+    "category": "Government",
+    "example": "International students cannot access Centrelink payments — make sure your finances are planned accordingly."
+  },
+  {
+    "id": "hecs-help",
+    "term": "HECS-HELP",
+    "definition": "A government loan scheme that allows eligible Australian students to defer their tuition fees until their income reaches a threshold. International students are generally NOT eligible for HECS-HELP — you pay tuition fees directly and upfront.",
+    "category": "Government",
+    "example": "International students are not eligible for HECS-HELP loans and must pay tuition fees as invoiced."
+  },
+  {
+    "id": "mygov",
+    "term": "myGov",
+    "definition": "The Australian government's online portal for accessing government services in one place. Link your ATO (for tax), Medicare (if eligible), Centrelink (if eligible), and other services. Essential for lodging your annual tax return.",
+    "category": "Government",
+    "example": "Create a myGov account at my.gov.au and link your ATO record — you'll use it to lodge your annual tax return."
+  },
+  {
+    "id": "ato",
+    "term": "ATO",
+    "definition": "Australian Taxation Office. The federal government agency that administers tax and superannuation laws. You'll interact with the ATO when applying for your TFN, lodging a tax return, and checking your super.",
+    "category": "Government",
+    "example": "Lodge your annual tax return through the ATO's myTax system via myGov."
+  },
+  {
+    "id": "fair-work",
+    "term": "Fair Work",
+    "definition": "Short for the Fair Work Ombudsman or the Fair Work Commission. The Ombudsman investigates unpaid wages and workplace rights violations. The Commission resolves workplace disputes. Both apply equally to international students.",
+    "category": "Government",
+    "example": "\"If your employer isn't paying you correctly, contact Fair Work — they investigate unpaid wages.\""
+  },
+  {
+    "id": "asio",
+    "term": "ASIO",
+    "definition": "Australian Security Intelligence Organisation. Australia's domestic spy agency, responsible for national security intelligence. Not something most students will ever encounter, but occasionally mentioned in news and political conversations.",
+    "category": "Government",
+    "example": "ASIO is Australia's domestic intelligence service — equivalent to MI5 in the UK or the FBI's domestic intelligence function."
+  },
+  {
+    "id": "wam",
+    "term": "WAM",
+    "definition": "Weighted Average Mark. Your cumulative grade point average in the Australian system, expressed as a percentage (0–100) weighted by the credit points of each subject. Used for honours eligibility, scholarships, and increasingly for graduate employment applications.",
+    "category": "University",
+    "example": "A WAM above 80 qualifies for High Distinction-level honours eligibility at most Australian universities."
+  },
+  {
+    "id": "hd",
+    "term": "HD (High Distinction)",
+    "definition": "The highest academic grade in the Australian system, awarded for marks of 80–100%. Indicates exceptional work that goes significantly beyond the minimum requirements.",
+    "category": "University",
+    "example": "\"I got an HD on my essay!\" = a mark of 80% or higher."
+  },
+  {
+    "id": "distinction",
+    "term": "D (Distinction)",
+    "definition": "The second-highest academic grade, awarded for marks of 70–79%. Indicates work that clearly exceeds the minimum requirements in most areas.",
+    "category": "University",
+    "example": "A Distinction (70–79%) is a strong result and well above a simple pass."
+  },
+  {
+    "id": "credit",
+    "term": "CR (Credit)",
+    "definition": "A solid pass, awarded for marks of 60–69%. Indicates work that meets and somewhat exceeds the minimum requirements.",
+    "category": "University",
+    "example": "A Credit (60–69%) is a respectable result that meets course progression requirements comfortably."
+  },
+  {
+    "id": "pass",
+    "term": "P (Pass)",
+    "definition": "The minimum passing grade, awarded for marks of 50–59%. Indicates work that meets the minimum requirements of the subject.",
+    "category": "University",
+    "example": "A Pass (50–59%) means you've passed the subject and progressed, though improvement is possible."
+  },
+  {
+    "id": "census-date",
+    "term": "Census Date",
+    "definition": "The administrative deadline each semester — typically 4–6 weeks into semester — after which you cannot withdraw from a subject without academic and financial penalty. If you withdraw after census date, you may receive a Fail on your record and still owe the tuition fees for that subject. Mark this date prominently in your calendar.",
+    "category": "University",
+    "example": "Check your university calendar for the census date — withdrawing before it means no academic or financial penalty."
+  },
+  {
+    "id": "special-consideration",
+    "term": "Special Consideration",
+    "definition": "A formal application for an extension or alternative assessment when illness, misadventure, or other serious circumstances prevent you from completing an assessment. Must be submitted promptly — usually within 3–5 business days of the affected assessment — with supporting documentation (medical certificate, etc.).",
+    "category": "University",
+    "example": "\"I got sick the week before my final exam — I applied for special consideration with a medical certificate.\""
+  },
+  {
+    "id": "turnitin",
+    "term": "Turnitin",
+    "definition": "The plagiarism detection software used by most Australian universities. Compares submitted work against internet sources, academic databases, and previously submitted student work. A similarity report is generated — high similarity scores trigger academic integrity investigations.",
+    "category": "University",
+    "example": "All essays are submitted through Turnitin — make sure all sources are properly cited."
+  },
+  {
+    "id": "tutorial-tute",
+    "term": "Tutorial / Tute",
+    "definition": "A small-group class (typically 10–25 students) led by a tutor, designed for discussion, problem-solving, and application of concepts covered in lectures. Tutorials are interactive — participation is usually expected and sometimes assessed. Attendance is typically compulsory.",
+    "category": "University",
+    "example": "\"My Monday tute was really good — we debated the case study for the whole hour.\""
+  },
+  {
+    "id": "seminar",
+    "term": "Seminar",
+    "definition": "A class format common in postgraduate and honours courses, combining elements of lecture and tutorial. Usually smaller than a lecture and more discussion-focused. Presenters (often students) lead discussion on a set reading or topic.",
+    "category": "University",
+    "example": "PhD students often present their research in departmental seminars as part of their academic development."
+  },
+  {
+    "id": "bond",
+    "term": "Bond",
+    "definition": "A security deposit paid at the beginning of a tenancy — typically 4 weeks' rent. By law, your landlord or agent must lodge this with the state government's bond authority (not keep it themselves). You receive it back at the end of your tenancy if you leave the property in good condition.",
+    "category": "Housing",
+    "example": "\"I paid $1,200 bond when I moved in — it was lodged with the RTBA (in Victoria) within 10 days.\""
+  },
+  {
+    "id": "lease",
+    "term": "Lease",
+    "definition": "A legally binding contract between you (the tenant) and the landlord, specifying the property address, rent amount, lease term, and conditions of the tenancy. Read the entire lease before signing. You are legally bound by its terms once you sign.",
+    "category": "Housing",
+    "example": "\"Don't sign a lease without reading it — check the notice period, break-lease terms, and what's included in rent.\""
+  },
+  {
+    "id": "tenancy-agreement",
+    "term": "Tenancy Agreement",
+    "definition": "The formal legal document governing your rental — another name for a lease. In share houses, you may sign a 'subletting agreement' with the head tenant rather than a formal tenancy agreement. Both are legally enforceable.",
+    "category": "Housing",
+    "example": "Your tenancy agreement sets out your rights and obligations — keep a signed copy."
+  },
+  {
+    "id": "inspection",
+    "term": "Inspection",
+    "definition": "Both the pre-rental viewing of a property (where you assess whether you want to rent it) and the landlord's periodic review of the property condition (usually every 3–6 months during your tenancy). Landlords must give written notice before entering for an inspection.",
+    "category": "Housing",
+    "example": "\"The inspection is at 10am Saturday — the agent will check the condition of the property.\""
+  },
+  {
+    "id": "real-estate-agent",
+    "term": "Real Estate Agent",
+    "definition": "A licensed professional who manages rental properties on behalf of landlords. In Australia, most formal rental properties are managed by real estate agencies rather than directly by landlords. Communication about your tenancy typically goes through the agent.",
+    "category": "Housing",
+    "example": "\"Call the agency — they manage the property, not the landlord directly.\""
+  },
+  {
+    "id": "flatmate",
+    "term": "Flatmate",
+    "definition": "A person you share a flat or house with. 'Housemate' is equally common. In Australia, share houses typically have 2–5 people sharing a house or apartment, each with their own room and sharing common areas.",
+    "category": "Housing",
+    "example": "\"My flatmate made dinner for all of us tonight — we take turns cooking.\""
+  },
+  {
+    "id": "share-house",
+    "term": "Share House",
+    "definition": "A rental property (usually a house or large apartment) shared among multiple unrelated individuals who each pay rent for their own room. The most affordable and common form of student accommodation in Australian cities.",
+    "category": "Housing",
+    "example": "\"I found a room in a share house in Carlton — $210/week including bills.\""
+  },
+  {
+    "id": "body-corporate",
+    "term": "Body Corporate / Owners Corporation",
+    "definition": "The organisation that manages the common areas and shared facilities of a multi-unit building (apartment block). If you live in an apartment, the body corporate sets rules about noise, parking, renovations, and common area use. Your real estate agent manages your tenancy; the body corporate manages the building.",
+    "category": "Housing",
+    "example": "\"The body corporate rules say no pets — check before signing if you're planning to get a cat.\""
+  },
+  {
+    "id": "myki",
+    "term": "Myki",
+    "definition": "Melbourne and Victoria's public transport smart card. A stored-value card you tap on and tap off on trams, trains, and buses across metropolitan and regional Victoria. Sold at 7-Eleven and train stations. Concession Myki available for eligible students.",
+    "category": "Transport",
+    "example": "\"Load your Myki at the machine before you get on — inspectors check regularly.\""
+  },
+  {
+    "id": "opal",
+    "term": "Opal",
+    "definition": "Sydney and NSW's public transport smart card, used on trains, buses, ferries, and light rail across Greater Sydney and the Hunter region. Concession Opal available for eligible full-time students.",
+    "category": "Transport",
+    "example": "\"I tap my Opal at the gate at Central Station — don't forget to tap off or you'll get charged the maximum fare.\""
+  },
+  {
+    "id": "go-card",
+    "term": "Go Card",
+    "definition": "South East Queensland's public transport smart card, used on TransLink trains, buses, and ferries across Brisbane and the surrounding region. Concession Go Card available for eligible students.",
+    "category": "Transport",
+    "example": "\"Get a Go Card for the train — the fare is significantly cheaper than buying a paper ticket.\""
+  },
+  {
+    "id": "tap-on-off",
+    "term": "Tap on / Tap off",
+    "definition": "The action of touching your Myki, Opal, or Go Card to a reader when you board and alight from public transport. Always tap on when you get on and tap off when you get off. Failing to tap off results in a maximum-fare charge.",
+    "category": "Transport",
+    "example": "\"Remember to tap off when you get off at Flinders Street or you'll be charged the full zone 1+2 fare.\""
+  },
+  {
+    "id": "concession-card",
+    "term": "Concession Card",
+    "definition": "An authorised card that entitles you to discounted fares on public transport. Full-time international students are typically eligible for a student concession card — apply through your state's transport authority. Concession fares are approximately half the adult fare.",
+    "category": "Transport",
+    "example": "\"Apply for your concession card in your first week — it takes 1–2 weeks and saves you hundreds per year.\""
+  },
+  {
+    "id": "tram",
+    "term": "Tram",
+    "definition": "A light rail vehicle running on tracks embedded in the road surface. Melbourne has the largest tram network in the world. Adelaide also has a tram line. Sydney has light rail (similar to trams) in several corridors. All require you to tap on and tap off.",
+    "category": "Transport",
+    "example": "\"Take the tram 96 from East Brunswick — it goes all the way down to St Kilda.\""
+  },
+  {
+    "id": "light-rail",
+    "term": "Light Rail",
+    "definition": "A modern, electrically-powered train system that typically runs on the surface (street level) or on dedicated tracks, similar to a tram. Sydney has light rail lines from Central to Randwick and to Dulwich Hill. Canberra has a light rail from the city to Gungahlin.",
+    "category": "Transport",
+    "example": "\"Take the light rail from Central to UNSW — it stops right at the High Street entrance.\""
+  },
+  {
+    "id": "express-train",
+    "term": "Express Train",
+    "definition": "A train service that skips some intermediate stations to reach its destination faster. In Sydney and Melbourne, express trains run during peak hours on busy corridors. Distinguish from 'stopping all stations' services. Check the destination board before boarding.",
+    "category": "Transport",
+    "example": "\"Take the express train from Central — it skips Redfern and gets to Parramatta 10 minutes faster.\""
+  }
+]

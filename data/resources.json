@@ -1,0 +1,418 @@
+{
+  "categories": [
+    {
+      "id": "housing",
+      "name": "Housing",
+      "emoji": "🏠",
+      "description": "Finding safe, affordable accommodation in Australia",
+      "color": "blue",
+      "resources": [
+        {
+          "id": "renting-guide",
+          "title": "How to Rent in Australia",
+          "summary": "A complete guide to finding, securing, and understanding rental accommodation as an international student.",
+          "tags": ["Essential", "Housing", "Legal"],
+          "essential": true,
+          "content": "Renting in Australia as an international student is different from renting in most other countries, and understanding the system before you start looking will save you significant stress and money.\n\nThe rental market in major Australian cities (particularly Sydney and Melbourne) is highly competitive. Properties are typically advertised on Domain.com.au and Realestate.com.au, and inspections are scheduled in short windows — often 15–20 minutes. You will compete against multiple applicants for the same property. For share houses (where you rent a room in a house shared with others), Flatmates.com.au is the dominant platform and is heavily used by students.\n\nWhen you apply for a rental property, you'll need: proof of identity (passport), proof of income or financial support (bank statements, scholarship letters, or a letter from a guarantor), proof of enrolment at your university, and sometimes references from previous landlords. If you have no Australian rental history, a letter from your university and a significant bank balance as evidence of financial capacity usually helps.\n\nBond (the security deposit) is typically 4 weeks' rent and must be lodged with the state government's bond authority — not held by the landlord personally. In Victoria this is the RTBA, in NSW it's NSW Fair Trading, in Queensland it's the RTA. Keep your bond receipt.\n\nFor students arriving without a permanent address, many universities offer short-term on-campus accommodation or can refer you to temporary housing while you search. Book this in advance as it fills quickly.",
+          "links": [
+            { "label": "Domain.com.au (rentals)", "url": "https://www.domain.com.au/rent/" },
+            { "label": "Flatmates.com.au (share houses)", "url": "https://www.flatmates.com.au" },
+            { "label": "Realestate.com.au (rentals)", "url": "https://www.realestate.com.au/rent/" }
+          ],
+          "warnings": [
+            "Never pay bond or rent before signing a written lease and inspecting the property in person.",
+            "If a rental price seems too good to be true for the area, it's almost certainly a scam — verify ownership through your state's land title registry.",
+            "Always take timestamped photos of the entire property when you move in and email them to the agent — this protects your bond when you leave."
+          ]
+        },
+        {
+          "id": "share-house",
+          "title": "Living in a Share House",
+          "summary": "Share houses are the most affordable and social option for students — here's how to make them work.",
+          "tags": ["Housing", "Budget", "Social"],
+          "essential": false,
+          "content": "Most international students live in share houses — renting a furnished or unfurnished room in a house or apartment shared with 2–5 other people. This is the most affordable rental option in Australian cities, typically costing $150–$300 per week for a private room, with bills often included.\n\nShare houses found on Flatmates.com.au typically include existing housemates who are looking for a new person to fill a vacant room. The listing will show the weekly rent, what's included (WiFi, electricity, gas), and details about the existing housemates. Most listings include photos of the room and common areas.\n\nWhen assessing a share house room: visit in person before committing, check that bills are genuinely included (get this in writing), check the state of the bathroom, kitchen, and common areas (they indicate how the current residents live), meet the people you'll live with and trust your instincts, check internet speed (essential for study), and ask about house rules around guests, noise, cleaning, and shared food.\n\nIf you're placed with a landlord or head-tenant who doesn't respect your rights, contact your state's tenants' union. As a subtenant in a share house, you have legal rights even if your name is not on the main lease — these vary by state but generally include the right to reasonable notice before entry and protection from arbitrary eviction.",
+          "links": [
+            { "label": "Flatmates.com.au", "url": "https://www.flatmates.com.au" },
+            { "label": "Tenants Victoria (share house rights)", "url": "https://www.tenantsvic.org.au/advice/share-accommodation/" },
+            { "label": "Tenants' Union NSW", "url": "https://www.tenants.org.au/factsheet/18-share-housing" }
+          ],
+          "warnings": [
+            "If a head tenant is charging you more than your proportional share of rent plus a reasonable admin fee, this may be illegal — check with your state's tenancy authority.",
+            "Verbal agreements about what's included in rent are difficult to enforce — get everything in writing, even via text or email."
+          ]
+        },
+        {
+          "id": "university-accommodation",
+          "title": "University Residential Colleges and Halls",
+          "summary": "On-campus and affiliated accommodation offers security and community but books out fast — apply early.",
+          "tags": ["Housing", "On-Campus", "Community"],
+          "essential": false,
+          "content": "Most Australian universities offer on-campus residential accommodation in the form of residential colleges, student halls of residence, or university-managed apartments. These offer the benefit of security, existing community, proximity to classes, and in some cases, included meals.\n\nUniversity accommodation is typically more expensive than equivalent private share houses (often $250–$450/week for a single room) but includes utilities, internet, and in residential colleges, some meals. The community and pastoral care they provide can be invaluable for students who are new to Australia and don't yet have a social network.\n\nApplications for university accommodation must be made early — often 6–12 months before your intended start date. Check your university's accommodation office website well before you arrive. Priority is sometimes given to first-year students and those from regional areas.\n\nIf university accommodation is full, your international student office may maintain a list of approved private accommodation providers, homestay networks, and short-term furnished apartment options. Melbourne, Sydney, and Brisbane all have student accommodation companies (Scape, UniLodge, Iglu, Atira) that cater specifically to international students with furnished rooms, social programs, and flexible contracts.",
+          "links": [
+            { "label": "Scape Student Living", "url": "https://www.scape.com.au" },
+            { "label": "UniLodge Australia", "url": "https://www.unilodge.com.au" },
+            { "label": "Iglu Student Accommodation", "url": "https://www.iglu.com.au" }
+          ],
+          "warnings": [
+            "Private student accommodation providers are not subject to the Residential Tenancies Act in most states — read your contract carefully and check cancellation policies.",
+            "Some student accommodation contracts require a 12-month commitment even if your semester is only 6 months — check your contract length before signing."
+          ]
+        },
+        {
+          "id": "rental-scams",
+          "title": "How to Spot and Avoid Rental Scams",
+          "summary": "International students are specifically targeted by rental scammers — here's how to protect yourself.",
+          "tags": ["Housing", "Safety", "Essential"],
+          "essential": true,
+          "content": "Rental scams targeting international students are unfortunately common in Australian cities. Scammers post fake listings on Facebook Marketplace, Gumtree, and sometimes Domain and Realestate.com.au using stolen photos of real properties. They pose as overseas landlords or agents, create urgency, and disappear after receiving a payment.\n\nRed flags that indicate a rental scam: the rent is significantly below market rate for the area, the landlord says they are overseas and cannot show you the property, you are asked to pay bond or rent via wire transfer, cryptocurrency, or gift cards before signing anything, the landlord uses high-pressure tactics or creates urgency, the photos look too professional or can be found on Google Images under a different address (right-click and 'search image'), there is no formal lease offered, and communication is only by email with no phone number provided.\n\nTo verify a rental is legitimate: search the address on Domain or Realestate to see if the same property is listed by an agent, check the property owner on your state's land title registry (most states offer free name searches), call the real estate agency's listed phone number (not one provided in the ad) to verify the agent exists, and if in doubt, contact your state's consumer affairs agency.\n\nIf you have been scammed, report it to ScamWatch (scamwatch.gov.au) and your state police. While money recovery is difficult, reporting prevents others from being victimised.",
+          "links": [
+            { "label": "ScamWatch (ACCC)", "url": "https://www.scamwatch.gov.au" },
+            { "label": "Domain Rental Safety Advice", "url": "https://www.domain.com.au/news/rental-scams/" }
+          ],
+          "warnings": [
+            "Never send money — bond, rent in advance, or holding deposits — without having a signed lease and having physically inspected the property.",
+            "Legitimate landlords and agents will never ask for payment via cryptocurrency, gift cards, or international wire transfers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banking-money",
+      "name": "Banking & Money",
+      "emoji": "💰",
+      "description": "Managing money, banking, and finances in Australia",
+      "color": "green",
+      "resources": [
+        {
+          "id": "opening-bank-account",
+          "title": "Opening an Australian Bank Account",
+          "summary": "A step-by-step guide to opening a fee-free bank account as soon as you arrive.",
+          "tags": ["Essential", "Finance", "Banking"],
+          "essential": true,
+          "content": "Opening an Australian bank account is one of your most urgent tasks. You need it to receive scholarship or allowance payments, pay rent by bank transfer, receive wages from any job, and avoid expensive cash transaction fees.\n\nAustralia's Big Four banks are Commonwealth Bank (CBA), ANZ, NAB, and Westpac. All offer fee-free accounts for students. The grace period for new arrivals means you can open an account with just your passport for the first 6 weeks after arrival — after that, you may need additional identity documents.\n\nCommonwealth Bank's Smart Access account is popular with international students because CBA has the most branches and ATMs across Australia, you can start the application online before you arrive, there is no monthly fee for full-time students, and the app is excellent. NAB's Classic Banking account is permanently free with no conditions — a good option if you're uncertain of your enrolment status.\n\nFor receiving money from overseas (from family or in foreign currency), the Big Four banks are not the cheapest option. Wise (wise.com) offers dramatically better exchange rates and lower transfer fees than any Australian bank. Many students use a Big Four bank for day-to-day spending and Wise for international transfers.\n\nTax File Number (TFN): once you have your TFN, provide it to your bank to avoid having tax withheld on any savings interest. Without a TFN on file, banks withhold 47% of interest earned.",
+          "links": [
+            { "label": "Commonwealth Bank (CBA)", "url": "https://www.commbank.com.au" },
+            { "label": "NAB Classic Banking", "url": "https://www.nab.com.au/personal/bank-accounts/everyday-banking/nab-classic-banking" },
+            { "label": "Wise (international transfers)", "url": "https://wise.com/au/" },
+            { "label": "MoneySmart — Choosing a bank account", "url": "https://moneysmart.gov.au/banking/bank-accounts" }
+          ],
+          "warnings": [
+            "Never give your bank account details to someone you met online who needs to 'transfer money through you' — this is a common money mule scam.",
+            "Be suspicious of anyone who contacts you claiming to be your bank — legitimate banks will never ask for your password or PIN via phone, email, or SMS."
+          ]
+        },
+        {
+          "id": "tax-return",
+          "title": "Filing Your Australian Tax Return",
+          "summary": "Most international students get a tax refund at year end — here's how the Australian tax system works.",
+          "tags": ["Finance", "Tax", "Legal"],
+          "essential": true,
+          "content": "Australia's financial year runs from 1 July to 30 June. If you work during the year, you are required to lodge a tax return with the Australian Taxation Office (ATO) — even as an international student. The deadline is 31 October each year (or later if you use a registered tax agent).\n\nMost international students who work part-time get a tax refund — often $200–$800 — because tax is withheld from your wages throughout the year at a rate that assumes you'll earn more than you actually do. Lodging a return gets this back.\n\nYou can lodge your tax return online through myTax via your myGov account (my.gov.au). Creating a myGov account and linking your ATO record is free and straightforward. Alternatively, tax agents at H&R Block or TaxAct will lodge for you for around $60–$100, which may be worth it if your situation is complex (multiple jobs, investments, etc.).\n\nInternational students are generally taxed as Australian tax residents if they're in Australia for more than 6 months continuously — this means you access the tax-free threshold ($18,200 as of 2026), which significantly reduces tax payable compared to the non-resident rate. This is a complex area — check the ATO website or a tax agent for your specific situation.",
+          "links": [
+            { "label": "Lodge a Tax Return (ATO myTax)", "url": "https://www.ato.gov.au/individuals-and-families/lodging-your-tax-return/lodge-your-tax-return-online-with-mytax" },
+            { "label": "myGov Account", "url": "https://my.gov.au" },
+            { "label": "ATO International Students Tax Info", "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/international-students" }
+          ],
+          "warnings": [
+            "Never pay someone significantly more than $100 to lodge a simple tax return — there are many predatory tax agents targeting international students who charge excessive fees.",
+            "Your employer is required to provide you with a payment summary (now called an 'income statement' in myTax) by 14 July — you need this to lodge your return."
+          ]
+        },
+        {
+          "id": "superannuation",
+          "title": "Superannuation: Australia's Retirement System",
+          "summary": "Your employer must pay superannuation on top of your wages — and as an international student, you can claim it back when you leave.",
+          "tags": ["Finance", "Work", "Superannuation"],
+          "essential": false,
+          "content": "Superannuation (super) is Australia's compulsory retirement savings system. Employers are required to pay 11.5% of your wages into a super fund on your behalf, in addition to your wages. This is called the Superannuation Guarantee.\n\nAs an international student, you will accumulate super contributions every time you work. When you permanently leave Australia after your visa expires, you can claim this money back as a Departing Australia Superannuation Payment (DASP). The amount varies, but international students who have worked for a year or more often receive $500–$3,000 when they claim.\n\nYou should provide your employer with your TFN and nominate a super fund when you start a job. If you don't nominate one, your employer will use a default fund, which is fine — you can consolidate all your super funds into one later. Check your super balance by logging in to myGov and accessing the ATO link, which shows all your super accounts.\n\nTo claim your super when you leave Australia: apply online through the ATO's DASP application form within 6 months of your visa expiring. Tax is withheld on the DASP at 35–65% depending on the components — this is unavoidable but the net amount is still a useful return.",
+          "links": [
+            { "label": "Departing Australia Superannuation Payment (DASP)", "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/how-to-access-your-super/departing-australia-superannuation-payment-dasp" },
+            { "label": "Check your super with myGov", "url": "https://my.gov.au" }
+          ],
+          "warnings": [
+            "There are many third-party companies offering to claim your super for a fee — the ATO process is free, so don't pay for this service.",
+            "Make sure your employer is actually paying your super — check your payslip for the super amount. Unpaid super is unfortunately common in hospitality and retail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "emoji": "🚆",
+      "description": "Getting around Australian cities by public transport",
+      "color": "orange",
+      "resources": [
+        {
+          "id": "public-transport-guide",
+          "title": "Public Transport in Australia's Major Cities",
+          "summary": "How to use public transport efficiently and cheaply in Melbourne, Sydney, Brisbane, Adelaide, and Perth.",
+          "tags": ["Transport", "Essential", "Daily Life"],
+          "essential": true,
+          "content": "Australian cities are large and spread out, and public transport is the primary way most students get around. Each major city has a smart card tap-on/tap-off system: Myki in Melbourne/Victoria, Opal in Sydney/NSW, Go Card in Brisbane/South East Queensland, Metrocard in Adelaide, and SmartRider in Perth.\n\nThe key rule for all systems: always tap on when you board and tap off when you alight. If you forget to tap off, the system charges you the maximum fare for your journey, which is significantly more than the actual distance would cost. This is one of the most common expensive mistakes new arrivals make.\n\nConcession fares (approximately half the adult price) are available to full-time international students — apply through your state's transport authority with proof of enrolment. This discount is significant: in Melbourne, the difference between adult and concession travel adds up to $500–$700 per year.\n\nMelbourne is unique in having an extensive tram network, including a Free Tram Zone covering the entire CBD. Within the CBD, you do not need to tap on at all — simply board and alight. The zone extends from Flinders Street station to La Trobe Street and from Spring Street to Harbour Esplanade. Sydney's light rail and ferry network adds a scenic dimension to commuting. Brisbane's CityCat ferry service is a beautiful way to commute along the river.\n\nFor journey planning, download your city's transit app: PTV (Melbourne), Transport for NSW (Sydney), Translink Journey Planner (Brisbane), Adelaide Metro (Adelaide), or Transperth (Perth). Google Maps also works well for public transport routing in Australian cities.",
+          "links": [
+            { "label": "PTV (Melbourne)", "url": "https://www.ptv.vic.gov.au" },
+            { "label": "Transport for NSW (Sydney)", "url": "https://transportnsw.info" },
+            { "label": "Translink (Brisbane/SEQ)", "url": "https://translink.com.au" },
+            { "label": "Adelaide Metro", "url": "https://www.adelaidemetro.com.au" },
+            { "label": "Transperth (Perth)", "url": "https://www.transperth.wa.gov.au" }
+          ],
+          "warnings": [
+            "Always tap off — an untapped exit is charged at the maximum zone rate, and repeated offences can result in infringement notices.",
+            "Ticket inspectors board randomly on Melbourne trams and trains — always ensure your Myki is tapped on and loaded with sufficient funds."
+          ]
+        },
+        {
+          "id": "cycling",
+          "title": "Cycling in Australian Cities",
+          "summary": "Cycling is a practical, healthy, and free way to commute — most Australian cities have improving bike infrastructure.",
+          "tags": ["Transport", "Health", "Budget"],
+          "essential": false,
+          "content": "Cycling is increasingly practical in Australian cities. Melbourne has an extensive network of dedicated bike lanes and the Yarra River trail. Sydney's cycling network is improving rapidly, with protected lanes in the CBD and along key corridors. Brisbane has excellent riverside paths, and Adelaide is perhaps Australia's most cycling-friendly city per capita.\n\nSecondhand bikes are affordable and widely available. Check Facebook Marketplace, Gumtree, and university noticeboards for bikes ranging from $50–$300. A reliable secondhand bike for commuting is an excellent investment given petrol and transport costs.\n\nHelmets are compulsory for cyclists in all Australian states — this is enforced and fines apply. A basic helmet costs $30–$60 at Target, Kmart, or Anaconda. Lights (front and rear) are also legally required for night riding.\n\nFor share bikes, Brisbane has CityCycle (powered by PBSC), Melbourne has Lime e-bikes, and Sydney has Lime and Human e-scooters and bikes. These are accessed by app and charge per minute — good for occasional trips rather than daily commuting.\n\nHeavy rain and summer heat (December–February) can make daily cycling uncomfortable in some cities. Having a transit card as a backup is practical for days when the weather makes cycling unpleasant.",
+          "links": [
+            { "label": "Facebook Marketplace (secondhand bikes)", "url": "https://www.facebook.com/marketplace/" },
+            { "label": "Lime (share bikes and e-scooters)", "url": "https://www.li.me/en-AU/" },
+            { "label": "Melbourne Bike Share Map", "url": "https://www.melbourne.vic.gov.au/parking-and-transport/cycling/bike-path-maps" }
+          ],
+          "warnings": [
+            "Helmets are mandatory and fines for riding without one start at $322 in Victoria — this is not a law that is rarely enforced.",
+            "Always lock your bike securely — secondhand bicycle theft is common near university campuses."
+          ]
+        },
+        {
+          "id": "rideshare",
+          "title": "Rideshare and Taxis in Australia",
+          "summary": "Uber and DiDi are widely available but significantly more expensive than public transport — use strategically.",
+          "tags": ["Transport", "Safety"],
+          "essential": false,
+          "content": "Rideshare services (Uber, Ola, DiDi) are available in all major Australian cities and are generally reliable. They're useful for late-night travel when public transport is infrequent, for getting home safely after an evening out, or for travelling to places not well served by public transport.\n\nTypical fares within inner-city areas run $10–$25. Airport trips from the city centre are typically $40–$70. Surge pricing applies during peak times (Friday and Saturday nights, major events) and can double or triple the base fare — check the estimated price before confirming.\n\nFor airport travel: most Australian airports are well-connected by train or bus, which is far cheaper than rideshare. Sydney Airport Domestic/International stations connect directly to the city. Melbourne's SkyBus ($22 one-way) and the Skybus to Melbourne Airport are more cost-effective than Uber. Brisbane's AirTrain connects the airport to the city.\n\nFor safety: always check the licence plate matches what's shown in the app before getting in, share your trip status with a trusted contact, and prefer sitting in the back seat. If you feel unsafe, you can end the trip and contact Uber/Ola support.\n\nDiDi typically runs 10–20% cheaper than Uber in most Australian cities — worth having both apps installed and comparing prices before booking.",
+          "links": [
+            { "label": "Uber Australia", "url": "https://www.uber.com/au/en/" },
+            { "label": "DiDi Australia", "url": "https://didimobility.com.au" },
+            { "label": "SkyBus (Melbourne Airport)", "url": "https://www.skybus.com.au" }
+          ],
+          "warnings": [
+            "Always verify the car's licence plate matches the app before entering — rideshare impersonation scams occur at airports and entertainment precincts.",
+            "If you feel unsafe in a rideshare, you can ask to end the trip at a public location and call for an alternative."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-safety",
+      "name": "Health & Safety",
+      "emoji": "🏥",
+      "description": "Healthcare, mental health, and personal safety in Australia",
+      "color": "red",
+      "resources": [
+        {
+          "id": "oshc-guide",
+          "title": "Understanding Your OSHC Health Cover",
+          "summary": "What your Overseas Student Health Cover includes, how to use it, and what gaps you need to know about.",
+          "tags": ["Essential", "Health", "Finance"],
+          "essential": true,
+          "content": "Overseas Student Health Cover (OSHC) is compulsory for all international students on a student visa. It is similar to Australian Medicare but is a private insurance product specifically designed for international students. Your university most likely purchased it on your behalf as part of your enrolment — check your enrolment documents for your provider and policy number.\n\nThe main OSHC providers are Medibank, BUPA, AHM (part of Medibank), NIB, and CBHS International Health. Log in to your provider's website or app to access your digital membership card, find participating doctors and hospitals, check what's covered, and lodge claims.\n\nOSHC typically covers: visits to GPs (particularly bulk-billing doctors who charge no gap fee), emergency hospital treatment, some specialist consultations, ambulance (check your specific policy — not all include ambulance in all states), and limited dental and optical in some policies.\n\nOSHC does NOT typically cover: dental treatment beyond basic check-ups, cosmetic procedures, elective surgery, most specialist consultations without a GP referral, most prescription medications (you pay the full cost), and mental health treatment beyond a limited number of sessions.\n\nFor mental health specifically: your OSHC may cover a limited number of psychology sessions, but your university's free counselling service is often faster and more accessible. Combine both for the best support.",
+          "links": [
+            { "label": "Medibank OSHC", "url": "https://www.medibank.com.au/overseas-students/" },
+            { "label": "BUPA OSHC Member Login", "url": "https://www.bupa.com.au/health-insurance/oshc" },
+            { "label": "NIB OSHC", "url": "https://www.nib.com.au/overseas-students" },
+            { "label": "OSHC Explained (Study Australia)", "url": "https://www.studyaustralia.gov.au/en/live-in-australia/healthcare" }
+          ],
+          "warnings": [
+            "Ambulance services can cost over $1,000 for a call-out — check whether your OSHC policy includes ambulance cover in your state.",
+            "Always show your OSHC card at the start of any medical appointment to avoid being charged full private rates."
+          ]
+        },
+        {
+          "id": "mental-health",
+          "title": "Mental Health Support for International Students",
+          "summary": "Culture shock, loneliness, and academic pressure are real — here's where to get support without stigma.",
+          "tags": ["Essential", "Mental Health", "Wellbeing"],
+          "essential": true,
+          "content": "The mental health of international students is significantly affected by the combined stresses of academic pressure, cultural adjustment, social isolation, language barriers, financial stress, and family separation. Research consistently shows that international students experience higher rates of depression and anxiety than domestic students — and are less likely to seek help due to stigma, cultural differences in help-seeking, or not knowing services exist.\n\nYour university's free student counselling service is the most accessible first step. You do not need to be in crisis to access counselling — preventive sessions around stress, adjustment, loneliness, or homesickness are appropriate and common. Booking a single appointment is a commitment to nothing more than a conversation.\n\nBeyond Blue (1300 22 4636) offers phone and online chat support from mental health counsellors, 24 hours a day. Lifeline (13 11 14) provides crisis support. The Black Dog Institute (blackdoginstitute.org.au) has free self-help resources specifically for anxiety and depression.\n\nFor culturally specific mental health support, EACH (each.com.au) provides services in multiple languages, and many states have multicultural health services. The MHCS (Multicultural Health Communication Service) translates mental health information into over 60 languages.\n\nCulture shock is a recognised psychological process with distinct phases — typically excitement, frustration, adjustment, and acceptance. Knowing this doesn't eliminate it, but it helps to know that what you're experiencing is normal and temporary.",
+          "links": [
+            { "label": "Beyond Blue", "url": "https://www.beyondblue.org.au" },
+            { "label": "Lifeline", "url": "https://www.lifeline.org.au" },
+            { "label": "Headspace (app)", "url": "https://www.headspace.com" },
+            { "label": "Black Dog Institute (self-help tools)", "url": "https://www.blackdoginstitute.org.au" }
+          ],
+          "warnings": [
+            "Reaching out for mental health support is not a weakness — it is a practical and intelligent response to genuinely difficult circumstances.",
+            "If you are having thoughts of self-harm, call Lifeline (13 11 14) or go to your nearest hospital emergency department immediately."
+          ]
+        },
+        {
+          "id": "personal-safety",
+          "title": "Personal Safety in Australia",
+          "summary": "Australia is generally safe, but understanding local safety norms keeps you protected.",
+          "tags": ["Safety", "Essential"],
+          "essential": true,
+          "content": "Australia is one of the world's safer countries for residents and visitors, but no country is without risk. Understanding the local context helps you make good decisions.\n\nFor personal safety at night: in city centres, stick to well-lit, busy streets rather than shortcuts through parks or laneways. Avoid walking home alone at night if possible — share transport with friends, take a rideshare (check the plate before getting in), or call a trusted contact to stay on the phone. Many campuses have a free safety escort service — check with your student union.\n\nFor water safety: Australian beaches can be hazardous. Rip currents are the primary risk at ocean beaches and are responsible for numerous drownings each year — even for experienced swimmers. Always swim between the red and yellow flags at patrolled beaches. Never swim at an unpatrolled beach if you're unfamiliar with the conditions. If caught in a rip, do not fight it — float calmly, wave for help, and swim parallel to the shore.\n\nFor sun safety: Australia has the highest rate of skin cancer in the world due to the strong UV radiation (UV index regularly reaches 11–12 in summer, compared to 3–5 in Northern Europe). Use SPF50+ sunscreen daily, wear a hat, and cover exposed skin during peak UV hours (10am–4pm). This applies even on overcast days — UV penetrates clouds.\n\nFor wildlife: Australia's reputation for dangerous wildlife is somewhat exaggerated, but some caution is warranted. If you see a snake, do not approach it — move away slowly. Redback and funnel-web spider bites require immediate medical attention. Jellyfish (particularly box jellyfish in tropical northern waters) are lethal — follow local warnings on tropical beaches.",
+          "links": [
+            { "label": "Surf Life Saving Australia (beach safety)", "url": "https://sls.com.au" },
+            { "label": "SunSmart (UV index and sun protection)", "url": "https://www.sunsmart.com.au" },
+            { "label": "Emergency Services — call 000", "url": "https://www.australia.gov.au/000" }
+          ],
+          "warnings": [
+            "Swimming between the flags at patrolled beaches is non-negotiable — rip currents have killed experienced swimmers who ignored this rule.",
+            "If you are the victim of a crime, you have the right to report it to police. International students often avoid reporting crime for fear of visa implications — this is not the case, and police in Australia are not immigration enforcement officers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-rights",
+      "name": "Work Rights",
+      "emoji": "💼",
+      "description": "Your legal rights as an international student worker in Australia",
+      "color": "purple",
+      "resources": [
+        {
+          "id": "fair-work-basics",
+          "title": "Your Workplace Rights as an International Student",
+          "summary": "Australian law protects you the same as any worker — minimum wage, payslips, and protection from exploitation.",
+          "tags": ["Essential", "Work", "Legal"],
+          "essential": true,
+          "content": "International students in Australia are protected by the Fair Work Act 2009 in exactly the same way as Australian citizens and permanent residents. This means your employer must pay you at least the minimum wage, give you payslips, pay superannuation, and respect your right to refuse unsafe work.\n\nThe National Minimum Wage as of July 2024 is $23.23 per hour ($882.80 per 38-hour week). Most casual employees are entitled to a 25% casual loading on top of this, bringing the casual minimum to $29.04/hour. Penalty rates apply for weekend and public holiday work — these vary by industry award but are typically 1.25–2.5x the base rate for Saturday to double time on public holidays.\n\nYour employer must: provide a payslip within one business day of payday (showing your pay rate, hours worked, tax withheld, and super contributions), pay your wages into an Australian bank account (not cash only), pay you at least every two weeks, and not make unlawful deductions from your pay.\n\nIf your employer has underpaid you, you can: contact them in writing (keep a copy), contact the Fair Work Ombudsman (13 13 94 or fairwork.gov.au), or contact your university's free legal service. The Fair Work Ombudsman has recovered over $500 million in unpaid wages — they take these complaints seriously and can take action on your behalf.",
+          "links": [
+            { "label": "Fair Work Ombudsman", "url": "https://www.fairwork.gov.au" },
+            { "label": "Pay Calculator (Fair Work)", "url": "https://calculate.fairwork.gov.au" },
+            { "label": "Find Your Award Rate", "url": "https://www.fairwork.gov.au/find-help-for/visas-and-work/working-in-australia" }
+          ],
+          "warnings": [
+            "Being paid in cash does not exempt an employer from their legal obligations — you are still owed payslips and at least the minimum wage.",
+            "Do not sign a document agreeing to work for less than minimum wage — such agreements are unenforceable under Australian law."
+          ]
+        },
+        {
+          "id": "visa-work-conditions",
+          "title": "Work Hours on a Student Visa",
+          "summary": "International students can work up to 48 hours per fortnight during semester and unlimited during official breaks.",
+          "tags": ["Work", "Visa", "Essential"],
+          "essential": true,
+          "content": "Under the Student Visa (subclass 500), you are allowed to work up to 48 hours per fortnight during your course, and there is no limit on work hours during official semester breaks (as defined by your university — not self-declared breaks).\n\nThe 48-hour fortnightly limit applies across all jobs combined — if you work two jobs, your total hours across both must not exceed 48 in any two-week period. A fortnight is defined by your visa conditions, not your employer's pay cycle.\n\nYour partner or dependants on a student visa may also have work rights — check the specific conditions on your visa grant letter from the Department of Home Affairs.\n\nWorking more than your allowed hours is a visa breach. The consequences can include a visa cancellation notice, requiring you to show cause why your visa should not be cancelled. This is serious and difficult to recover from — track your hours carefully.\n\nOfficial semester breaks — when the work-hours restriction is lifted — are typically in June/July and November/January. Check your university's academic calendar for the exact dates. Note that mid-semester breaks (short breaks of a week or two within semester) do NOT count as official breaks for this purpose.\n\nIf you are unsure about your specific work conditions, check your visa grant notice (emailed by Home Affairs when your visa was approved) or contact the Home Affairs immigration advice line.",
+          "links": [
+            { "label": "Student Visa Work Conditions (Home Affairs)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/work-in-australia" },
+            { "label": "VEVO (check your visa conditions)", "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online" }
+          ],
+          "warnings": [
+            "Verify your work conditions on VEVO (the Visa Entitlement Verification Online system) — this is the authoritative source for your current visa conditions.",
+            "If your enrolment status changes (e.g., you take a leave of absence), your work rights may be affected — contact your international student office if your enrolment situation changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-life",
+      "name": "University Life",
+      "emoji": "🎓",
+      "description": "Succeeding academically and making the most of your university experience",
+      "color": "indigo",
+      "resources": [
+        {
+          "id": "australian-education-system",
+          "title": "How Australian Universities Work",
+          "summary": "Grading systems, assessment types, academic culture, and what Australian professors expect from students.",
+          "tags": ["Essential", "Academic", "University"],
+          "essential": true,
+          "content": "Australian universities operate on a semester system (two semesters per year, typically February–June and July–November) with some institutions also running a summer term (December–February). Unlike some countries, Australian universities have relatively few timetabled contact hours — you might have 3–6 hours of lectures and tutorials per week per subject, with the expectation that you're spending an additional 8–10 hours per week on independent study.\n\nAustralian grading uses letter grades with corresponding percentage ranges: High Distinction (HD) = 80–100%, Distinction (D) = 70–79%, Credit (CR) = 60–69%, Pass (P) = 50–59%, Fail (F) = below 50%. Your WAM (Weighted Average Mark) is your cumulative academic average and is used for honours eligibility, scholarships, and in some cases, graduate employment.\n\nAssessment at Australian universities typically includes a mix of: written essays and reports, problem sets and laboratory reports (in science and engineering), group work and presentations, mid-semester tests, and a final examination. The weighting varies by subject — check your subject's 'Subject Information' or 'Course Profile' document (found on your LMS) for details.\n\nAustralian academic culture expects students to be independent, ask questions, and engage critically with material. Lecturers expect students to read before class, participate in tutorials, and form their own views rather than simply reciting taught content. This can be a significant adjustment for students from educational systems where deference to the teacher is the norm.",
+          "links": [
+            { "label": "Australian Qualifications Framework", "url": "https://www.aqf.edu.au" },
+            { "label": "University of Melbourne Academic Skills", "url": "https://academicskills.unimelb.edu.au" },
+            { "label": "UNSW Academic Skills and Support", "url": "https://www.student.unsw.edu.au/academic-skills" }
+          ],
+          "warnings": [
+            "Census date (usually 4–6 weeks into semester) is the deadline to withdraw from a subject without financial or academic penalty — missing it has significant consequences.",
+            "If you miss an assessment due to illness or misadventure, apply for Special Consideration immediately — there are strict deadlines and requirements for evidence."
+          ]
+        },
+        {
+          "id": "academic-skills",
+          "title": "Academic Writing and Study Skills",
+          "summary": "Australian universities expect a specific style of critical, evidence-based academic writing — here's how to develop it.",
+          "tags": ["Academic", "Writing", "Skills"],
+          "essential": false,
+          "content": "Academic writing in Australian universities follows specific conventions: a clear thesis or argument, evidence from peer-reviewed sources, critical analysis rather than description, proper citation and referencing, and formal but not overly complex language. This style differs significantly from what many international students have practised previously.\n\nEvery Australian university has a free Academic Skills or Learning Support unit that offers workshops, drop-in consultations, and online resources on essay writing, referencing, critical thinking, and exam preparation. These services are specifically designed to help you meet your university's academic standards — use them proactively rather than in a crisis.\n\nFor referencing, the most common styles in Australian universities are APA 7th Edition (social sciences, psychology, education), Harvard (business, health sciences), Chicago (arts, history), and Vancouver (medicine, nursing). Your subject coordinator will specify which style to use. Tools like Cite This For Me, Mendeley, or your library's referencing guide will help you format citations correctly.\n\nFor research, use your library's databases rather than Google. Databases like JSTOR, ProQuest, Scopus, and Web of Science give you access to peer-reviewed academic sources — the type of sources your assessments require. The library's website has guides on how to search effectively.",
+          "links": [
+            { "label": "Cite This For Me (referencing)", "url": "https://www.citethisforme.com" },
+            { "label": "Mendeley (reference manager)", "url": "https://www.mendeley.com" },
+            { "label": "Studiosity (24/7 study help)", "url": "https://www.studiosity.com" }
+          ],
+          "warnings": [
+            "Using AI to write your assessment without disclosure is considered academic misconduct at most Australian universities — check your subject guidelines carefully.",
+            "Submitting the same work for two different subjects, even in different semesters, is considered self-plagiarism and can result in academic penalties."
+          ]
+        },
+        {
+          "id": "student-services",
+          "title": "Student Services You Probably Don't Know About",
+          "summary": "Your student services fee (SSAF) funds a wide range of support services — most students never access them.",
+          "tags": ["University", "Support", "Wellbeing"],
+          "essential": false,
+          "content": "Australian universities charge a Student Services and Amenities Fee (SSAF) to all enrolled students — typically $300–$350 per year. This fee funds student services run by either the university or the student association/union. Most students pay it without knowing what it funds.\n\nSAFE-funded services typically include: free psychological counselling (individual and group sessions), free legal advice (for tenancy, employment, consumer law, and visa matters), emergency financial grants for students in genuine hardship, food relief (food pantries, free community meals on campus), academic skills support, career services and resume review, childcare subsidies (for student parents), disability support services, and sports and recreation facilities.\n\nAccessing these services is not an admission of failure — it's using resources you've already paid for. The students who make the most of their university experience are typically those who engage with services early and proactively rather than waiting for a crisis.\n\nYour student association or union is a separate organisation from the university administration — they can advocate on your behalf if you have a dispute with the university. They're on your side.",
+          "links": [
+            { "label": "UMSU (Melbourne)", "url": "https://umsu.unimelb.edu.au" },
+            { "label": "Arc@UNSW", "url": "https://www.arc.unsw.edu.au" },
+            { "label": "UQU (UQ Union)", "url": "https://uqu.com.au" }
+          ],
+          "warnings": [
+            "Emergency financial grants typically have a small number of available funds each semester — apply early if you need them, as they can run out.",
+            "Free legal advice sessions at student legal services are limited in length (usually 30 minutes) — prepare your questions in advance for maximum value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "name": "Wellbeing",
+      "emoji": "🌱",
+      "description": "Looking after your mental, physical, and social health",
+      "color": "teal",
+      "resources": [
+        {
+          "id": "homesickness",
+          "title": "Dealing with Homesickness",
+          "summary": "Homesickness is nearly universal for international students — here's how to navigate it.",
+          "tags": ["Wellbeing", "Mental Health", "Adjustment"],
+          "essential": true,
+          "content": "Homesickness is not a character weakness. It is a normal psychological response to being separated from the people, places, food, and routines that define your sense of self. Research suggests that approximately 70% of people experience significant homesickness at some point after a major relocation — and international students face this while simultaneously managing academic pressure, financial stress, and social isolation.\n\nThe intensity of homesickness tends to follow a predictable pattern: heightened in the first 1–3 months, with waves of intensity at significant dates (festivals, family events, your first birthday away from home), gradually easing as your new environment becomes familiar. Knowing this pattern doesn't eliminate it, but it helps to know that what you're feeling has a trajectory toward resolution.\n\nThings that genuinely help: maintaining regular contact with family and close friends at home (video calls work well, but schedule them so they don't consume all your time and prevent you from engaging with your new environment), cooking and eating food from home (recreating familiar meals is a powerful emotional anchor), finding a community of people who share your cultural background, building new routines that give your week structure, and spending time outdoors (exposure to natural light reduces depression symptoms).\n\nThings that make it worse: excessive social media consumption (particularly seeing everyone's highlight reels), isolating yourself in your room, avoiding contact with new people due to social anxiety, and comparing your inner emotional experience to others' outer presentations.\n\nIf homesickness is affecting your ability to eat, sleep, study, or engage with daily life for more than 2–3 weeks, please speak to a counsellor — either at your university or through Beyond Blue.",
+          "links": [
+            { "label": "Beyond Blue (support)", "url": "https://www.beyondblue.org.au" },
+            { "label": "ReachOut (young adult mental health)", "url": "https://www.reachout.com.au" }
+          ],
+          "warnings": [
+            "Social media can dramatically worsen homesickness by creating unrealistic comparisons — consider limiting usage during your first months.",
+            "Homesickness that severely affects daily functioning for more than a month may indicate clinical depression — seek professional support."
+          ]
+        },
+        {
+          "id": "building-routine",
+          "title": "Building Routines That Support Your Wellbeing",
+          "summary": "Structure and routine are the scaffolding of mental health — here's how to build them in a new environment.",
+          "tags": ["Wellbeing", "Productivity", "Daily Life"],
+          "essential": false,
+          "content": "One of the most disorienting aspects of arriving in a new country is the loss of the unconscious routines that previously structured your day. Your commute, your local café, the times your family ate dinner together — these routines provided a framework that you didn't have to think about. Building new routines is an active process that takes about 6–8 weeks to become automatic.\n\nThe most impactful routines for international student wellbeing are: a consistent wake time (your circadian rhythm regulates mood, energy, and cognitive function), a regular meal pattern (cooking even simple meals at home is significantly better for your wellbeing than skipping meals or eating takeaway), daily physical movement (even a 20-minute walk improves mood, sleep, and concentration), a weekly social commitment (a regular club meeting, study group, or even a regular online game session with friends at home), and a consistent sleep schedule (7–9 hours significantly improves academic performance).\n\nFor building study habits: the Pomodoro Technique (25 minutes of focused work followed by a 5-minute break) is effective for international students who find concentration difficult in a new environment. Study in public spaces (library, café) if your shared accommodation is too noisy or you feel too isolated in your room.\n\nSmall wins matter: making your bed, preparing a meal, going for a walk, and checking an item off a to-do list all contribute to a sense of agency and control that's particularly valuable when larger aspects of your life feel uncertain.",
+          "links": [
+            { "label": "Headspace (meditation and wellbeing app)", "url": "https://www.headspace.com" },
+            { "label": "Smiling Mind (free Australian mindfulness app)", "url": "https://www.smilingmind.com.au" }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "cultural-adjustment",
+          "title": "Understanding Culture Shock",
+          "summary": "Culture shock is a recognised psychological process with predictable phases — knowing the pattern helps you navigate it.",
+          "tags": ["Wellbeing", "Adjustment", "Culture"],
+          "essential": false,
+          "content": "Culture shock describes the psychological disorientation that occurs when you move from a familiar cultural environment to an unfamiliar one. It's not about being unprepared or inadequate — it happens to everyone who makes a significant cultural relocation, regardless of their language ability, life experience, or preparation.\n\nThe classic model identifies four phases: Honeymoon (initial excitement and stimulation — everything seems novel and interesting), Frustration (the phase most people associate with 'culture shock' — exhaustion from constant cultural translation, irritability, homesickness, feeling like an outsider), Adjustment (beginning to find your bearings, understanding local norms, building social connections), and Adaptation (genuine comfort with the new environment while maintaining connection to your own cultural identity).\n\nIn practice, these phases are not strictly sequential — you may cycle back to frustration after an extended adaptation phase when something new challenges you. Significant life events (exams, holidays, family news) can trigger phases regardless of how long you've been in Australia.\n\nAustralian cultural norms that commonly surprise international students: egalitarianism (Australians are uncomfortable with overt hierarchy — first-name basis with professors is normal), directness (Australians tend to say what they mean, which can feel blunt), self-deprecating humour (Australians mock themselves and each other — this is affection, not disrespect), the 'tall poppy syndrome' (Australians are uncomfortable with people who visibly boast — understate your achievements), and the separation between friendly and close (Australians are often immediately friendly with strangers but take longer to form deep friendships).",
+          "links": [
+            { "label": "Study Australia — Cultural Tips", "url": "https://www.studyaustralia.gov.au/en/live-in-australia/arriving-in-australia" },
+            { "label": "ISANA — International Student Services", "url": "https://www.isana.org.au" }
+          ],
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

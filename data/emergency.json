@@ -1,0 +1,355 @@
+{
+  "critical": [
+    {
+      "name": "Emergency Services",
+      "number": "000",
+      "description": "Police, fire, ambulance — call in any life-threatening emergency. If you cannot speak, stay on the line and press a key.",
+      "available": "24/7"
+    },
+    {
+      "name": "Translating and Interpreting Service (TIS National)",
+      "number": "131 450",
+      "description": "Free interpreter service available in over 160 languages. You can request an interpreter for calls to government agencies, doctors, and emergency services.",
+      "available": "24/7"
+    },
+    {
+      "name": "Lifeline",
+      "number": "13 11 14",
+      "description": "24/7 crisis support and suicide prevention. Free, confidential support for anyone in distress. You can also chat online at lifeline.org.au.",
+      "url": "https://www.lifeline.org.au",
+      "available": "24/7"
+    }
+  ],
+  "general": [
+    {
+      "name": "Beyond Blue",
+      "number": "1300 22 4636",
+      "description": "Mental health support for anxiety, depression, and stress. Counsellors available by phone and online chat.",
+      "url": "https://www.beyondblue.org.au",
+      "available": "24/7"
+    },
+    {
+      "name": "Fair Work Ombudsman",
+      "number": "13 13 94",
+      "description": "Workplace rights, unpaid wages, unfair treatment at work, and visa holder protections. International students are fully protected under Australian workplace law.",
+      "url": "https://www.fairwork.gov.au",
+      "available": "Mon–Fri 8am–5:30pm AEST"
+    },
+    {
+      "name": "1800RESPECT",
+      "number": "1800 737 732",
+      "description": "National sexual assault, family and domestic violence counselling service. Free, confidential, available in multiple languages.",
+      "url": "https://www.1800respect.org.au",
+      "available": "24/7"
+    },
+    {
+      "name": "Kids Helpline",
+      "number": "1800 55 1800",
+      "description": "Free confidential counselling for young people aged 5–25. Available by phone and online chat.",
+      "url": "https://www.kidshelpline.com.au",
+      "available": "24/7"
+    },
+    {
+      "name": "NURSE-ON-CALL",
+      "number": "1300 60 60 24",
+      "description": "Speak to a registered nurse about health concerns before deciding whether to go to a GP or hospital.",
+      "available": "24/7"
+    },
+    {
+      "name": "Poisons Information Centre",
+      "number": "13 11 26",
+      "description": "Immediate advice if you or someone else has swallowed, inhaled, or been in contact with a potentially poisonous substance.",
+      "available": "24/7"
+    }
+  ],
+  "states": {
+    "vic": {
+      "name": "Victoria",
+      "capital": "Melbourne",
+      "police_non_emergency": "03 9247 6666",
+      "legal_aid": {
+        "name": "Victoria Legal Aid",
+        "number": "1300 792 387",
+        "url": "https://www.legalaid.vic.gov.au",
+        "description": "Free legal advice for tenancy, employment, immigration, and criminal law matters."
+      },
+      "consumer_affairs": {
+        "name": "Consumer Affairs Victoria",
+        "number": "1300 558 181",
+        "url": "https://www.consumer.vic.gov.au",
+        "description": "For rental disputes, bond lodgement, unfair trading, and product safety. They administer the Residential Tenancies Act."
+      },
+      "tenancy": {
+        "name": "Tenants Victoria",
+        "number": "03 9416 2577",
+        "url": "https://www.tenantsvic.org.au",
+        "description": "Free advice and advocacy for renters in Victoria. Can help with bond disputes, eviction notices, and lease problems."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse. Also use to find bulk-billing GPs near you."
+      },
+      "mental_health_crisis": {
+        "name": "Safe Steps (Family Violence Response Centre)",
+        "number": "1800 015 188",
+        "url": "https://www.safesteps.org.au",
+        "description": "Victoria's 24/7 family violence crisis response centre."
+      },
+      "uni_counselling": "Contact your university's student services for free counselling. University of Melbourne: 13 MELB (13 6352). Monash: 03 9905 3030. RMIT: 03 9925 4365. Deakin: 1800 693 888."
+    },
+    "nsw": {
+      "name": "New South Wales",
+      "capital": "Sydney",
+      "police_non_emergency": "131 444",
+      "legal_aid": {
+        "name": "Legal Aid NSW",
+        "number": "1300 888 529",
+        "url": "https://www.legalaid.nsw.gov.au",
+        "description": "Free legal advice on tenancy, employment, family law, and criminal matters. Walk-in services at many locations."
+      },
+      "consumer_affairs": {
+        "name": "NSW Fair Trading",
+        "number": "13 32 20",
+        "url": "https://www.fairtrading.nsw.gov.au",
+        "description": "Rental disputes, bond claims, tenancy agreements, and unfair business practices in NSW."
+      },
+      "tenancy": {
+        "name": "Tenants' Union of NSW",
+        "number": "02 8117 3700",
+        "url": "https://www.tenants.org.au",
+        "description": "Free legal and practical advice for renters in NSW."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse. Also use to find bulk-billing GPs near you."
+      },
+      "mental_health_crisis": {
+        "name": "Mental Health Line NSW",
+        "number": "1800 011 511",
+        "url": "https://www.health.nsw.gov.au/mentalhealth",
+        "description": "24/7 mental health advice and triage service staffed by mental health professionals."
+      },
+      "uni_counselling": "Contact your university's student services for free counselling. UNSW: 02 9385 5418. University of Sydney: 02 8627 8433. UTS: 02 9514 1177. Macquarie: 02 9850 7497."
+    },
+    "qld": {
+      "name": "Queensland",
+      "capital": "Brisbane",
+      "police_non_emergency": "131 444",
+      "legal_aid": {
+        "name": "Legal Aid Queensland",
+        "number": "1300 651 188",
+        "url": "https://www.legalaid.qld.gov.au",
+        "description": "Free legal advice for eligible people on tenancy, employment, family law, and criminal matters."
+      },
+      "consumer_affairs": {
+        "name": "Residential Tenancies Authority (RTA)",
+        "number": "1300 366 311",
+        "url": "https://www.rta.qld.gov.au",
+        "description": "Bond lodgement, rental disputes, tenancy agreements, and renter rights in Queensland."
+      },
+      "tenancy": {
+        "name": "Tenants Queensland",
+        "number": "1300 744 263",
+        "url": "https://tenantsqld.org.au",
+        "description": "Free advice and advocacy for renters across Queensland."
+      },
+      "health": {
+        "name": "13HEALTH",
+        "number": "13 43 25 84",
+        "url": "https://www.health.qld.gov.au/13health",
+        "description": "Free 24/7 health advice from registered nurses. Use to find GPs and urgent care centres."
+      },
+      "mental_health_crisis": {
+        "name": "1300MH CALL (Mental Health Access Line)",
+        "number": "1300 642 255",
+        "url": "https://www.health.qld.gov.au/mentalhealth",
+        "description": "24/7 mental health assessment and referral service in Queensland."
+      },
+      "uni_counselling": "Contact your university's student services for free counselling. University of Queensland: 07 3365 3487. Griffith: 07 3735 7066. QUT: 07 3138 2000. James Cook: 07 4781 4711."
+    },
+    "sa": {
+      "name": "South Australia",
+      "capital": "Adelaide",
+      "police_non_emergency": "131 444",
+      "legal_aid": {
+        "name": "Legal Services Commission of SA",
+        "number": "1300 366 424",
+        "url": "https://www.lsc.sa.gov.au",
+        "description": "Free legal advice for tenancy, employment, family law, and criminal matters in South Australia."
+      },
+      "consumer_affairs": {
+        "name": "Consumer and Business Services SA",
+        "number": "131 882",
+        "url": "https://www.cbs.sa.gov.au",
+        "description": "Rental disputes, bond lodgement, tenancy rights, and business regulation in South Australia."
+      },
+      "tenancy": {
+        "name": "Shelter SA (Tenancy Support)",
+        "number": "08 8205 0900",
+        "url": "https://sheltersa.org.au",
+        "description": "Housing advocacy and support services for renters in South Australia."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse."
+      },
+      "mental_health_crisis": {
+        "name": "SA Mental Health Triage",
+        "number": "13 14 65",
+        "url": "https://www.sahealth.sa.gov.au",
+        "description": "24/7 mental health crisis assessment and referral service in South Australia."
+      },
+      "uni_counselling": "Contact your university's student services. University of Adelaide: 08 8313 5663. UniSA: 08 8302 7054. Flinders University: 08 8201 2118."
+    },
+    "wa": {
+      "name": "Western Australia",
+      "capital": "Perth",
+      "police_non_emergency": "131 444",
+      "legal_aid": {
+        "name": "Legal Aid Western Australia",
+        "number": "1300 650 579",
+        "url": "https://www.legalaid.wa.gov.au",
+        "description": "Free legal advice on tenancy, employment, family law, and criminal matters in Western Australia."
+      },
+      "consumer_affairs": {
+        "name": "Consumer Protection WA",
+        "number": "1300 304 054",
+        "url": "https://www.commerce.wa.gov.au/consumer-protection",
+        "description": "Rental disputes, bond claims, tenancy agreements, and unfair trading practices in WA."
+      },
+      "tenancy": {
+        "name": "Tenancy WA",
+        "number": "08 9221 0088",
+        "url": "https://www.tenancywa.org.au",
+        "description": "Free advice for private renters, public housing tenants, and people with housing problems in WA."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse."
+      },
+      "mental_health_crisis": {
+        "name": "Mental Health Emergency Response Line (MHERL)",
+        "number": "1300 555 788",
+        "url": "https://www.healthywa.wa.gov.au",
+        "description": "24/7 mental health crisis support for Perth metropolitan area. Regional callers: 1800 676 822."
+      },
+      "uni_counselling": "Contact your university's student services. University of Western Australia: 08 6488 2423. Curtin: 08 9266 7850. ECU: 08 6304 6305. Murdoch: 08 9360 2293."
+    },
+    "act": {
+      "name": "Australian Capital Territory",
+      "capital": "Canberra",
+      "police_non_emergency": "02 5126 9999",
+      "legal_aid": {
+        "name": "Legal Aid ACT",
+        "number": "02 6243 3411",
+        "url": "https://www.legalaidact.org.au",
+        "description": "Free legal advice on tenancy, employment, family law, and criminal matters in the ACT."
+      },
+      "consumer_affairs": {
+        "name": "ACT Civil and Administrative Tribunal (ACAT)",
+        "number": "02 6207 1740",
+        "url": "https://www.acat.act.gov.au",
+        "description": "Handles tenancy disputes, bond claims, and consumer complaints in the ACT."
+      },
+      "tenancy": {
+        "name": "ACT Tenants' Union",
+        "number": "02 6247 2011",
+        "url": "https://tenantsact.org.au",
+        "description": "Free advice and advocacy for renters in the ACT."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse."
+      },
+      "mental_health_crisis": {
+        "name": "Mental Health Crisis Assessment and Treatment Team (CATT)",
+        "number": "1800 629 354",
+        "url": "https://www.health.act.gov.au",
+        "description": "24/7 mental health crisis support across the ACT."
+      },
+      "uni_counselling": "Contact your university's student services. Australian National University: 02 6125 2442. University of Canberra: 02 6201 5444."
+    },
+    "tas": {
+      "name": "Tasmania",
+      "capital": "Hobart",
+      "police_non_emergency": "131 444",
+      "legal_aid": {
+        "name": "Legal Aid Commission of Tasmania",
+        "number": "1300 366 611",
+        "url": "https://www.legalaid.tas.gov.au",
+        "description": "Free legal advice on tenancy, employment, family law, and criminal matters in Tasmania."
+      },
+      "consumer_affairs": {
+        "name": "Consumer, Building and Occupational Services (CBOS)",
+        "number": "1300 654 499",
+        "url": "https://www.cbos.tas.gov.au",
+        "description": "Rental disputes, bond lodgement, tenancy rights, and consumer complaints in Tasmania."
+      },
+      "tenancy": {
+        "name": "Tenants' Union of Tasmania",
+        "number": "03 6223 2641",
+        "url": "https://www.tutas.org.au",
+        "description": "Free legal advice and advocacy for renters in Tasmania."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse."
+      },
+      "mental_health_crisis": {
+        "name": "Mental Health Services Helpline Tasmania",
+        "number": "1800 332 388",
+        "url": "https://www.health.tas.gov.au",
+        "description": "24/7 mental health crisis support across Tasmania."
+      },
+      "uni_counselling": "Contact your university's student services. University of Tasmania: 1300 363 864."
+    },
+    "nt": {
+      "name": "Northern Territory",
+      "capital": "Darwin",
+      "police_non_emergency": "08 8922 3000",
+      "legal_aid": {
+        "name": "Northern Territory Legal Aid Commission",
+        "number": "1800 019 343",
+        "url": "https://www.ntlac.nt.gov.au",
+        "description": "Free legal advice on tenancy, employment, family law, and criminal matters in the NT."
+      },
+      "consumer_affairs": {
+        "name": "NT Consumer Affairs",
+        "number": "1800 019 319",
+        "url": "https://consumeraffairs.nt.gov.au",
+        "description": "Rental disputes, bond claims, tenancy rights, and consumer complaints in the Northern Territory."
+      },
+      "tenancy": {
+        "name": "Darwin Community Legal Service",
+        "number": "08 8982 1111",
+        "url": "https://www.dcls.org.au",
+        "description": "Free legal advice for tenants and consumers in the Darwin region."
+      },
+      "health": {
+        "name": "healthdirect",
+        "number": "1800 022 222",
+        "url": "https://www.healthdirect.gov.au",
+        "description": "Free health advice from a registered nurse."
+      },
+      "mental_health_crisis": {
+        "name": "NT Mental Health Line",
+        "number": "1800 682 288",
+        "url": "https://health.nt.gov.au",
+        "description": "24/7 mental health crisis support across the Northern Territory."
+      },
+      "uni_counselling": "Contact your university's student services. Charles Darwin University: 08 8946 6288."
+    }
+  }
+}

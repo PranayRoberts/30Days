@@ -1,0 +1,208 @@
+{
+  "cities": [
+    {
+      "name": "Melbourne",
+      "state": "VIC",
+      "averages": {
+        "rent_weekly": 350,
+        "groceries_weekly": 80,
+        "transport_weekly": 22,
+        "utilities_weekly": 28,
+        "phone_weekly": 9,
+        "entertainment_weekly": 30,
+        "total_weekly": 519
+      },
+      "suburbs": [
+        {
+          "name": "CBD / Southbank",
+          "rent_weekly": 420,
+          "transport_weekly": 10,
+          "vibe": "Urban, walkable, and vibrant. You're surrounded by restaurants, bars, and culture — but it costs. Share apartments are common here, and smaller rooms in apartment towers are the norm.",
+          "best_for": "Students who want a social life at their doorstep and don't mind paying a premium. Good for those at RMIT, Melbourne Business School, or who study at city-campus institutions.",
+          "commute_note": "Many CBD destinations are within the Free Tram Zone — you can get around inner Melbourne for next to nothing.",
+          "avg_room_price_note": "Expect $220–$280/week for a room in a CBD share apartment. Studio apartments start at $400/week."
+        },
+        {
+          "name": "Carlton / Fitzroy",
+          "rent_weekly": 340,
+          "transport_weekly": 15,
+          "vibe": "Melbourne's student and bohemian heartland. Carlton is directly north of the University of Melbourne with cheap Vietnamese and Italian restaurants, second-hand bookshops, and excellent café culture. Fitzroy is immediately east and is Melbourne's most vibrant arts precinct.",
+          "best_for": "University of Melbourne students and those who love cafés, galleries, and walking distance to the CBD. Strong sense of community.",
+          "commute_note": "Trams 1, 8, and 96 connect Carlton and Fitzroy to the CBD in 10–15 minutes. Walk to Uni Melbourne in 15–25 minutes depending on where you are.",
+          "avg_room_price_note": "Expect $200–$270/week for a room in a Carlton/Fitzroy share house. Good value for the location."
+        },
+        {
+          "name": "Footscray",
+          "rent_weekly": 250,
+          "transport_weekly": 18,
+          "vibe": "Melbourne's most diverse and cheapest inner suburb, 4km west of the CBD. Strong Vietnamese, Somali, South Sudanese, and Pacific Islander communities. Famous for cheap and excellent Vietnamese food on Hopkins and Barkly Streets. Rapidly gentrifying but still genuinely affordable.",
+          "best_for": "Students on a tight budget who want to be close to the city. Incredible food diversity and a warm community feel. Victoria University has a Footscray campus here.",
+          "commute_note": "Train from Footscray to Melbourne Central takes 12 minutes on the Werribee/Williamstown lines. Very frequent service.",
+          "avg_room_price_note": "Rooms in share houses from $160–$220/week. One of Melbourne's best value inner-suburb locations."
+        },
+        {
+          "name": "Clayton",
+          "rent_weekly": 230,
+          "transport_weekly": 25,
+          "vibe": "Home to Monash University's main campus. A quiet, predominantly Asian suburb with excellent Chinese and Malaysian food, multiple Asian grocery stores, and a strong student population. Not as exciting as inner suburbs but very practical and affordable.",
+          "best_for": "Monash University students — being on the doorstep of campus saves significant commute time and money. Large Chinese student community.",
+          "commute_note": "Clayton is served by the Pakenham/Cranbourne train line — 40 minutes to the CBD. On-campus facilities reduce the need to travel to the city daily.",
+          "avg_room_price_note": "Rooms in share houses from $150–$200/week. Excellent value with many purpose-built student accommodations nearby."
+        },
+        {
+          "name": "Box Hill",
+          "rent_weekly": 270,
+          "transport_weekly": 20,
+          "vibe": "Melbourne's largest and most established Chinese community hub, 14km east of the CBD. Box Hill Centro shopping centre and the surrounding streets have wall-to-wall Chinese, Hong Kong, Korean, and Japanese restaurants, bubble tea shops, and supermarkets. A genuine Cantonese and Mandarin-speaking community.",
+          "best_for": "Chinese and East Asian international students who want a strong community connection and excellent Asian food. Deakin University's Burwood campus is nearby.",
+          "commute_note": "Box Hill is on the Belgrave and Lilydale train lines — 30 minutes to the CBD. Also a major tram and bus interchange.",
+          "avg_room_price_note": "Rooms in share houses from $180–$250/week. Large community means many rooms are available with Chinese-speaking housemates."
+        }
+      ],
+      "source": "Rent data based on average weekly room prices in share houses as listed on Flatmates.com.au and Domain.com.au, as of early 2026. Transport costs based on Myki concession fares. Utility estimates based on average 4-person household bills divided per person.",
+      "source_url": "https://www.domain.com.au"
+    },
+    {
+      "name": "Sydney",
+      "state": "NSW",
+      "averages": {
+        "rent_weekly": 390,
+        "groceries_weekly": 85,
+        "transport_weekly": 25,
+        "utilities_weekly": 32,
+        "phone_weekly": 9,
+        "entertainment_weekly": 35,
+        "total_weekly": 576
+      },
+      "suburbs": [
+        {
+          "name": "City / Haymarket",
+          "rent_weekly": 450,
+          "transport_weekly": 15,
+          "vibe": "The city centre and Haymarket (Sydney's Chinatown district) offer dense, urban student living surrounded by the CBD, Darling Harbour, and major shopping. Haymarket has some of Sydney's cheapest restaurants and excellent proximity to UTS and TAFE NSW City.",
+          "best_for": "UTS, TAFE NSW, and city-campus students. Those who want maximum walkability and don't mind smaller, denser living spaces.",
+          "commute_note": "Central Station is in Haymarket, giving access to all Sydney train lines. Walk to UTS in 5 minutes.",
+          "avg_room_price_note": "Rooms in share apartments from $280–$380/week. Highest rents in Sydney but lowest transport costs."
+        },
+        {
+          "name": "Ultimo / Pyrmont",
+          "rent_weekly": 410,
+          "transport_weekly": 20,
+          "vibe": "Just west of the CBD, Ultimo and Pyrmont are walkable, cosmopolitan, and popular with UTS and TAFE students. The area has a mixed residential and creative industry character, with cafés, the Powerhouse Museum nearby, and easy access to the waterfront at Darling Harbour.",
+          "best_for": "UTS students and those who want inner-city living slightly more affordable than the CBD proper. Good community feel with a high student population.",
+          "commute_note": "Light rail connects Pyrmont to the CBD in 10 minutes. Ultimo is walkable to UTS and a 20-minute walk to UNSW via the city.",
+          "avg_room_price_note": "Rooms in share houses/apartments from $250–$340/week."
+        },
+        {
+          "name": "Parramatta",
+          "rent_weekly": 270,
+          "transport_weekly": 30,
+          "vibe": "Western Sydney's major urban centre, 23km from the CBD. A genuinely multicultural city in its own right with strong South Asian, Middle Eastern, and Pacific Islander communities. Excellent value for rent and a growing student population as Western Sydney University expands.",
+          "best_for": "Western Sydney University students and those who prioritise affordability. Home to one of Sydney's most diverse and affordable food scenes.",
+          "commute_note": "Parramatta is on the T1 and T2 Western train lines — 35–45 minutes to Sydney CBD. Increasingly well-served by bus and light rail.",
+          "avg_room_price_note": "Rooms in share houses from $170–$230/week — significantly below Sydney average."
+        },
+        {
+          "name": "Burwood",
+          "rent_weekly": 300,
+          "transport_weekly": 25,
+          "vibe": "Inner-west suburb 9km from the CBD with a large Chinese and Korean community. Excellent Asian grocery stores, restaurants, and bubble tea on Burwood Road. Popular with students from UNSW, UTS, and nearby TAFE campuses.",
+          "best_for": "East Asian international students who want a community hub at a more affordable price than the CBD. Good transport links.",
+          "commute_note": "Burwood is on the T2 Inner West and Leppington Line — 20 minutes to Sydney CBD. Good access to UNSW via bus.",
+          "avg_room_price_note": "Rooms in share houses from $200–$270/week."
+        },
+        {
+          "name": "Kingsford",
+          "rent_weekly": 310,
+          "transport_weekly": 20,
+          "vibe": "The suburb immediately surrounding UNSW Kensington campus is Kingsford/Kingsford. Dominated by student life, with countless cheap eateries on Anzac Parade, bars popular with the university crowd, and convenient grocery shopping. Walkable to the UNSW campus and close to the beaches.",
+          "best_for": "UNSW students. The most convenient location in Sydney if you study at UNSW, with an enormous student population and all the food, social, and practical infrastructure that comes with it.",
+          "commute_note": "UNSW provides a free shuttle bus (UNSW Xpress) from Kingsford to Central Station and Circular Quay.",
+          "avg_room_price_note": "Rooms in share houses from $220–$290/week."
+        }
+      ],
+      "source": "Rent data based on average weekly room prices in share houses as listed on Flatmates.com.au and Domain.com.au, as of early 2026. Transport costs based on Opal concession fares. Utility estimates based on average 4-person household bills divided per person.",
+      "source_url": "https://www.domain.com.au"
+    },
+    {
+      "name": "Brisbane",
+      "state": "QLD",
+      "averages": {
+        "rent_weekly": 295,
+        "groceries_weekly": 78,
+        "transport_weekly": 20,
+        "utilities_weekly": 30,
+        "phone_weekly": 9,
+        "entertainment_weekly": 28,
+        "total_weekly": 460
+      },
+      "suburbs": [
+        {
+          "name": "City / Spring Hill",
+          "rent_weekly": 360,
+          "transport_weekly": 10,
+          "vibe": "Brisbane's CBD and the adjacent suburb of Spring Hill offer high-density student and professional living. Spring Hill is particularly popular with students for its central location and proximity to the Queensland University of Technology (QUT) Gardens Point campus. Brisbane's CBD has a more relaxed, subtropical character than Sydney or Melbourne.",
+          "best_for": "QUT students and those who want to be within walking distance of the city. Access to the South Bank cultural precinct across the river is excellent.",
+          "commute_note": "Walk to QUT Gardens Point in 15 minutes. Multiple bus routes to the South Bank and Toowong. CityCat ferry from the CBD.",
+          "avg_room_price_note": "Rooms in share apartments from $220–$300/week."
+        },
+        {
+          "name": "South Brisbane / West End",
+          "rent_weekly": 340,
+          "transport_weekly": 12,
+          "vibe": "Brisbane's artsy, multicultural, and student-heavy inner south. South Bank has the river walk, free public swimming at Streets Beach, the Queensland Cultural Centre (state gallery, museum, and performing arts), and the Wheel of Brisbane. West End is famous for its independent cafes, bookshops, and progressive community. One of Brisbane's most popular student neighbourhoods.",
+          "best_for": "Students who want culture, community, and a strong café scene. The South Bank parklands provide a uniquely Brisbane experience that's free and beautiful.",
+          "commute_note": "South Brisbane station connects to the city in 5 minutes. CityCat ferry to St Lucia (UQ campus) takes 30 minutes.",
+          "avg_room_price_note": "Rooms in share houses from $200–$280/week."
+        },
+        {
+          "name": "Toowong",
+          "rent_weekly": 290,
+          "transport_weekly": 18,
+          "vibe": "Located 5km west of the CBD along the Brisbane River, Toowong is the gateway to the University of Queensland's St Lucia campus. A convenient, established suburb with good retail, a major shopping centre, and bus corridors to the university and city. Very popular with UQ students.",
+          "best_for": "University of Queensland students. Closest affordable suburb to UQ St Lucia with good transport links in both directions.",
+          "commute_note": "Buses from Toowong to UQ St Lucia run every 5–10 minutes during peak times. Train from Toowong Station to Brisbane Central takes 15 minutes.",
+          "avg_room_price_note": "Rooms in share houses from $180–$250/week."
+        },
+        {
+          "name": "Sunnybank",
+          "rent_weekly": 240,
+          "transport_weekly": 25,
+          "vibe": "Brisbane's largest and most established Asian community hub, 13km south of the CBD. Sunnybank Plaza and the surrounding area have an extraordinary concentration of Chinese, Taiwanese, Korean, Vietnamese, and Japanese restaurants and grocery stores. Often called 'Brisbane's Asian food capital'. A large proportion of UQ international students live here.",
+          "best_for": "East and Southeast Asian international students who want a strong cultural community and affordable rent. The best value suburb for the quality and variety of food available.",
+          "commute_note": "Train from Sunnybank to Brisbane Central takes 20 minutes on the Beenleigh line. Buses connect to UQ St Lucia in about 40 minutes.",
+          "avg_room_price_note": "Rooms in share houses from $155–$210/week — among Brisbane's best value for proximity to amenities."
+        },
+        {
+          "name": "Indooroopilly",
+          "rent_weekly": 265,
+          "transport_weekly": 18,
+          "vibe": "A leafy, suburban area 7km west of the CBD along the Brisbane River. Indooroopilly Shopping Centre is one of Brisbane's major malls. Very popular with UQ students for its proximity to campus and pleasant suburban character. Good balance between affordable rent and convenient location.",
+          "best_for": "UQ students and those who prefer a quieter, more suburban lifestyle with easy access to both the university and the city.",
+          "commute_note": "Train from Indooroopilly to Brisbane Central takes 15 minutes. Buses connect to UQ St Lucia in 10 minutes.",
+          "avg_room_price_note": "Rooms in share houses from $170–$240/week."
+        }
+      ],
+      "source": "Rent data based on average weekly room prices in share houses as listed on Flatmates.com.au and Realestate.com.au, as of early 2026. Transport costs based on Go Card concession fares for typical student commute patterns. Utility estimates based on average 4-person Queensland household bills divided per person.",
+      "source_url": "https://www.realestate.com.au"
+    }
+  ],
+  "national_discounts": [
+    {
+      "category": "Groceries",
+      "tip": "ALDI is consistently 20–40% cheaper than Coles and Woolworths for staple items. Making a weekly ALDI run for basics (bread, dairy, pasta, rice, frozen veg) while using Coles/Woolworths specials for the rest is the most cost-effective grocery strategy."
+    },
+    {
+      "category": "Transport",
+      "tip": "Applying for a student concession transport card reduces fares by approximately 50%. Do this in your first week — the application can take 1–2 weeks to process."
+    },
+    {
+      "category": "Entertainment",
+      "tip": "Australia's major national galleries and museums (NGV Melbourne, Art Gallery of NSW, National Gallery of Australia Canberra, Queensland Art Gallery) all have free permanent collections. These are genuinely world-class institutions available at no cost."
+    },
+    {
+      "category": "Digital",
+      "tip": "Your university Microsoft 365 subscription includes Word, Excel, PowerPoint, and 1TB OneDrive storage for free. Adobe Creative Cloud Student Edition is $21.99/month — significantly discounted from the $87.99/month full price."
+    }
+  ]
+}

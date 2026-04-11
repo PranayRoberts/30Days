@@ -1,0 +1,483 @@
+{
+  "phases": [
+    {
+      "id": "phase-1",
+      "title": "Phase 1: The Essentials",
+      "subtitle": "Day 1–3",
+      "days": "1-3",
+      "description": "The critical first steps to get you connected, mobile, and legally ready to live in Australia.",
+      "items": [
+        {
+          "id": "sim-card",
+          "day": 1,
+          "title": "Get a local SIM card",
+          "summary": "Getting connected is your absolute first priority — you need data to navigate, contact family, and use essential apps.",
+          "category": "Connectivity",
+          "guide": "Head straight to a Telstra, Optus, or Woolworths Mobile store (or their airport kiosks) on arrival. You don't need a permanent address to buy a prepaid SIM. Bring your passport. The best value prepaid plans in Australia offer 50–100GB of data for $30–$40/month — far more data than you probably got at home for the same price.\n\nThe three main networks are Telstra (best rural/regional coverage), Optus (good metropolitan coverage, often cheaper), and TPG/Vodafone (competitive city pricing). Cheaper MVNOs like Boost Mobile (Telstra network), Woolworths Mobile (Telstra network), and Aldi Mobile (Telstra network) offer the same coverage at a lower cost.\n\nOnce you have a SIM, download Google Maps (download offline maps for your city), WhatsApp, and your bank's app immediately. Enable roaming on your home country SIM as a backup until your Australian SIM is active.",
+          "tips": [
+            "Woolworths Mobile and Aldi Mobile run on the Telstra 4G network but cost $10–$15 less per month than Telstra directly.",
+            "Buy a SIM at the airport if you land outside business hours — Telstra and Optus have airport kiosks.",
+            "Set up iMessage/WhatsApp with your new Australian number so family can reach you cheaply.",
+            "Download your city's transit app: PTV (Melbourne), Transport for NSW (Sydney), or Translink (Brisbane) before your SIM is active — use airport WiFi."
+          ],
+          "links": [
+            { "label": "Telstra Prepaid Plans", "url": "https://www.telstra.com.au/mobile-phones/prepaid" },
+            { "label": "Optus Prepaid Plans", "url": "https://www.optus.com.au/for-you/mobile/prepaid" },
+            { "label": "Woolworths Mobile (Telstra Network)", "url": "https://www.woolworthsmobile.com.au" },
+            { "label": "Boost Mobile (Telstra Network)", "url": "https://www.boost.com.au" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne CBD has excellent coverage on all networks. Boost Mobile and Woolworths Mobile are popular budget options on the Telstra network. Flemington Market area and south-west suburbs can have patchy Optus signal.",
+            "NSW": "Sydney has near-universal 4G/5G coverage. Woolworths Mobile (sold in Woolworths supermarkets) is very popular. Northern beaches and Blue Mountains visitors should choose Telstra for best coverage.",
+            "QLD": "Brisbane and the Gold Coast have strong coverage. Regional Queensland — including areas north of Bundaberg — requires Telstra for reliable service.",
+            "SA": "Adelaide city coverage is strong on all networks. If you plan to visit regional SA (Flinders Ranges, Eyre Peninsula), Telstra is the only network with reliable coverage.",
+            "WA": "Perth has strong metro coverage. Western Australia is enormous — for any regional travel, Telstra is essential. Optus has good coverage in the south-west.",
+            "ACT": "Canberra has excellent coverage on all networks. Telstra is recommended for trips to the ACT's national parks and surrounding NSW regions.",
+            "TAS": "Tasmania's capital Hobart has good coverage. Regional Tasmania can be patchy — Telstra offers the widest coverage across the island.",
+            "NT": "Darwin has reasonable coverage on Telstra and Optus. Remote NT travel requires Telstra or a satellite-capable device."
+          }
+        },
+        {
+          "id": "bank-account",
+          "day": 1,
+          "title": "Open a bank account",
+          "summary": "You need an Australian bank account to receive your scholarship, pay rent, and get paid for work.",
+          "category": "Finance",
+          "guide": "The Big Four Australian banks — Commonwealth Bank (CBA), ANZ, NAB, and Westpac — all allow international students to open accounts before arriving in Australia or on day one with just a passport. You don't need proof of address.\n\nMost banks offer fee-free student accounts. At CBA, open a Smart Access account — it's free for the life of your studies. ANZ's Access Advantage account is also fee-free for students. NAB Classic Banking is permanently fee-free for everyone.\n\nFor the first 6 weeks after arriving in Australia, you are in a grace period where showing your passport is sufficient to open an account. After that, you may need additional ID (like a utility bill). Open your account as soon as possible.\n\nFor receiving money from overseas, compare fees — CBA charges $6 per incoming international transfer, while Wise (formerly TransferWise) has a borderless account that's much cheaper for international transfers. Many students use a combination: a big bank for local spending and Wise for receiving money from family.",
+          "tips": [
+            "You can start your CBA bank account application online before you arrive — have it ready to activate at a branch on day one.",
+            "Bring your passport and student visa evidence (your CoE or offer letter) to the branch.",
+            "Get a debit card with 'Tap & Pay' — almost every transaction in Australia is contactless.",
+            "Avoid ATM fees: use your bank's own ATMs or shop at major supermarkets (Woolworths, Coles) and do 'cash out' at the register for free."
+          ],
+          "links": [
+            { "label": "Commonwealth Bank Student Account", "url": "https://www.commbank.com.au/banking/smart-access.html" },
+            { "label": "ANZ Student Banking", "url": "https://www.anz.com.au/personal/bank-accounts/everyday-accounts/" },
+            { "label": "NAB Classic Banking", "url": "https://www.nab.com.au/personal/bank-accounts/everyday-banking" },
+            { "label": "Wise (international transfers)", "url": "https://wise.com/au/" }
+          ],
+          "stateNotes": {
+            "VIC": "Many Melbourne university campuses have CBA or NAB branches or ATMs on-site. Check your campus map before going to a standalone branch.",
+            "NSW": "Sydney CBD has branches of all major banks within walking distance of Central Station and Town Hall. UNSW, USyd, and UTS all have campus banking facilities.",
+            "QLD": "UQ St Lucia, QUT Gardens Point, and Griffith Nathan all have on-campus banking. Brisbane CBD has all major banks on Queen Street Mall."
+          }
+        },
+        {
+          "id": "transport-card",
+          "day": 2,
+          "title": "Get your transport card and apply for concession",
+          "summary": "Public transport is how most students get around — set up your concession card and learn the network.",
+          "category": "Transport",
+          "guide": "Each state has its own contactless transport card system. In Melbourne it's Myki, in Sydney it's Opal, and in Brisbane and South East Queensland it's Go Card. These cards work across trains, trams, buses, and ferries within their respective networks.\n\nAs an international student enrolled full-time, you are eligible for a concession fare — approximately half the adult price. This makes a significant difference: a full-price Myki monthly pass in Melbourne costs around $200, while a concession pass is around $100.\n\nTo get a concession card, you need to apply through your state's transport authority with proof of full-time enrolment. This process can take 1–2 weeks. In the meantime, load money onto an adult card and start travelling — you can apply for a concession replacement once your application is processed.\n\nDownload your city's transit app: the PTV app (Melbourne), Transport for NSW app (Sydney), or Translink Journey Planner (Brisbane) — these are essential for route planning and checking timetables.",
+          "tips": [
+            "Always tap on AND tap off — you get charged the maximum fare if you don't tap off at your destination.",
+            "Myki cards cost $6 at 7-Eleven or train station machines — buy one before queuing at the service desk.",
+            "In Melbourne, trams in the CBD Free Tram Zone are free — you don't need to tap on at all within the zone.",
+            "Set up auto top-up on your transport card so it never runs out at an inconvenient moment."
+          ],
+          "links": [
+            { "label": "Myki (Melbourne/VIC)", "url": "https://www.ptv.vic.gov.au/tickets/myki/" },
+            { "label": "Opal Card (Sydney/NSW)", "url": "https://transportnsw.info/tickets-opal/opal" },
+            { "label": "Go Card (Brisbane/SEQ)", "url": "https://translink.com.au/tickets-and-fares/go-card" },
+            { "label": "MetroCard (Adelaide)", "url": "https://www.adelaidemetro.com.au/tickets-passes/metrocard" },
+            { "label": "SmartRider (Perth)", "url": "https://www.transperth.wa.gov.au/SmartRider" }
+          ],
+          "stateNotes": {
+            "VIC": "Myki cards are sold at 7-Eleven, train stations, and online. Concession applications through PTV at ptv.vic.gov.au/tickets/myki/concession-myki/",
+            "NSW": "Opal cards are available at train stations and convenience stores. International student concession applications at transportnsw.info",
+            "QLD": "Go Cards available at 7-Eleven, train stations, and selected retailers. Apply for student concession at translink.com.au",
+            "SA": "Adelaide uses Metrocard — available at Adelaide Metro InfoCentres. International student concession available.",
+            "WA": "Perth uses SmartRider — available at Transperth InfoCentres. Full-time international students may be eligible for concession.",
+            "ACT": "Canberra uses MyWay cards for buses — available at Transport Canberra shopfronts."
+          }
+        },
+        {
+          "id": "student-portal",
+          "day": 2,
+          "title": "Set up your student email and university portal",
+          "summary": "Your university student account is your key to everything — enrolment, emails from professors, the library, and your timetable.",
+          "category": "University",
+          "guide": "Your university will have emailed you login credentials before you arrived. If you haven't already, set up your student email and log in to the student portal (different universities call these different things: myUni, Student One, my.unimelb, MyUniversity, etc.).\n\nYour student email address is essential for: receiving communications from your professors and the university, verifying student discounts (UNiDAYS, Spotify, Apple Music, Adobe), accessing library databases, booking appointments with student services, and staying informed about orientation events.\n\nSet up two-factor authentication (2FA) on your student account — all Australian universities require this, and you'll need it every time you log in from a new device. Use the Microsoft Authenticator or Google Authenticator app.\n\nExplore the portal to find: your timetable, enrolled subjects and assessment due dates, transcript, student ID card (download or order a physical one), campus maps, and the link to your learning management system (Canvas, Blackboard, Moodle, or similar).",
+          "tips": [
+            "Forward your student email to your personal Gmail so you don't miss important notifications.",
+            "Download your university's app — most universities (UoM, UNSW, UQ etc.) have an app with your timetable, maps, and news.",
+            "Set up your student email signature professionally — Australian lecturers and tutors communicate formally.",
+            "Bookmark the IT helpdesk page — password resets and 2FA issues are common in the first week."
+          ],
+          "links": [
+            { "label": "University of Melbourne Portal", "url": "https://my.unimelb.edu.au" },
+            { "label": "UNSW myUNSW Portal", "url": "https://my.unsw.edu.au" },
+            { "label": "University of Sydney Canvas", "url": "https://canvas.sydney.edu.au" },
+            { "label": "UQ Student Hub", "url": "https://my.uq.edu.au" }
+          ],
+          "stateNotes": {
+            "VIC": "University of Melbourne uses the 'my.unimelb' portal. Monash uses 'my.monash'. RMIT uses 'myRMIT'. Most provide Microsoft 365 free to students.",
+            "NSW": "UNSW uses myUNSW. University of Sydney uses Canvas and Sydney Student. UTS uses UTS Online (Canvas-based).",
+            "QLD": "UQ uses mySI-net for enrolment and Blackboard for learning. QUT uses QUT Canvas and the QUT Virtual app."
+          }
+        },
+        {
+          "id": "explore-campus",
+          "day": 3,
+          "title": "Explore your campus",
+          "summary": "Find the essential locations before your first class so you're not scrambling on day one.",
+          "category": "University",
+          "guide": "Spend a couple of hours walking around campus with no agenda except to get your bearings. Universities are surprisingly large and confusing — lecture theatres are numbered in non-intuitive ways, buildings look similar, and you can easily walk 10 minutes in the wrong direction.\n\nKey locations to find: the international student office (they'll be your most important resource for visa, employment, and academic questions), the student health centre or campus GP clinic, the library (and how to get your library card activated), the student union or student association building, a place to eat within your budget, and the building where your first class will be.\n\nMost campuses have a campus map on their website and app — download it offline. Take the official campus tour if your university offers one during orientation week. These tours are often led by current students and reveal shortcuts and hidden spots that aren't on any map.",
+          "tips": [
+            "Find a quiet study spot early — the popular spots fill up fast once semester starts.",
+            "Locate the nearest bulk-billing GP clinic to campus — you'll want this for when you get sick.",
+            "Find the ATM that doesn't charge fees — usually the bank affiliated with your university.",
+            "Introduce yourself to one person today. Just one. It gets easier each time."
+          ],
+          "links": [
+            { "label": "University of Melbourne Campus Map", "url": "https://maps.unimelb.edu.au" },
+            { "label": "UNSW Campus Map", "url": "https://www.unsw.edu.au/maps-and-transport" },
+            { "label": "University of Queensland Campus Maps", "url": "https://www.uq.edu.au/maps/" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne's University of Melbourne Parkville campus spans 11 buildings. The Student Union Building (Building 168) has the cheapest food on campus. Monash Clayton is one of Australia's largest campuses — allow extra time to walk between buildings.",
+            "NSW": "UNSW Kensington campus has a free internal shuttle bus service. University of Sydney's quadrangle (the 'Quad') is the historical heart of campus and worth a visit.",
+            "QLD": "UQ St Lucia is set on a loop of the Brisbane River — bikes are popular for getting between buildings. The Great Court is a stunning space for studying."
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "title": "Phase 2: Getting Legal and Settled",
+      "subtitle": "Day 4–7",
+      "days": "4-7",
+      "description": "The administrative tasks that set up your life in Australia properly — tax, healthcare, housing, and understanding work rights.",
+      "items": [
+        {
+          "id": "tfn",
+          "day": 4,
+          "title": "Apply for a Tax File Number (TFN)",
+          "summary": "Your TFN is essential for any paid work in Australia. Without one, your employer must withhold 47% of your wages in tax.",
+          "category": "Finance",
+          "guide": "A Tax File Number (TFN) is your personal reference number for the Australian tax system. You must have a TFN to work legally, open certain bank accounts, access HECS-HELP loans (if applicable), and interact with the Australian Taxation Office (ATO).\n\nAs an international student on a student visa, you are entitled to a TFN. Apply online through the ATO website — the process takes about 15 minutes and requires your passport and visa details. Your TFN will arrive by mail within 28 days.\n\nDo NOT give your TFN to anyone who doesn't need it. Your employer, bank, and the ATO are the main entities that need it. Never give it to a landlord or a random person — TFN fraud is a real risk.\n\nImportant: if you start work before your TFN arrives, tell your employer you've applied and give them the number when it comes. You should not be taxed at the 47% withholding rate if you show you've applied.",
+          "tips": [
+            "Apply within your first week — the 28-day processing time means you want to start the clock early.",
+            "Keep a note of your TFN in a secure, encrypted location like a password manager.",
+            "You will need to lodge a tax return at the end of the financial year (30 June) — most international students get a refund.",
+            "Never pay anyone to apply for a TFN on your behalf — the process is free through the ATO website."
+          ],
+          "links": [
+            { "label": "Apply for a TFN (ATO)", "url": "https://www.ato.gov.au/individuals-and-families/tax-file-number/apply-for-a-tfn" },
+            { "label": "TFN for international students (ATO)", "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/international-students" }
+          ],
+          "stateNotes": {
+            "VIC": "No state-specific requirements — TFN application is handled nationally through the ATO.",
+            "NSW": "No state-specific requirements — apply directly through the ATO website.",
+            "QLD": "No state-specific requirements — apply directly through the ATO website."
+          }
+        },
+        {
+          "id": "work-rights",
+          "day": 4,
+          "title": "Understand your work rights",
+          "summary": "As an international student you have the right to work — but there are limits and protections you must know.",
+          "category": "Work",
+          "guide": "International students on a standard student visa (subclass 500) can work up to 48 hours per fortnight during semester and unlimited hours during official university breaks. This was increased from 40 hours in 2023 and remains at 48 hours as of 2026.\n\nYou are protected by Australian workplace law in exactly the same way as any Australian citizen or permanent resident. This means: minimum wage (currently $23.23/hour as of July 2024, increasing annually), penalty rates for weekends and public holidays, the right to a payslip, the right to refuse unsafe work, and protection from discrimination.\n\nWage theft is unfortunately common in industries that employ a lot of international students — cafes, restaurants, retail, and cleaning. Know the minimum wage and check your payslip carefully. The Fair Work Ombudsman (1300 13 94) investigates unpaid wages and has successfully recovered millions of dollars for international student workers.\n\nCommon scams to avoid: 'cash in hand' jobs that pay below minimum wage, employers who ask you to sign a contract saying you agree to a lower rate, and 'internships' that are really just unpaid labour.\n\nAlways get a written employment contract. Always get payslips. If something feels wrong, call the Fair Work Ombudsman or visit your university's free legal service.",
+          "tips": [
+            "Track your hours across all jobs combined — the 48-hour fortnightly limit applies across all employers.",
+            "The minimum wage in Australia increases on 1 July each year — check the Fair Work website for the current rate.",
+            "You cannot be paid 'less than minimum wage' because you're a student or an international student — this is illegal.",
+            "Your employer must provide a payslip within one business day of payday."
+          ],
+          "links": [
+            { "label": "Fair Work Ombudsman", "url": "https://www.fairwork.gov.au" },
+            { "label": "Pay Calculator", "url": "https://calculate.fairwork.gov.au" },
+            { "label": "Student Visa Work Conditions (Home Affairs)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/work-in-australia" }
+          ],
+          "stateNotes": {
+            "VIC": "Victoria's minimum wage may exceed the national minimum wage in some industries due to state-based awards. The Victorian government has a Wage Inspectorate for additional enforcement.",
+            "NSW": "NSW has an iCare workers' compensation scheme — you're entitled to workers' compensation if injured at work, even as an international student.",
+            "QLD": "Queensland has strong union presence in hospitality and retail. United Workers Union and Retail and Fast Food Workers Union are resources if you face wage theft."
+          }
+        },
+        {
+          "id": "housing-search",
+          "day": 5,
+          "title": "Understand your rental rights before signing anything",
+          "summary": "The rental market is competitive and confusing — know your rights before handing over any money.",
+          "category": "Housing",
+          "guide": "Australian rental law is governed by each state's tenancy legislation. As a renter, you have significant legal protections — but you need to know them to use them.\n\nKey things to understand: Bond (a security deposit, usually 4 weeks' rent) must be lodged with the state bond authority — not kept by the landlord. In Victoria, this is the Residential Tenancies Bond Authority (RTBA). In NSW, it's NSW Fair Trading. Your landlord must give you the bond lodgement receipt.\n\nBefore signing a lease: inspect the property in person if at all possible, never pay bond or rent before signing a lease, take timestamped photos of the entire property on move-in day and email them to your landlord/agent within 24 hours, and read the entire lease before signing — take it home if necessary.\n\nFor finding share houses (the most affordable option for students), search on Flatmates.com.au, Facebook Marketplace, and your university's official student housing board. Domain.com.au and Realestate.com.au list private rentals.\n\nRed flags that indicate a scam: rent that's significantly below the area average, landlord who is overseas and can't show you the property, being asked to pay bond before seeing the property, and landlord who won't provide a formal lease.",
+          "tips": [
+            "Never pay bond to a landlord directly — it must be lodged with the official state bond authority.",
+            "Document everything in writing — send emails confirming conversations so you have a record.",
+            "Your landlord cannot enter the property without giving you at least 24 hours' written notice (48 hours in some states).",
+            "You can break a lease but there will be 'break lease' fees — read your lease carefully before signing."
+          ],
+          "links": [
+            { "label": "Tenants Victoria", "url": "https://www.tenantsvic.org.au" },
+            { "label": "Tenants' Union of NSW", "url": "https://www.tenants.org.au" },
+            { "label": "Flatmates.com.au (share house search)", "url": "https://www.flatmates.com.au" },
+            { "label": "Domain.com.au (rentals)", "url": "https://www.domain.com.au/rent/" }
+          ],
+          "stateNotes": {
+            "VIC": "Victoria's rental laws are among the strongest in Australia after major reforms in 2021. Bond is lodged with the RTBA (rtba.vic.gov.au). Rent can only be increased once per year.",
+            "NSW": "Bond in NSW is lodged with NSW Fair Trading via the Rental Bonds Online system. Maximum bond is 4 weeks' rent for properties under $2000/week.",
+            "QLD": "Queensland bond is lodged with the Residential Tenancies Authority (RTA). Bond maximum is 4 weeks' rent. The RTA provides free dispute resolution.",
+            "SA": "Bond in SA is lodged with Consumer and Business Services. Maximum bond is 4 weeks' rent.",
+            "WA": "Bond in WA is lodged with the Bond Administrator (Commerce WA). Maximum bond is 4 weeks' rent."
+          }
+        },
+        {
+          "id": "gp-registration",
+          "day": 6,
+          "title": "Register with a GP and understand OSHC",
+          "summary": "You must have Overseas Student Health Cover (OSHC) — know what it covers and find a bulk-billing GP near you.",
+          "category": "Health",
+          "guide": "Overseas Student Health Cover (OSHC) is mandatory health insurance that all international students must hold for the duration of their student visa. Your university most likely arranged your OSHC before you arrived — check your student documentation for your OSHC provider and policy number.\n\nThe major OSHC providers in Australia are Medibank, BUPA, AHM, NIB, and CBHS. Log in to your OSHC account to get your membership card and understand what's covered. Generally, OSHC covers: doctor visits, hospital treatment, ambulance, some specialist visits, and limited dental and optical.\n\nFor day-to-day health care, you need a GP (General Practitioner — a family doctor). 'Bulk billing' means the doctor charges OSHC directly and you pay nothing out of pocket. Not all GPs bulk bill international students under OSHC — call ahead to check. Your OSHC provider's website has a GP finder tool.\n\nYour campus may have its own student health centre — this is often the best option as they understand student health needs, are familiar with OSHC, and can refer you to specialists. Book an appointment within your first week — don't wait until you're sick.",
+          "tips": [
+            "Search 'bulk billing GP near me' or use your OSHC provider's app to find GPs who bulk-bill international students.",
+            "Keep your OSHC membership card on your phone — most providers have an app with your digital card.",
+            "If you need to go to hospital, your OSHC covers emergency and inpatient treatment — show your card at reception.",
+            "OSHC does not cover ambulances in all states by default — check your policy. If not covered, be aware that ambulance call-outs can cost $1,000+."
+          ],
+          "links": [
+            { "label": "Medibank OSHC", "url": "https://www.medibank.com.au/overseas-students/" },
+            { "label": "BUPA OSHC", "url": "https://www.bupa.com.au/health-insurance/oshc" },
+            { "label": "NIB OSHC", "url": "https://www.nib.com.au/overseas-students" },
+            { "label": "Healthdirect GP Finder", "url": "https://www.healthdirect.gov.au/australian-health-services" }
+          ],
+          "stateNotes": {
+            "VIC": "Most universities in Melbourne have a campus health centre. University of Melbourne Health Service (03 8344 6633) bulk bills students. Monash Health Clinics are available on campus at Clayton.",
+            "NSW": "UNSW Health Service (02 9385 5425) bulk bills OSHC. University of Sydney Health Service (02 9351 3484) bulk bills OSHC holders. NSW has many bulk-billing GP clinics in student areas.",
+            "QLD": "UQ Health Service at St Lucia bulk bills OSHC (07 3365 3049). Gold Coast and regional Queensland can have fewer bulk-billing options — plan ahead."
+          }
+        },
+        {
+          "id": "groceries",
+          "day": 7,
+          "title": "Master the supermarkets and food shopping",
+          "summary": "Australia has two main supermarket chains and a competitive discount grocer — knowing where to shop saves real money each week.",
+          "category": "Food",
+          "guide": "Australia's two major supermarkets are Woolworths and Coles — they're broadly similar in price and range. A third option, ALDI, is significantly cheaper for basics (bread, dairy, pasta, rice, frozen vegetables, cleaning products) and is worth making a weekly trip for staples.\n\nFor fresh produce, Asian grocery stores (widespread in Australian cities, usually clustered in Asian-majority suburbs) are dramatically cheaper than supermarkets. A bag of onions at an Asian grocery might cost $1.50 vs $3.50 at Coles. Garlic, ginger, noodles, sauces, and fresh vegetables are consistently cheaper at Asian grocers and often fresher.\n\nIn Melbourne: Box Hill, Footscray, Springvale, and Clayton have excellent Asian grocery stores. In Sydney: Hurstville, Cabramatta, Campsie, and Burwood. In Brisbane: Sunnybank, Fortitude Valley, and Inala.\n\nDownload the Woolworths and Coles apps — both have weekly specials that can save 30–50% on rotating products. The apps also show your local store's specials and let you build a shopping list.\n\nFor cheap meals out: food courts in Asian-majority suburbs offer filling lunches and dinners for $10–$15. University cafeterias are generally $8–$12 for a meal. Avoid CBD cafes and restaurants for everyday eating — prices can be 2–3x higher.",
+          "tips": [
+            "ALDI is worth the extra trip for staples — their home brand pasta, rice, dairy, and frozen goods are excellent quality and up to 40% cheaper.",
+            "Check the 'half price' and 'specials' sections at the back of supermarkets — marked-down items near their use-by date are safe to buy if you're cooking that day.",
+            "Buy a cheap thermos or lunch box — bringing lunch from home saves $10–$15 per day vs buying on campus.",
+            "Learn the 'specials cycle' — Woolworths and Coles alternate specials on a 4-week rotation, so items you buy regularly will eventually go on sale."
+          ],
+          "links": [
+            { "label": "Woolworths Online", "url": "https://www.woolworths.com.au" },
+            { "label": "Coles Online", "url": "https://www.coles.com.au" },
+            { "label": "ALDI Australia", "url": "https://www.aldi.com.au" }
+          ],
+          "stateNotes": {
+            "VIC": "Footscray Market (Paisley St, Footscray) is Melbourne's best value produce market. Queen Victoria Market operates Tuesday–Sunday and has excellent fresh produce. The Springvale market strip (Springvale Rd) has some of Melbourne's cheapest Asian groceries.",
+            "NSW": "Flemington Markets (formerly Homebush) is Sydney's wholesale produce market with public access on weekends. Cabramatta and Hurstville have excellent and cheap Asian grocery strips.",
+            "QLD": "Rocklea Markets (Brisbane) is the city's wholesale produce market, open to the public from Thursday to Sunday. Sunnybank Hills Shoppingtown has extensive Asian grocery options."
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "title": "Phase 3: Finding Your Footing",
+      "subtitle": "Week 2",
+      "days": "8-14",
+      "description": "Orientation, academic setup, building routines, and starting to feel at home in your new city.",
+      "items": [
+        {
+          "id": "orientation",
+          "day": 8,
+          "title": "Attend orientation events",
+          "summary": "Orientation week events are the best opportunity to meet people in the same situation as you — don't skip them.",
+          "category": "University",
+          "guide": "University orientation events serve two purposes: practical information sessions and social connection. The practical sessions (academic integrity workshops, library tours, IT setup, international student briefings) contain genuinely important information — particularly around academic integrity policies, assessment rules, and student support services available to you.\n\nThe social events are equally important. Everyone at O-Week is new, nervous, and looking for connections. The social playing field is level in a way it will never be again. Join at least one club, society, or interest group — even if it's just to put yourself in a room with people who share an interest.\n\nLook specifically for: the International Student Welcome event (usually run by the international student office), country-specific student societies (Chinese Students and Scholars Association, Indian Students Association, etc. are common at every university), and departmental welcome events for your specific faculty.\n\nIf you missed formal orientation, most of the information is available on your university's website under 'New Students' or 'International Students'. The key services — student counselling, legal aid, health centre — are available year-round.",
+          "tips": [
+            "Bring business cards or have your contact details ready to share quickly — you'll meet a lot of people and it's easy to lose track.",
+            "Say yes to things you're not sure about — the worst outcome is a boring hour, the best is a new friend.",
+            "Take photos at orientation events (with permission) — it helps you remember names and faces.",
+            "Join your course/cohort group chat on WhatsApp or iMessage — someone will have started one."
+          ],
+          "links": [
+            { "label": "University of Melbourne O-Week", "url": "https://students.unimelb.edu.au/new-students/o-week" },
+            { "label": "UNSW Orientation", "url": "https://www.unsw.edu.au/study/how-to-enrol/new-students/orientation" },
+            { "label": "UQ Orientation", "url": "https://my.uq.edu.au/starting-at-uq/orientation" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne universities typically have O-Week in late February. Monash and Melbourne are particularly strong on international student welcome events.",
+            "NSW": "Sydney university O-Weeks are typically the last week of February. UNSW's Arc student life organisation runs an extensive O-Week program.",
+            "QLD": "Queensland university O-Weeks typically fall in late February. UQ's Student Union runs the semester's best student events."
+          }
+        },
+        {
+          "id": "academic-integrity",
+          "day": 10,
+          "title": "Understand academic integrity",
+          "summary": "Plagiarism in Australia can result in expulsion — the standards are different and stricter than many students expect.",
+          "category": "University",
+          "guide": "Academic integrity — particularly around plagiarism — is taken extremely seriously in Australian universities. The rules may be significantly stricter than what you experienced in your home country's education system, and the consequences (from a failing grade to expulsion) are real.\n\nWhat counts as plagiarism in Australian universities: copying text from any source (including websites, textbooks, other students' work) without quotation marks and citation, paraphrasing someone else's ideas without citing the source, having someone else write your assignment for you (contract cheating), submitting the same assignment for two different subjects (self-plagiarism), and using AI tools to generate your assignment text without permission (some subjects allow AI assistance with disclosure, others don't).\n\nAll Australian universities use plagiarism detection software (usually Turnitin) that compares your work against billions of internet pages and a database of previously submitted student work.\n\nAlways cite your sources using the referencing style your department requires (APA, Harvard, Chicago, or Vancouver are most common). When in doubt, cite — you will never be penalised for over-citing.\n\nIf you're struggling with assignment writing, contact your university's academic skills or learning support unit — they offer free workshops and one-on-one consultations on essay writing, referencing, and academic English.",
+          "tips": [
+            "Use Cite This For Me (citethisforme.com) or your library's referencing tool to generate accurate citations quickly.",
+            "Read your university's academic integrity policy in full — it's usually linked in every course outline.",
+            "If you're uncertain whether something counts as plagiarism, ask your tutor or lecturer before submitting.",
+            "Save your drafts and research notes — if your academic integrity is questioned, draft history is your evidence."
+          ],
+          "links": [
+            { "label": "Academic Integrity (University of Melbourne)", "url": "https://academicintegrity.unimelb.edu.au" },
+            { "label": "UNSW Academic Integrity", "url": "https://www.student.unsw.edu.au/plagiarism" },
+            { "label": "Cite This For Me (referencing tool)", "url": "https://www.citethisforme.com" },
+            { "label": "APA 7th Edition Guide (Purdue OWL)", "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html" }
+          ],
+          "stateNotes": {}
+        },
+        {
+          "id": "budget",
+          "day": 11,
+          "title": "Set up a weekly budget",
+          "summary": "Running out of money midway through a semester is a real crisis — building a simple budget prevents it.",
+          "category": "Finance",
+          "guide": "A simple weekly budget is the most powerful financial tool an international student can have. You don't need complicated spreadsheets — a basic one works.\n\nStart by listing your fixed weekly costs: rent (divide your monthly/fortnightly rent by the number of weeks), transport, phone plan, OSHC (divide annual cost by 52). Then estimate variable costs: groceries, eating out, entertainment, personal items. Add a 10% buffer for unexpected costs.\n\nFor most students in major Australian cities, a realistic minimum weekly budget is: rent $150–$250 (share house), groceries $60–$80, transport $20–$45, phone $8–$10, personal items $20. Total: approximately $260–$400/week minimum.\n\nFree budgeting tools: your bank's app (most Australian banks have budgeting dashboards), ASIC's MoneySmart budget planner (moneysmart.gov.au), or a simple spreadsheet. The Pocketbook app is popular with Australian students.\n\nIf you find yourself struggling financially, your university has financial hardship support — student emergency grants, food assistance, and financial counselling are available. Don't wait until you're in crisis to ask.",
+          "tips": [
+            "Set up separate savings and spending accounts — move your 'untouchable' savings immediately when money arrives.",
+            "Track every purchase for two weeks using your bank app — most people are genuinely surprised by where their money goes.",
+            "ASIC's MoneySmart website (moneysmart.gov.au) has free calculators and is government-funded and reliable.",
+            "If you receive a scholarship or stipend, treat it like a salary and budget from day one."
+          ],
+          "links": [
+            { "label": "ASIC MoneySmart Budget Planner", "url": "https://moneysmart.gov.au/budgeting/budget-planner" },
+            { "label": "Pocketbook App", "url": "https://getpocketbook.com" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne living costs are among the highest in Australia. Students at Monash Clayton or La Trobe Bundoora often have lower rent costs than CBD-adjacent universities.",
+            "NSW": "Sydney is Australia's most expensive city. Students often live in Parramatta, Kingsford, or Burwood for significantly lower rents than inner-Sydney locations.",
+            "QLD": "Brisbane is generally 15–20% cheaper than Sydney or Melbourne for rent and living costs. This is a significant financial advantage for students."
+          }
+        },
+        {
+          "id": "explore-suburb",
+          "day": 14,
+          "title": "Explore your local neighbourhood",
+          "summary": "Getting to know your immediate area makes it feel like home — find your local café, park, library, and walking route.",
+          "category": "Lifestyle",
+          "guide": "Australia's cities are made up of distinct neighbourhoods, each with its own character. Spending time exploring your local area on foot — rather than just commuting through it — is one of the best ways to start feeling settled.\n\nThings to find: your nearest free public library (free WiFi, study spaces, free event programs, and digital resources), a café you actually like (not just the nearest one), a green space or park for walking or sitting, the nearest 24-hour convenience store for emergencies, and a cheap local restaurant or takeaway for nights when you don't want to cook.\n\nAustralian public libraries are dramatically underrated by international students. Your local council library is free to join with any ID (or sometimes just a verbal declaration of address), offers free WiFi, free book borrowing, free access to newspapers and magazines, free community events, and in many cases free access to apps like Libby (e-books and audiobooks), Kanopy (films), and Mango Languages (language learning). It's also a great quiet study space when your share house is noisy.\n\nUse the weekend to take a single 90-minute walk from your home in any direction without a destination in mind. You'll discover things you'd never find on Google Maps.",
+          "tips": [
+            "Register for your local library with just a proof of address — even a screenshot of a bill or lease works at most branches.",
+            "Find the closest Coles or Woolworths and the closest ALDI — then plan your shopping accordingly.",
+            "Australian parks often have free barbecue facilities — a great way to cook cheap, social meals with friends.",
+            "Download the AllTrails app for walking tracks near your suburb — Australian cities have extensive free trail networks."
+          ],
+          "links": [
+            { "label": "Find Your Local Library (Libraries Australia)", "url": "https://www.nla.gov.au/librariesaustralia" },
+            { "label": "AllTrails (walking tracks)", "url": "https://www.alltrails.com/australia" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne City Council Libraries have multiple branches including the City Library (253 Flinders Lane) which is an excellent CBD study space. Yarra Libraries, Moreland Libraries and others cover inner-city suburbs.",
+            "NSW": "City of Sydney Libraries have 11 branches and are excellent. Marrickville, Newtown, and Glebe libraries are particularly popular with students.",
+            "QLD": "Brisbane City Council Libraries are among Australia's best-resourced public library systems with 31 branches and excellent digital resources."
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "title": "Phase 4: Building a Life",
+      "subtitle": "Week 3–4",
+      "days": "15-30",
+      "description": "From surviving to thriving — building community, long-term habits, and a sense of belonging.",
+      "items": [
+        {
+          "id": "join-clubs",
+          "day": 16,
+          "title": "Join a club or society",
+          "summary": "Research consistently shows that students who join clubs are happier, perform better academically, and build lasting networks.",
+          "category": "Social",
+          "guide": "Australian universities have hundreds of clubs and societies — covering every possible interest, nationality, religion, sport, hobby, academic discipline, and political viewpoint. Joining at least one is one of the most important things you can do for your experience.\n\nThe categories of clubs to explore: cultural and international student societies (Chinese Students and Scholars Association, Indian Students Association, Korean Student Association, African Student Association, etc.), sport and fitness clubs (from competitive to social), academic societies (often run guest lectures, networking events, and study sessions), interest clubs (board games, film, music, rock climbing, cooking), and volunteer and community organisations.\n\nMost clubs charge a small membership fee ($5–$20 per year) and run weekly or fortnightly events. The student union or student association website lists all registered clubs — go to the club fair at the start of semester and sign up to a few, then attend at least twice before deciding it's not for you.\n\nDon't wait to be in perfect social condition to join — every club has people at varying levels of connection. The shared interest or identity is the starting point, and relationships build from there.",
+          "tips": [
+            "Sign up for more clubs than you think you'll attend — you can always drop ones that don't click.",
+            "Cultural societies are a great source of food, community, and connection to home culture.",
+            "Leadership roles in clubs look excellent on a resume and give you practice in communication, organisation, and teamwork.",
+            "Attend the first few events of a club before judging it — the community develops over time."
+          ],
+          "links": [
+            { "label": "University of Melbourne Student Union Clubs", "url": "https://umsu.unimelb.edu.au/clubs" },
+            { "label": "UNSW Arc Clubs", "url": "https://www.arc.unsw.edu.au/clubs-and-societies" },
+            { "label": "UQ Union Clubs", "url": "https://uqu.com.au/clubs" }
+          ],
+          "stateNotes": {
+            "VIC": "Monash University has over 200 registered clubs. The Monash Association of Clubs (MAC) runs a club fair each semester.",
+            "NSW": "UNSW Arc manages over 200 clubs. The Arc Club Expo at the start of semester is the best way to find them.",
+            "QLD": "UQ Union has over 280 affiliated clubs — one of Australia's largest student club ecosystems."
+          }
+        },
+        {
+          "id": "part-time-work",
+          "day": 18,
+          "title": "Start looking for part-time work",
+          "summary": "Working part-time in your field — or in any role — builds Australian work experience that makes your degree far more valuable.",
+          "category": "Work",
+          "guide": "Part-time work as an international student serves multiple purposes: supplementing your income, building an Australian work history, improving your English in a professional context, and developing networks that can lead to graduate employment.\n\nThe most accessible jobs for new international students (requiring no prior Australian experience) are: supermarket casual (Woolworths, Coles, Aldi — $28–$35/hour including penalty rates), fast food (McDonald's, Grill'd, roll'd — hires extensively from international students), hospitality front-of-house (cafes, bars — RSA certificate may be required), tutoring (online via platforms like Tutor.com.au or in-person in your high school subjects), university library or admin roles (advertised on university jobs boards), and delivery driving (UberEats, DoorDash — requires a bicycle or car and ABN).\n\nFor jobs in your field, check: your university's student jobs board, LinkedIn with student filters, Seek.com.au with 'part-time' and 'casual' filters, and the career services at your university. Internships in your field — including paid ones — are advertised through university career services.\n\nAlways negotiate for your award rate. Look up your industry award on the Fair Work website — hospitality, retail, and fast food all have specific award rates that must be paid.",
+          "tips": [
+            "Create a LinkedIn profile — even with no Australian experience, having a professional profile is expected by employers.",
+            "Have an Australian mobile number and email address on your resume — international numbers look unprofessional to local employers.",
+            "Dress one level above what you'd expect for an interview — Australians value a neat, professional appearance even for casual roles.",
+            "University career services can review your resume for free and advise on Australian resume conventions (which differ from many other countries)."
+          ],
+          "links": [
+            { "label": "Seek (job search)", "url": "https://www.seek.com.au" },
+            { "label": "Casual Jobs Near Uni", "url": "https://www.casualjobs.com.au" },
+            { "label": "Fair Work Pay Calculator", "url": "https://calculate.fairwork.gov.au" },
+            { "label": "LinkedIn Australia", "url": "https://www.linkedin.com" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne's hospitality industry is one of Australia's largest employers of international students. Cafes on Brunswick St, Smith St, and St Kilda regularly hire casuals.",
+            "NSW": "Sydney's tourism and hospitality industry is enormous. Circular Quay, Surry Hills, and the CBD are hotspots. The RSA (Responsible Service of Alcohol) certificate is required for bar work and available online for ~$50.",
+            "QLD": "Queensland's tourism industry (Gold Coast, Cairns, Whitsundays) offers hospitality work, though it may require relocating temporarily. Brisbane's South Bank precinct is a major hospitality hub."
+          }
+        },
+        {
+          "id": "connect-students",
+          "day": 22,
+          "title": "Intentionally connect with local students",
+          "summary": "Many international students end up socialising only within their cultural group — making the deliberate effort to connect broadly changes your experience.",
+          "category": "Social",
+          "guide": "Research on international student experience consistently finds that the students who report the richest experience and best outcomes are those who build friendships across different cultures — including with domestic Australian students.\n\nThis doesn't mean abandoning your cultural community — it means intentionally adding to it. Domestic students often don't know how to start conversations with international students, and they may seem insular or unfriendly when they're actually just not sure how to approach. The responsibility for initiating cross-cultural connection often falls on the person who's already crossed one border.\n\nPractical ways to connect with domestic students: sit next to someone new in your tutorial and introduce yourself, join a study group for your subject, participate in inter-college or interfaculty sport competitions, volunteer for campus events (you're working alongside domestic students), and go to events run by Australian cultural organisations (music events, sporting events, community days).\n\nAustralians have a reputation for being friendly but hard to make close friends with. This is somewhat true — Australian social culture can be quite casual and group-oriented, and deepening connections takes persistence. Don't interpret initial friendliness as a guarantee of ongoing connection, but also don't interpret the absence of immediate closeness as rejection.",
+          "tips": [
+            "Invite people to do specific things rather than vague 'we should hang out' suggestions — Australians respond better to concrete plans.",
+            "Sport is Australia's great social equaliser — even minimal interest in AFL, cricket, or NRL gives you something to talk about.",
+            "Australian humour is often dry, self-deprecating, and involves a lot of 'taking the mickey' (gentle teasing) — it's a sign of affection, not disrespect.",
+            "Say yes to invitations, even for things you've never done — your Australian colleagues are far more likely to include you again if you show up once."
+          ],
+          "links": [
+            { "label": "Bumble BFF (platonic connection app)", "url": "https://bumble.com/bff" },
+            { "label": "Meetup (interest-based events)", "url": "https://www.meetup.com" }
+          ],
+          "stateNotes": {
+            "VIC": "Melbourne's diverse arts and music scene is a common ground for cross-cultural connection. Free events at NGV, festivals like MOOMBA, and live music at pubs are all low-pressure social settings.",
+            "NSW": "Sydney's beaches are a major social hub — joining a beach volleyball game, a surf school, or a run club at Bondi creates natural shared-activity friendships.",
+            "QLD": "Brisbane's outdoor culture (running, kayaking, cycling) creates natural entry points. The Brisbane River walk and South Bank parklands are popular casual social settings."
+          }
+        },
+        {
+          "id": "month-reflection",
+          "day": 30,
+          "title": "Reflect on your first month",
+          "summary": "Your first 30 days are a significant milestone. Take stock of what you've achieved, what's hard, and what you want your next month to look like.",
+          "category": "Wellbeing",
+          "guide": "Reaching 30 days in a new country is genuinely significant. You have navigated a foreign bureaucracy, established a new daily routine, started studying in your second or third language, built the beginnings of a social life from scratch, and kept yourself fed, housed, and relatively sane. That is not a small thing.\n\nTake an hour today without your phone. Write or think about: what has been harder than you expected, what has been easier, what you're proud of, what you want to do differently, who are the people who matter to you here, and what do you miss about home that you can partially recreate here.\n\nCheck in on your key admin: is everything in order? TFN received? OSHC active? Bank account working? Transport card set up? Work rights understood? If anything is still outstanding, this is a good prompt to address it.\n\nIf you're struggling — with loneliness, anxiety, academic pressure, financial stress, or just the feeling of not belonging — please reach out to your university's student counselling service. These services exist precisely for this moment, they're free, and talking to a professional is a sign of strength, not weakness. You don't have to be in crisis to access them.",
+          "tips": [
+            "Write yourself a letter to read at the end of your degree — capture who you are right now in as much detail as possible.",
+            "Take a photo of something meaningful about your first month — your room, your campus, your street.",
+            "Thank one person who helped you this month — a simple message goes a long way.",
+            "Set three intentions for your second month — small, specific, and achievable."
+          ],
+          "links": [
+            { "label": "Beyond Blue (mental health support)", "url": "https://www.beyondblue.org.au" },
+            { "label": "Headspace (mindfulness app — student discount available)", "url": "https://www.headspace.com" },
+            { "label": "Study Melbourne Student Support", "url": "https://www.studymelbourne.vic.gov.au/living-in-victoria/student-wellbeing" }
+          ],
+          "stateNotes": {
+            "VIC": "Victoria's Study Melbourne program provides free student support services including a dedicated advice line: 1800 980 321.",
+            "NSW": "Study NSW runs International Student Care including a dedicated support network for students experiencing difficulty.",
+            "QLD": "Study Queensland provides wellbeing resources and support services for international students."
+          }
+        }
+      ]
+    }
+  ]
+}
