@@ -21,8 +21,8 @@
             "Download your city's transit app: PTV (Melbourne), Transport for NSW (Sydney), or Translink (Brisbane) before your SIM is active — use airport WiFi."
           ],
           "links": [
-            { "label": "Telstra Prepaid Plans", "url": "https://www.telstra.com.au/mobile-phones/prepaid" },
-            { "label": "Optus Prepaid Plans", "url": "https://www.optus.com.au/for-you/mobile/prepaid" },
+            { "label": "Telstra Prepaid Plans", "url": "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates#sim-plans" },
+            { "label": "Optus Prepaid Plans", "url": "https://www.optus.com.au/prepaid/sim-plans" },
             { "label": "Woolworths Mobile (Telstra Network)", "url": "https://www.woolworthsmobile.com.au" },
             { "label": "Boost Mobile (Telstra Network)", "url": "https://www.boost.com.au" }
           ],
@@ -51,9 +51,9 @@
             "Avoid ATM fees: use your bank's own ATMs or shop at major supermarkets (Woolworths, Coles) and do 'cash out' at the register for free."
           ],
           "links": [
-            { "label": "Commonwealth Bank Student Account", "url": "https://www.commbank.com.au/banking/smart-access.html" },
+            { "label": "Commonwealth Bank Student Account", "url": "https://www.commbank.com.au/banking.html?ei=mv_banking" },
             { "label": "ANZ Student Banking", "url": "https://www.anz.com.au/personal/bank-accounts/everyday-accounts/" },
-            { "label": "NAB Classic Banking", "url": "https://www.nab.com.au/personal/bank-accounts/everyday-banking" },
+            { "label": "NAB Classic Banking", "url": "https://www.nab.com.au/personal/bank-accounts/product-selector" },
             { "label": "Wise (international transfers)", "url": "https://wise.com/au/" }
           ],
           "stateNotes": {
@@ -79,7 +79,7 @@
             { "label": "Myki (Melbourne/VIC)", "url": "https://www.ptv.vic.gov.au/tickets/myki/" },
             { "label": "Opal Card (Sydney/NSW)", "url": "https://transportnsw.info/tickets-opal/opal" },
             { "label": "Go Card (Brisbane/SEQ)", "url": "https://translink.com.au/tickets-and-fares/go-card" },
-            { "label": "MetroCard (Adelaide)", "url": "https://www.adelaidemetro.com.au/tickets-passes/metrocard" },
+            { "label": "MetroCard (Adelaide)", "url": "https://www.adelaidemetro.com.au/" },
             { "label": "SmartRider (Perth)", "url": "https://www.transperth.wa.gov.au/SmartRider" }
           ],
           "stateNotes": {
@@ -108,12 +108,14 @@
             { "label": "University of Melbourne Portal", "url": "https://my.unimelb.edu.au" },
             { "label": "UNSW myUNSW Portal", "url": "https://my.unsw.edu.au" },
             { "label": "University of Sydney Canvas", "url": "https://canvas.sydney.edu.au" },
-            { "label": "UQ Student Hub", "url": "https://my.uq.edu.au" }
+            { "label": "UQ Student Hub", "url": "https://my.uq.edu.au" },
+            { "label": "Monash University Portal", "url": "https://my.monash.edu" }
           ],
           "stateNotes": {
             "VIC": "University of Melbourne uses the 'my.unimelb' portal. Monash uses 'my.monash'. RMIT uses 'myRMIT'. Most provide Microsoft 365 free to students.",
             "NSW": "UNSW uses myUNSW. University of Sydney uses Canvas and Sydney Student. UTS uses UTS Online (Canvas-based).",
-            "QLD": "UQ uses mySI-net for enrolment and Blackboard for learning. QUT uses QUT Canvas and the QUT Virtual app."
+            "QLD": "UQ uses mySI-net for enrolment and Blackboard for learning. QUT uses QUT Canvas and the QUT Virtual app.",
+            "Monash": "Monash University: The best place to start is the Monash University Portal."
           }
         },
         {
@@ -131,13 +133,15 @@
           ],
           "links": [
             { "label": "University of Melbourne Campus Map", "url": "https://maps.unimelb.edu.au" },
-            { "label": "UNSW Campus Map", "url": "https://www.unsw.edu.au/maps-and-transport" },
-            { "label": "University of Queensland Campus Maps", "url": "https://www.uq.edu.au/maps/" }
+            { "label": "UNSW Campus Map", "url": "https://www.unsw.edu.au/estate/getting-here/maps" },
+            { "label": "University of Queensland Campus Maps", "url": "https://www.uq.edu.au/maps/" },
+            { "label": "Monash University Maps", "url": "https://www.monash.edu/about/our-locations/transport-parking/rhs-navigation/campus-maps" }
           ],
           "stateNotes": {
             "VIC": "Melbourne's University of Melbourne Parkville campus spans 11 buildings. The Student Union Building (Building 168) has the cheapest food on campus. Monash Clayton is one of Australia's largest campuses — allow extra time to walk between buildings.",
             "NSW": "UNSW Kensington campus has a free internal shuttle bus service. University of Sydney's quadrangle (the 'Quad') is the historical heart of campus and worth a visit.",
-            "QLD": "UQ St Lucia is set on a loop of the Brisbane River — bikes are popular for getting between buildings. The Great Court is a stunning space for studying."
+            "QLD": "UQ St Lucia is set on a loop of the Brisbane River — bikes are popular for getting between buildings. The Great Court is a stunning space for studying.",
+            "Monash": "Monash University has multiple campuses across Melbourne — make sure you know which one your classes are at. The Clayton campus is the main one and has its own train station (Monash University Station) on the Cranbourne/Pakenham line."
           }
         }
       ]
@@ -164,7 +168,7 @@
           ],
           "links": [
             { "label": "Apply for a TFN (ATO)", "url": "https://www.ato.gov.au/individuals-and-families/tax-file-number/apply-for-a-tfn" },
-            { "label": "TFN for international students (ATO)", "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/international-students" }
+            { "label": "TFN for international students (ATO)", "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/coming-to-australia/studying-in-australia#ato-Overseasstudents" }
           ],
           "stateNotes": {
             "VIC": "No state-specific requirements — TFN application is handled nationally through the ATO.",
@@ -188,7 +192,7 @@
           "links": [
             { "label": "Fair Work Ombudsman", "url": "https://www.fairwork.gov.au" },
             { "label": "Pay Calculator", "url": "https://calculate.fairwork.gov.au" },
-            { "label": "Student Visa Work Conditions (Home Affairs)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/work-in-australia" }
+            { "label": "Student Visa Work Conditions (Home Affairs)", "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/overview" }
           ],
           "stateNotes": {
             "VIC": "Victoria's minimum wage may exceed the national minimum wage in some industries due to state-based awards. The Victorian government has a Wage Inspectorate for additional enforcement.",
@@ -237,7 +241,7 @@
             "OSHC does not cover ambulances in all states by default — check your policy. If not covered, be aware that ambulance call-outs can cost $1,000+."
           ],
           "links": [
-            { "label": "Medibank OSHC", "url": "https://www.medibank.com.au/overseas-students/" },
+            { "label": "Medibank OSHC", "url": "https://www.medibank.com.au/overseas-health-insurance/oshc/" },
             { "label": "BUPA OSHC", "url": "https://www.bupa.com.au/health-insurance/oshc" },
             { "label": "NIB OSHC", "url": "https://www.nib.com.au/overseas-students" },
             { "label": "Healthdirect GP Finder", "url": "https://www.healthdirect.gov.au/australian-health-services" }
@@ -295,9 +299,10 @@
             "Join your course/cohort group chat on WhatsApp or iMessage — someone will have started one."
           ],
           "links": [
-            { "label": "University of Melbourne O-Week", "url": "https://students.unimelb.edu.au/new-students/o-week" },
-            { "label": "UNSW Orientation", "url": "https://www.unsw.edu.au/study/how-to-enrol/new-students/orientation" },
-            { "label": "UQ Orientation", "url": "https://my.uq.edu.au/starting-at-uq/orientation" }
+            { "label": "University of Melbourne O-Week", "url": "https://search.unimelb.edu.au/s/redirect?collection=uom~sp-global&url=https%3A%2F%2Ffbe.unimelb.edu.au%2Fstudents%2Fbcom%2Forientation&auth=KWfthMvaEg1fTBq0UedGUQ&profile=_default&rank=1&query=orientation" },
+            { "label": "UNSW Orientation", "url": "https://www.unsw.edu.au/student/getting-started/orientation" },
+            { "label": "UQ Orientation", "url": "https://my.uq.edu.au/starting-at-uq/orientation" },
+            { "label": "Monash Orientation", "url": "https://www.monash.edu/orientation" }
           ],
           "stateNotes": {
             "VIC": "Melbourne universities typically have O-Week in late February. Monash and Melbourne are particularly strong on international student welcome events.",
@@ -322,7 +327,8 @@
             { "label": "Academic Integrity (University of Melbourne)", "url": "https://academicintegrity.unimelb.edu.au" },
             { "label": "UNSW Academic Integrity", "url": "https://www.student.unsw.edu.au/plagiarism" },
             { "label": "Cite This For Me (referencing tool)", "url": "https://www.citethisforme.com" },
-            { "label": "APA 7th Edition Guide (Purdue OWL)", "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html" }
+            { "label": "APA 7th Edition Guide (Purdue OWL)", "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html" },
+            { "label": "Monash University Academic Integrity", "url": "https://www.monash.edu/students/study-success/academic-integrity" }
           ],
           "stateNotes": {}
         },
@@ -396,8 +402,9 @@
           ],
           "links": [
             { "label": "University of Melbourne Student Union Clubs", "url": "https://umsu.unimelb.edu.au/clubs" },
-            { "label": "UNSW Arc Clubs", "url": "https://www.arc.unsw.edu.au/clubs-and-societies" },
-            { "label": "UQ Union Clubs", "url": "https://uqu.com.au/clubs" }
+            { "label": "UNSW Arc Clubs", "url": "https://www.arc.unsw.edu.au/clubs" },
+            { "label": "UQ Union Clubs", "url": "https://uqu.com.au/c-and-s-resources/" },
+            { "label": "Monash Clubs and Societies", "url": "https://www.monash.edu/students/campus-life/clubs" }
           ],
           "stateNotes": {
             "VIC": "Monash University has over 200 registered clubs. The Monash Association of Clubs (MAC) runs a club fair each semester.",
@@ -422,12 +429,19 @@
             { "label": "Seek (job search)", "url": "https://www.seek.com.au" },
             { "label": "Casual Jobs Near Uni", "url": "https://www.casualjobs.com.au" },
             { "label": "Fair Work Pay Calculator", "url": "https://calculate.fairwork.gov.au" },
-            { "label": "LinkedIn Australia", "url": "https://www.linkedin.com" }
+            { "label": "LinkedIn Australia", "url": "https://www.linkedin.com" },
+            { "label": "University of Melbourne Careers", "url": "https://careers.unimelb.edu.au" },
+            { "label": "UNSW Careers", "url": "https://www.careers.unsw.edu.au" },
+            { "label": "Monash Careers", "url": "https://www.monash.edu/careers" },
+            { "label": "RSA Certificate (Responsible Service of Alcohol)", "url": "https://www.vic.gov.au/rsa-training" },
+            { "label": "Food Handler Certificate (Victoria)", "url": "https://dofoodsafely.health.vic.gov.au/index.php/en/" },
+            { "label": "Indeed Part-Time Jobs", "url": "https://au.indeed.com/part-time-jobs" }
           ],
           "stateNotes": {
             "VIC": "Melbourne's hospitality industry is one of Australia's largest employers of international students. Cafes on Brunswick St, Smith St, and St Kilda regularly hire casuals.",
             "NSW": "Sydney's tourism and hospitality industry is enormous. Circular Quay, Surry Hills, and the CBD are hotspots. The RSA (Responsible Service of Alcohol) certificate is required for bar work and available online for ~$50.",
-            "QLD": "Queensland's tourism industry (Gold Coast, Cairns, Whitsundays) offers hospitality work, though it may require relocating temporarily. Brisbane's South Bank precinct is a major hospitality hub."
+            "QLD": "Queensland's tourism industry (Gold Coast, Cairns, Whitsundays) offers hospitality work, though it may require relocating temporarily. Brisbane's South Bank precinct is a major hospitality hub.",
+            "WA": "Western Australia's tourism industry (Perth, Margaret River, Broome) offers hospitality work, though it may require relocating temporarily. Perth's CBD and Fremantle are major hubs."
           }
         },
         {
@@ -469,7 +483,7 @@
           "links": [
             { "label": "Beyond Blue (mental health support)", "url": "https://www.beyondblue.org.au" },
             { "label": "Headspace (mindfulness app — student discount available)", "url": "https://www.headspace.com" },
-            { "label": "Study Melbourne Student Support", "url": "https://www.studymelbourne.vic.gov.au/living-in-victoria/student-wellbeing" }
+            { "label": "Study Melbourne Student Support", "url": "https://studymelbourne.vic.gov.au/living-here/your-health-and-wellbeing" }
           ],
           "stateNotes": {
             "VIC": "Victoria's Study Melbourne program provides free student support services including a dedicated advice line: 1800 980 321.",

@@ -19,13 +19,19 @@ const steps = [
   { icon: ThumbsUp, step: '03', title: 'Settle in with confidence', description: 'Use our resources, budget tools, and AI chat whenever you need help.' },
 ]
 
-const testimonials = [
-  { flag: '🇮🇳', name: 'Priya', uni: 'University of Melbourne' },
-  { flag: '🇨🇳', name: 'Wei', uni: 'UNSW Sydney' },
-  { flag: '🇧🇷', name: 'Carlos', uni: 'QUT Brisbane' },
-  { flag: '🇯🇵', name: 'Aiko', uni: 'Monash University' },
-  { flag: '🇸🇦', name: 'Fatima', uni: 'University of Adelaide' },
-  { flag: '🇻🇳', name: 'Minh', uni: 'RMIT Melbourne' },
+const flagItems = [
+  { src: 'https://flagcdn.com/in.svg', label: 'India' },
+  { src: 'https://flagcdn.com/cn.svg', label: 'China' },
+  { src: 'https://flagcdn.com/us.svg', label: 'United States' },
+  { src: 'https://flagcdn.com/gb.svg', label: 'United Kingdom' },
+  { src: 'https://flagcdn.com/fr.svg', label: 'France' },
+  { src: 'https://flagcdn.com/de.svg', label: 'Germany' },
+  { src: 'https://flagcdn.com/br.svg', label: 'Brazil' },
+  { src: 'https://flagcdn.com/jp.svg', label: 'Japan' },
+  { src: 'https://flagcdn.com/sa.svg', label: 'Saudi Arabia' },
+  { src: 'https://flagcdn.com/vn.svg', label: 'Vietnam' },
+  { src: 'https://flagcdn.com/ca.svg', label: 'Canada' },
+  { src: 'https://flagcdn.com/ru.svg', label: 'Russia' },
 ]
 
 export const metadata = {
@@ -138,18 +144,30 @@ export default function HomePage() {
       </section>
 
       {/* Social proof */}
-      <section className="py-16 px-4 bg-[#0F766E]">
+      <section className="py-16 px-4 bg-[#0F766E] overflow-hidden">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-white/80 text-sm uppercase tracking-wide font-medium mb-4">Our community</p>
-          <h2 className="text-2xl font-bold text-white mb-8">Built by international students, for international students</h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            {testimonials.map(({ flag, name, uni }) => (
-              <div key={name} className="flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full">
-                <span className="text-xl">{flag}</span>
-                <div className="text-left">
-                  <p className="text-white text-sm font-medium">{name}</p>
-                  <p className="text-white/60 text-xs">{uni}</p>
-                </div>
+          <h2 className="text-2xl font-bold text-white mb-12">Built by international students, for international students</h2>
+          
+          {/* Animated flag cascade */}
+          <div className="relative h-36 overflow-hidden">
+            <style>{`
+              @keyframes rowSlide {
+                0% { transform: translateX(-25%); opacity: 0; }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { transform: translateX(120%); opacity: 0; }
+              }
+              .flag-row { animation: rowSlide 8s linear infinite; }
+            `}</style>
+            
+            {flagItems.map(({ src, label }, idx) => (
+              <div
+                key={`${label}-${idx}`}
+                className="flag-row absolute top-4 pointer-events-none"
+                style={{ left: `${idx * 18}%` }}
+              >
+                <img src={src} alt={label} className="w-28 h-28 object-contain rounded-2xl" />
               </div>
             ))}
           </div>

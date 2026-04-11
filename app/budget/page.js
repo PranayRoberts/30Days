@@ -61,7 +61,7 @@ export default function BudgetPage() {
 
       {/* Budget calculator */}
       <div className="mb-8">
-        <BudgetCalculator cityAverages={city.averages} />
+        <BudgetCalculator selectedCity={selectedCity} cityAverages={city.averages} />
       </div>
 
       {/* Student discounts */}

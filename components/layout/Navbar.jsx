@@ -64,7 +64,7 @@ export default function Navbar() {
               className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors ${
                 pathname?.startsWith(link.href)
                   ? 'bg-[#F97316] text-white'
-                  : 'text-slate-300 hover:text-white hover:bg-white/10'
+                  : 'text-white hover:text-slate-100 hover:bg-white/10'
               }`}
             >
               {link.label}
@@ -178,7 +178,7 @@ export default function Navbar() {
               className={`block px-4 py-3 rounded-lg text-sm font-semibold transition-colors ${
                 pathname?.startsWith(link.href)
                   ? 'bg-[#F97316] text-white'
-                  : 'text-slate-300 hover:text-white hover:bg-white/10'
+                  : 'text-white hover:text-slate-100 hover:bg-white/10'
               }`}
             >
               {link.label}

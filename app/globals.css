@@ -49,6 +49,28 @@ a {
   text-decoration: none;
 }
 
+/* White for all nav links and logo */
+nav a {
+  color: white !important;
+}
+
+/* Exception: Sign up button should show teal text on white background */
+nav a[href="/auth/signup"] {
+  color: #0F766E !important;
+}
+
+/* Dark text for dropdown menus with white backgrounds - only in nav */
+nav div[class*="bg-white"] a,
+nav div[class*="absolute"] a {
+  color: #18181B !important;
+}
+
+/* Preserve red color on sign out button */
+nav button[class*="text-red"], 
+nav button[class*="text-\[#DC2626\]"] {
+  color: #DC2626 !important;
+}
+
 /* Smooth transitions globally */
 * {
   transition-property: color, background-color, border-color, box-shadow, transform, opacity;

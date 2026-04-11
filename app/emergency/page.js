@@ -121,7 +121,7 @@ export default function EmergencyPage() {
           contact your country's embassy or consulate in Australia.
         </p>
         <a
-          href="https://protocol.dfat.gov.au/Public/Missions"
+          href="https://protocol.dfat.gov.au/Public/MissionsInAustralia"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 text-xs text-[#0F766E] font-medium mt-2 hover:underline"

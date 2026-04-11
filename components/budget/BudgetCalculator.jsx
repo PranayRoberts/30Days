@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-export default function BudgetCalculator({ cityAverages }) {
+export default function BudgetCalculator({ selectedCity, cityAverages }) {
   const [rent, setRent] = useState('')
   const [income, setIncome] = useState('')
 
@@ -33,6 +33,9 @@ export default function BudgetCalculator({ cityAverages }) {
   return (
     <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
       <h2 className="text-lg font-bold text-[#1C1917] mb-1">Budget Calculator</h2>
+      {selectedCity && (
+        <p className="text-sm text-[#0F766E] font-medium mb-3">📍 {selectedCity}</p>
+      )}
       <p className="text-sm text-[#78716C] mb-6">Plug in your numbers to see if it adds up.</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">

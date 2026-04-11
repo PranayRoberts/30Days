@@ -29,10 +29,16 @@ export default function ChatInterface() {
   const [loading, setLoading] = useState(false)
   const bottomRef = useRef(null)
   const inputRef = useRef(null)
+  const hasMounted = useRef(false)
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [messages, loading])
+    if (!hasMounted.current) {
+      hasMounted.current = true
+      return
+    }
+
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [messages])
 
   const sendMessage = async (text) => {
     const content = (text || input).trim()

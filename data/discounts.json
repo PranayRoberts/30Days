@@ -31,7 +31,7 @@
     "name": "Myki Concession Card (Melbourne)",
     "description": "Victorian international students are eligible for concession-priced Myki travel, which is approximately half the adult fare. This applies to trams, trains, and buses in Melbourne and regional Victoria.",
     "how_to_access": "Apply through Public Transport Victoria (ptv.vic.gov.au). You'll need proof of enrolment and a valid student visa. Your university student card also needs to show concession eligibility.",
-    "url": "https://www.ptv.vic.gov.au/tickets/myki/concession-myki/",
+    "url": "https://transport.vic.gov.au/tickets-and-myki/myki/myki-types/concession-myki",
     "savings": "Approximately 50% off all metropolitan and regional public transport in Victoria.",
     "category": "Transport"
   },
@@ -49,7 +49,7 @@
     "name": "Go Card Concession (Brisbane/SEQ)",
     "description": "Queensland international students can apply for a concession Go card for use across South East Queensland's TransLink network, including Brisbane trains, buses, and ferries.",
     "how_to_access": "Apply through Translink (translink.com.au). Requires a valid student visa and full-time enrolment in a Queensland institution.",
-    "url": "https://translink.com.au/tickets-and-fares/go-card/go-card-types/student",
+    "url": "https://translink.com.au/tickets-and-fares/concessions",
     "savings": "Approximately 50% off all TransLink travel across South East Queensland zones.",
     "category": "Transport"
   },
@@ -76,7 +76,7 @@
     "name": "Art Gallery of NSW — Free General Admission",
     "description": "Sydney's Art Gallery of NSW (now in two buildings: the original Domain building and the new SANAA-designed North Building) offers free admission to its permanent collection. One of Australia's most important art collections spanning Australian, Asian, Pacific, and European art.",
     "how_to_access": "Walk in — no booking needed for the permanent collection. Check agnsw.gov.au for opening hours. Ticketed exhibitions are separate.",
-    "url": "https://www.agnsw.gov.au",
+    "url": "https://www.artgallery.nsw.gov.au/",
     "savings": "Free entry to the permanent collection. Concession prices for ticketed exhibitions, approximately 20% off adult prices.",
     "category": "Entertainment"
   },
@@ -103,7 +103,7 @@
     "name": "Adobe Creative Cloud Student & Teacher Edition",
     "description": "Full access to all Adobe Creative Cloud apps — Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom, and 20+ more. Includes 100GB cloud storage. Essential for design, media, and architecture students.",
     "how_to_access": "Purchase at adobe.com/au/creativecloud/plans/students.html. Verify with your university email. Must be enrolled at an eligible institution (all major Australian universities qualify).",
-    "url": "https://www.adobe.com/au/creativecloud/plans/students.html",
+    "url": "https://www.adobe.com/au/creativecloud/buy/students.html",
     "savings": "Approximately $21.99/month for students vs $87.99/month full price — saving over $800/year.",
     "category": "Digital"
   },
@@ -118,10 +118,10 @@
   },
   {
     "id": "uni-gym",
-    "name": "University Gym Memberships",
+    "name": "University Gym Memberships (Melbourne)",
     "description": "Almost every Australian university operates a gym or sports centre on campus. Student memberships are dramatically cheaper than commercial gyms — often $100–$200 for the whole semester, compared to $60–$100/month at commercial gyms.",
     "how_to_access": "Visit your campus sports centre or student services. Many are included in your student services fee (SSAF) or available at a steep discount. Bring your student ID.",
-    "url": "https://www.universitysport.com.au",
+    "url": "https://sport.unimelb.edu.au/fitness/membership",
     "savings": "Approximately $100–$250/semester vs $720–$1200/year at commercial gyms. Some universities include pool and group class access.",
     "category": "Health"
   },
@@ -130,8 +130,8 @@
     "name": "Free Student Legal Services",
     "description": "Every major Australian university has a free legal advice service for enrolled students, run by the student union or student services. These services handle tenancy disputes, employment issues, visa questions, consumer disputes, and more — completely free.",
     "how_to_access": "Search '[your university] student legal service' or contact your student union. Book an appointment in advance as demand is high, especially during semester.",
-    "url": "https://www.nusa.org.au/legal-services",
-    "savings": "Free (commercial lawyers charge $200–$500/hour). You get typically 30–60 minutes of real legal advice at no cost.",
+    "url": "https://www.monashlawclinics.com.au/",
+    "savings": "Monash Law Clinics provides free legal advice and assistance to the Victorian community across a range of legal issues. It is also a teaching clinic.",
     "category": "General"
   },
   {
@@ -139,7 +139,7 @@
     "name": "Student Bank Accounts (No Monthly Fees)",
     "description": "Major Australian banks offer fee-free everyday bank accounts for international students. Commonwealth Bank's Smart Access, ANZ Access Advantage, NAB Classic Banking, and Westpac Choice all waive the $5–$6/month maintenance fee for full-time students.",
     "how_to_access": "Bring your passport, student visa, and university enrolment letter to any branch, or open online. Some banks like Ubank and ING also offer fee-free accounts with no student requirement.",
-    "url": "https://www.commbank.com.au/banking/smart-access.html",
+    "url": "https://www.commbank.com.au/banking/students.html",
     "savings": "Saves $60–$72/year in account fees. Look for accounts with no international transaction fees if you receive money from overseas.",
     "category": "General"
   },

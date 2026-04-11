@@ -3,7 +3,7 @@ import { MapPin } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1C1917] text-white mt-auto">
+    <footer className="bg-[#1C1917] text-white mt-auto pb-20 md:pb-0">
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
@@ -36,10 +36,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-700 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} 30 Days in Australia. Made with ❤️ for international students.</p>
+          <p>© {new Date().getFullYear()} | 30 Days in Australia.</p>
           <div className="flex gap-4">
-            <Link href="#" className="hover:text-white">Privacy</Link>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">GitHub</a>
+            <Link href="https://github.com/PranayRoberts/30Days/blob/master/README.md" className="hover:text-white">Privacy</Link>
+            <a href="https://github.com/PranayRoberts/30Days" target="_blank" rel="noopener noreferrer" className="hover:text-white">GitHub</a>
           </div>
         </div>
       </div>
