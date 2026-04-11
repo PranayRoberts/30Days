@@ -104,13 +104,5 @@ Open [http://localhost:3000](http://localhost:3000).
 /supabase/schema.sql     # Database schema + RLS policies
 ```
 
----
-
-## Deployment (Vercel)
-
-1. Push to GitHub
-2. Import the repo in [Vercel](https://vercel.com)
-3. Add environment variables in Vercel project settings
-4. Deploy — Vercel handles everything automatically
 
 
