@@ -1,30 +1,4 @@
-export async function POST(req) {
-  const { messages } = await req.json()
-
-  if (!process.env.GEMINI_API_KEY) {
-    return Response.json(
-      { role: 'assistant', content: "Matey is offline right now — the API key hasn't been configured. Check back soon! 🦘" },
-      { status: 200 }
-    )
-  }
-
-  // Build conversation history for Gemini format
-  const contents = messages.map(msg => ({
-    role: msg.role === 'assistant' ? 'model' : 'user',
-    parts: [{ text: msg.content }]
-  }))
-
-  try {
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents,
-          systemInstruction: {
-            parts: [{
-              text: `You are a friendly, warm assistant for international students who have just arrived in Australia. Your name is Matey (a play on the Australian word "mate").
+const SYSTEM_PROMPT = `You are a friendly, warm assistant for international students who have just arrived in Australia. Your name is Matey (a play on the Australian word "mate").
 
 Your job is to help them navigate their new life — visa rules, university systems, daily life, Australian culture, slang, budgeting, housing, transport, healthcare, and anything else they need.
 
@@ -43,23 +17,52 @@ PERSONALITY:
 - Think of yourself as a friendly senior student who's been in Australia for a few years.
 - Use occasional light humour but never be condescending.
 - If a student seems stressed or overwhelmed, acknowledge their feelings before giving practical advice.`
-            }]
-          },
-          generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 1024
-          }
-        })
-      }
+
+export async function POST(req) {
+  const { messages } = await req.json()
+
+  if (!process.env.GROQ_API_KEY) {
+    return Response.json(
+      { role: 'assistant', content: "Matey is offline right now — the API key hasn't been configured. Check back soon! 🦘" },
+      { status: 200 }
     )
+  }
+
+  try {
+    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.GROQ_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [
+          { role: 'system', content: SYSTEM_PROMPT },
+          ...messages
+        ],
+        temperature: 0.7,
+        max_tokens: 1024
+      })
+    })
 
     const data = await response.json()
-    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't process that. Try again!"
+
+    if (!response.ok) {
+      console.error('Groq API error:', response.status, JSON.stringify(data))
+      return Response.json(
+        { role: 'assistant', content: `API error ${response.status}: ${data?.error?.message || 'Unknown error'}` },
+        { status: 200 }
+      )
+    }
+
+    const reply = data.choices?.[0]?.message?.content || "Sorry, I couldn't process that. Try again!"
 
     return Response.json({ role: 'assistant', content: reply })
-  } catch {
+  } catch (err) {
+    console.error('Chat route exception:', err)
     return Response.json(
-      { role: 'assistant', content: "Matey is taking a nap. Try again in a moment! 🦘" },
+      { role: 'assistant', content: `Error: ${err.message}` },
       { status: 200 }
     )
   }
