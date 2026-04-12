@@ -28,6 +28,11 @@ export default function BlogPage() {
         <p className="text-[#78716C]">Real advice from students who've been there.</p>
       </div>
 
+      {/* Demo content banner */}
+      <div className="mb-6 px-3 py-2 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 text-xs font-medium">
+        ⚠️ Demo content – AI-generated sample blogs for prototype purposes
+      </div>
+
       {/* Tag filter */}
       <div className="mb-6">
         <TagFilter activeTag={activeTag} onSelect={setActiveTag} />
