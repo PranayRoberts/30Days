@@ -4,6 +4,14 @@ The central hub for international students arriving in Australia. A mobile-first
 
 ---
 
+Live Deployment
+
+The project is deployed on Vercel:
+
+Live App: https://30-days-dwwn.vercel.app/
+
+---
+
 ## Features
 
 - **30-Day Timeline** — Tick off tasks day by day, synced to Supabase (or localStorage if not logged in)
