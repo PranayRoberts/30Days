@@ -112,7 +112,7 @@
     "example": "\"I'll grab some wine from the bottle-o on the way.\""
   },
   {
-    "id": "arvo-smash",
+    "id": "smashed-avo",
     "term": "Smashed avo",
     "definition": "Smashed avocado on toast — an iconic Australian café brunch item. Has become a cultural symbol of millennial spending habits and Australian café culture more broadly.",
     "category": "Slang",
@@ -369,5 +369,27 @@
     "definition": "A train service that skips some intermediate stations to reach its destination faster. In Sydney and Melbourne, express trains run during peak hours on busy corridors. Distinguish from 'stopping all stations' services. Check the destination board before boarding.",
     "category": "Transport",
     "example": "\"Take the express train from Central — it skips Redfern and gets to Parramatta 10 minutes faster.\""
+  },
+  {
+  "id": "super",
+  "term": "Superannuation (Super)",
+  "definition": "Money your employer must contribute (currently 11%+) to a retirement fund on top of your wages. Even international students earn super. You can usually claim it back when leaving Australia permanently.",
+  "category": "Work",
+  "example": "\"Check your super account — your employer should be paying into it every month.\""
+  },
+  {
+  "id": "rideshare",
+  "term": "Rideshare",
+  "definition": "App-based transport services like Uber or DiDi. Widely used in Australian cities, especially at night when public transport is limited.",
+  "category": "Transport",
+  "example": "\"We just got an Uber home after the train stopped running.\""
+  },
+  {
+  "id": "bulk-billing",
+  "term": "Bulk Billing",
+  "definition": "A system where a doctor bills Medicare (or sometimes OSHC) directly, meaning you pay nothing out-of-pocket for the visit. Not all clinics bulk bill, especially for international students.",
+  "category": "Health",
+  "example": "\"This GP bulk bills students — you won't have to pay upfront.\""
   }
+
 ]

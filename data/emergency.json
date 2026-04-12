@@ -52,7 +52,7 @@
     {
       "name": "NURSE-ON-CALL",
       "number": "1300 60 60 24",
-      "description": "Speak to a registered nurse about health concerns before deciding whether to go to a GP or hospital.",
+      "description": "Victoria-only service. Speak to a registered nurse for health advice before deciding whether to visit a GP or hospital.",
       "available": "24/7"
     },
     {
@@ -89,7 +89,7 @@
         "name": "healthdirect",
         "number": "1800 022 222",
         "url": "https://www.healthdirect.gov.au",
-        "description": "Free health advice from a registered nurse. Also use to find bulk-billing GPs near you."
+        "description": "Free 24/7 health advice from a registered nurse. Also provides symptom checking and helps you find nearby GPs and services."
       },
       "mental_health_crisis": {
         "name": "Safe Steps (Family Violence Response Centre)",

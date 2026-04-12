@@ -53,7 +53,7 @@
             { "label": "Scape Student Living", "url": "https://www.scape.com.au" },
             { "label": "UniLodge Australia", "url": "https://www.unilodge.com.au" },
             { "label": "Iglu Student Accommodation", "url": "https://www.iglu.com.au" },
-            { "label": "Atira Student Living", "url": "https://www.atira.com.au" },
+            { "label": "Atira Student Living", "url": "https://augstudy.com/guide/student-accommodation/atira/" },
             { "label": "Monash Accommodation", "url": "https://www.monash.edu/accommodation/students" }
           ],
           "warnings": [
@@ -253,8 +253,7 @@
           "content": "Australia is one of the world's safer countries for residents and visitors, but no country is without risk. Understanding the local context helps you make good decisions.\n\nFor personal safety at night: in city centres, stick to well-lit, busy streets rather than shortcuts through parks or laneways. Avoid walking home alone at night if possible — share transport with friends, take a rideshare (check the plate before getting in), or call a trusted contact to stay on the phone. Many campuses have a free safety escort service — check with your student union.\n\nFor water safety: Australian beaches can be hazardous. Rip currents are the primary risk at ocean beaches and are responsible for numerous drownings each year — even for experienced swimmers. Always swim between the red and yellow flags at patrolled beaches. Never swim at an unpatrolled beach if you're unfamiliar with the conditions. If caught in a rip, do not fight it — float calmly, wave for help, and swim parallel to the shore.\n\nFor sun safety: Australia has the highest rate of skin cancer in the world due to the strong UV radiation (UV index regularly reaches 11–12 in summer, compared to 3–5 in Northern Europe). Use SPF50+ sunscreen daily, wear a hat, and cover exposed skin during peak UV hours (10am–4pm). This applies even on overcast days — UV penetrates clouds.\n\nFor wildlife: Australia's reputation for dangerous wildlife is somewhat exaggerated, but some caution is warranted. If you see a snake, do not approach it — move away slowly. Redback and funnel-web spider bites require immediate medical attention. Jellyfish (particularly box jellyfish in tropical northern waters) are lethal — follow local warnings on tropical beaches.",
           "links": [
             { "label": "Surf Life Saving Australia (beach safety)", "url": "https://sls.com.au" },
-            { "label": "SunSmart (UV index and sun protection)", "url": "https://www.sunsmart.com.au" },
-            { "label": "Emergency Services — call 000", "url": "https://www.australia.gov.au/000" }
+            { "label": "SunSmart (UV index and sun protection)", "url": "https://www.sunsmart.com.au" }
           ],
           "warnings": [
             "Swimming between the flags at patrolled beaches is non-negotiable — rip currents have killed experienced swimmers who ignored this rule.",

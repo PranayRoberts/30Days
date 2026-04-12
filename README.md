@@ -8,7 +8,7 @@ The central hub for international students arriving in Australia. A mobile-first
 
 - **30-Day Timeline** — Tick off tasks day by day, synced to Supabase (or localStorage if not logged in)
 - **Resource Hub** — 7 categories of curated guides: Housing, Banking, Transport, Health, Work Rights, University Life, Wellbeing
-- **AI Chat (Matey)** — Google Gemini-powered assistant that knows Australia inside out
+- **AI Chat (Matey)** — Originally built with Google Gemini, but switched to Groq due to session token limitations, resulting in more stable and reliable responses
 - **Budget Snapshot** — Weekly cost estimates by city + suburb, and an interactive budget calculator
 - **Blog & Stories** — 6 full posts
 - **Private Journal** — Daily prompts + entry editor, stored securely in Supabase

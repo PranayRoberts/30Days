@@ -338,7 +338,7 @@
           "title": "Set up a weekly budget",
           "summary": "Running out of money midway through a semester is a real crisis — building a simple budget prevents it.",
           "category": "Finance",
-          "guide": "A simple weekly budget is the most powerful financial tool an international student can have. You don't need complicated spreadsheets — a basic one works.\n\nStart by listing your fixed weekly costs: rent (divide your monthly/fortnightly rent by the number of weeks), transport, phone plan, OSHC (divide annual cost by 52). Then estimate variable costs: groceries, eating out, entertainment, personal items. Add a 10% buffer for unexpected costs.\n\nFor most students in major Australian cities, a realistic minimum weekly budget is: rent $150–$250 (share house), groceries $60–$80, transport $20–$45, phone $8–$10, personal items $20. Total: approximately $260–$400/week minimum.\n\nFree budgeting tools: your bank's app (most Australian banks have budgeting dashboards), ASIC's MoneySmart budget planner (moneysmart.gov.au), or a simple spreadsheet. The Pocketbook app is popular with Australian students.\n\nIf you find yourself struggling financially, your university has financial hardship support — student emergency grants, food assistance, and financial counselling are available. Don't wait until you're in crisis to ask.",
+          "guide": "A simple weekly budget is the most powerful financial tool an international student can have. You don't need complicated spreadsheets — a basic one works.\n\nStart by listing your fixed weekly costs: rent (divide your monthly/fortnightly rent by the number of weeks), transport, phone plan, OSHC (divide annual cost by 52). Then estimate variable costs: groceries, eating out, entertainment, personal items. Add a 10% buffer for unexpected costs.\n\nFor most students in major Australian cities, a realistic minimum weekly budget is: rent $150–$250 (share house), groceries $60–$80, transport $20–$45, phone $8–$10, personal items $20. Total: approximately $260–$400/week minimum.\n\nFree budgeting tools: your bank's app (most Australian banks have budgeting dashboards), ASIC's MoneySmart budget planner (moneysmart.gov.au), or a simple spreadsheet.\n\nIf you find yourself struggling financially, your university has financial hardship support — student emergency grants, food assistance, and financial counselling are available. Don't wait until you're in crisis to ask.",
           "tips": [
             "Set up separate savings and spending accounts — move your 'untouchable' savings immediately when money arrives.",
             "Track every purchase for two weeks using your bank app — most people are genuinely surprised by where their money goes.",
@@ -346,8 +346,7 @@
             "If you receive a scholarship or stipend, treat it like a salary and budget from day one."
           ],
           "links": [
-            { "label": "ASIC MoneySmart Budget Planner", "url": "https://moneysmart.gov.au/budgeting/budget-planner" },
-            { "label": "Pocketbook App", "url": "https://getpocketbook.com" }
+            { "label": "ASIC MoneySmart Budget Planner", "url": "https://moneysmart.gov.au/budgeting/budget-planner" }
           ],
           "stateNotes": {
             "VIC": "Melbourne living costs are among the highest in Australia. Students at Monash Clayton or La Trobe Bundoora often have lower rent costs than CBD-adjacent universities.",
