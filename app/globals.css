@@ -54,9 +54,9 @@ a {
   color: white !important;
 }
 
-/* Exception: Sign up button should show teal text on white background */
+/* Exception: Sign up button should show dark brown text on warm gold background */
 .site-nav a[href="/auth/signup"] {
-  color: #0F766E !important;
+  color: #7C1D1D !important;
 }
 
 /* Dark text for dropdown menus with white backgrounds - only in nav */

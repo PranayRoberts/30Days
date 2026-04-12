@@ -43,20 +43,20 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-[#0D2B28] via-[#0F4F49] to-[#0D766E] py-24 px-4 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#7C1D1D] via-[#9A3412] to-[#B45309] py-24 px-4 overflow-hidden">
         {/* Background decoration */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-20 w-72 h-72 rounded-full bg-[#F97316] blur-3xl" />
-          <div className="absolute bottom-0 left-10 w-96 h-96 rounded-full bg-[#0D9488] blur-3xl" />
+        <div className="absolute inset-0 opacity-15">
+          <div className="absolute top-10 right-20 w-72 h-72 rounded-full bg-[#FCD34D] blur-3xl" />
+          <div className="absolute bottom-0 left-10 w-96 h-96 rounded-full bg-[#F97316] blur-3xl" />
         </div>
 
         <div className="relative max-w-4xl mx-auto text-center">
           {/* Decorative icons */}
           <div className="flex justify-center items-center gap-6 mb-8 opacity-80">
             <Briefcase size={28} className="text-white/60" />
-            <MapPin size={36} className="text-[#F97316]" />
+            <MapPin size={36} className="text-[#FCD34D]" />
             <GraduationCap size={32} className="text-white/60" />
-            <Compass size={28} className="text-[#FBBF24]" />
+            <Compass size={28} className="text-[#FDE68A]" />
           </div>
 
           <div className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-white/20 backdrop-blur-sm">
@@ -65,7 +65,7 @@ export default function HomePage() {
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight mb-6 leading-tight">
             Your first 30 days,{' '}
-            <span className="text-[#4ADE80]">sorted.</span>
+            <span className="text-[#FCD34D]">sorted.</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-white/75 max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -75,7 +75,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/timeline"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#F97316] text-white font-semibold text-base shadow-lg hover:bg-[#EA6C0C] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#FCD34D] text-[#7C1D1D] font-bold text-base shadow-lg hover:bg-[#FDE68A] hover:-translate-y-0.5"
             >
               Start Your Journey <ArrowRight size={18} />
             </Link>
@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       {/* How it works */}
-      <section className="py-20 px-4 bg-[#F4F4F5]">
+      <section className="py-20 px-4 bg-[#FEF7ED]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#1C1917] mb-3">How it works</h2>
@@ -135,7 +135,7 @@ export default function HomePage() {
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 ${color}`}>
                   <Icon size={24} />
                 </div>
-                <h3 className="font-semibold text-[#1C1917] mb-2 group-hover:text-[#0F766E]">{title}</h3>
+                <h3 className="font-semibold text-[#1C1917] mb-2 group-hover:text-[#C2410C]">{title}</h3>
                 <p className="text-sm text-[#78716C] leading-relaxed">{description}</p>
               </Link>
             ))}
@@ -144,7 +144,7 @@ export default function HomePage() {
       </section>
 
       {/* Social proof */}
-      <section className="py-16 px-4 bg-[#0F766E] overflow-hidden">
+      <section className="py-16 px-4 bg-[#7C1D1D] overflow-hidden">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-white/80 text-sm uppercase tracking-wide font-medium mb-4">Our community</p>
           <h2 className="text-2xl font-bold text-white mb-12">Built by international students, for international students</h2>
@@ -185,7 +185,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/auth/signup"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#F97316] text-white font-bold text-base shadow-md hover:bg-[#ea6c0c] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#C2410C] text-white font-bold text-base shadow-md hover:bg-[#9A3412] hover:-translate-y-0.5"
             >
               Create Free Account <ArrowRight size={18} />
             </Link>

@@ -3,8 +3,9 @@
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { MapPin, Menu, X, User, LogOut, ChevronDown, BookMarked, Phone, GraduationCap } from 'lucide-react'
+import { Menu, X, User, LogOut, ChevronDown, BookMarked, Phone, GraduationCap } from 'lucide-react'
 import { useAuth } from '@/context/AuthContext'
+
 
 const navLinks = [
   { href: '/timeline', label: 'Timeline' },
@@ -46,12 +47,12 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="site-nav sticky top-0 z-50 bg-[#1E293B] shadow-lg border-b-2 border-[#F97316]">
+    <nav className="site-nav sticky top-0 z-50 bg-gradient-to-r from-[#7C1D1D] via-[#C2410C] to-[#B45309] shadow-lg border-b-2 border-[#FCD34D]">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-bold text-lg text-white">
-          <MapPin size={22} className="text-[#F97316]" />
+          <img src="/australia-logo.svg" alt="" width={22} height={28} />
           <span className="tracking-tight">30 Days</span>
         </Link>
 
@@ -63,8 +64,8 @@ export default function Navbar() {
               href={link.href}
               className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors ${
                 pathname?.startsWith(link.href)
-                  ? 'bg-[#F97316] text-white'
-                  : 'text-white hover:text-slate-100 hover:bg-white/10'
+                  ? 'bg-white/25 text-white'
+                  : 'text-amber-100 hover:text-white hover:bg-white/15'
               }`}
             >
               {link.label}
@@ -77,8 +78,8 @@ export default function Navbar() {
               onClick={() => setMoreOpen(!moreOpen)}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold transition-colors ${
                 moreLinks.some(l => pathname?.startsWith(l.href))
-                  ? 'bg-[#F97316] text-white'
-                  : 'text-slate-300 hover:text-white hover:bg-white/10'
+                  ? 'bg-white/25 text-white'
+                  : 'text-amber-100 hover:text-white hover:bg-white/15'
               }`}
             >
               More
@@ -93,11 +94,11 @@ export default function Navbar() {
                     onClick={() => setMoreOpen(false)}
                     className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors ${
                       pathname?.startsWith(href)
-                        ? 'text-[#0F766E] bg-teal-50'
+                        ? 'text-[#C2410C] bg-orange-50'
                         : 'text-[#18181B] hover:bg-gray-50'
                     }`}
                   >
-                    <Icon size={16} className={pathname?.startsWith(href) ? 'text-[#0F766E]' : 'text-[#52525B]'} />
+                    <Icon size={16} className={pathname?.startsWith(href) ? 'text-[#C2410C]' : 'text-[#52525B]'} />
                     {label}
                   </Link>
                 ))}
@@ -112,19 +113,19 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setUserMenuOpen(!userMenuOpen)}
-                className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-white hover:bg-white/10 border border-white/20 transition-colors"
+                className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-white hover:bg-white/15 border border-white/30 transition-colors"
               >
-                <div className="w-7 h-7 rounded-full bg-[#F97316] flex items-center justify-center text-white text-xs font-bold">
+                <div className="w-7 h-7 rounded-full bg-[#FCD34D] flex items-center justify-center text-[#7C1D1D] text-xs font-bold">
                   {user.email?.[0]?.toUpperCase() || 'U'}
                 </div>
-                <ChevronDown size={14} className="text-slate-400" />
+                <ChevronDown size={14} className="text-amber-200" />
               </button>
               {userMenuOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-200 py-1.5 z-50">
                   <Link
                     href="/journal"
                     onClick={() => setUserMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-3 text-sm font-medium text-[#18181B] hover:bg-teal-50 transition-colors"
+                    className="flex items-center gap-2.5 px-4 py-3 text-sm font-medium text-[#18181B] hover:bg-orange-50 transition-colors"
                   >
                     <User size={15} className="text-[#52525B]" />
                     My Journal
@@ -143,13 +144,13 @@ export default function Navbar() {
             <>
               <Link
                 href="/auth/login"
-                className="px-4 py-2 text-sm font-semibold text-slate-300 hover:text-white rounded-lg transition-colors"
+                className="px-4 py-2 text-sm font-semibold text-amber-100 hover:text-white rounded-lg transition-colors"
               >
                 Log in
               </Link>
               <Link
                 href="/auth/signup"
-                className="px-4 py-2 rounded-lg text-sm font-bold bg-[#F97316] text-white hover:bg-[#EA6C0C] shadow-sm transition-colors"
+                className="px-4 py-2 rounded-lg text-sm font-bold bg-[#FCD34D] hover:bg-[#FDE68A] shadow-sm transition-colors"
               >
                 Sign up
               </Link>
@@ -169,7 +170,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-[#0F172A] border-t border-white/10 px-4 py-3 space-y-1">
+        <div className="md:hidden bg-[#5C1308] border-t border-[#FCD34D]/30 px-4 py-3 space-y-1">
           {navLinks.map(link => (
             <Link
               key={link.href}
@@ -177,8 +178,8 @@ export default function Navbar() {
               onClick={() => setMobileOpen(false)}
               className={`block px-4 py-3 rounded-lg text-sm font-semibold transition-colors ${
                 pathname?.startsWith(link.href)
-                  ? 'bg-[#F97316] text-white'
-                  : 'text-white hover:text-slate-100 hover:bg-white/10'
+                  ? 'bg-white/25 text-white'
+                  : 'text-amber-100 hover:text-white hover:bg-white/10'
               }`}
             >
               {link.label}
@@ -186,7 +187,7 @@ export default function Navbar() {
           ))}
 
           <div className="pt-1 border-t border-white/10 mt-1 space-y-1">
-            <p className="px-4 pt-2 pb-1 text-xs font-bold text-slate-500 uppercase tracking-widest">More</p>
+            <p className="px-4 pt-2 pb-1 text-xs font-bold text-amber-300/70 uppercase tracking-widest">More</p>
             {moreLinks.map(({ href, label, Icon }) => (
               <Link
                 key={href}
@@ -194,8 +195,8 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-semibold transition-colors ${
                   pathname?.startsWith(href)
-                    ? 'bg-[#F97316] text-white'
-                    : 'text-slate-300 hover:text-white hover:bg-white/10'
+                    ? 'bg-white/25 text-white'
+                    : 'text-amber-100 hover:text-white hover:bg-white/10'
                 }`}
               >
                 <Icon size={17} />
@@ -217,14 +218,14 @@ export default function Navbar() {
                 <Link
                   href="/auth/login"
                   onClick={() => setMobileOpen(false)}
-                  className="flex-1 px-4 py-3 rounded-lg text-sm font-semibold border border-white/30 text-center text-white hover:bg-white/20 transition-colors"
+                  className="flex-1 px-4 py-3 rounded-lg text-sm font-semibold border border-white/30 text-center text-amber-100 hover:bg-white/15 transition-colors"
                 >
                   Log in
                 </Link>
                 <Link
                   href="/auth/signup"
                   onClick={() => setMobileOpen(false)}
-                  className="flex-1 px-4 py-3 rounded-lg text-sm font-bold bg-white text-[#0F766E] text-center hover:bg-gray-100 transition-colors"
+                  className="flex-1 px-4 py-3 rounded-lg text-sm font-bold bg-[#FCD34D] text-center hover:bg-[#FDE68A] transition-colors"
                 >
                   Sign up
                 </Link>
