@@ -13,7 +13,7 @@ The central hub for international students arriving in Australia. A mobile-first
 - **Blog & Stories** — 6 full posts
 - **Private Journal** — Daily prompts + entry editor, stored securely in Supabase
 - **Emergency Contacts** — Critical numbers and state-specific services
-- **Aussie Glossary** — 50+ terms: slang, government acronyms, uni jargon, transport, housing
+- **Aussie Glossary** — terms: slang, government acronyms, uni jargon, transport, housing
 - **Auth + Onboarding** — Supabase Auth with personalisation wizard (university, city, country)
 
 ---
