@@ -7,9 +7,10 @@ export const metadata = {
 
 export default function ChatPage() {
   return (
-    <div className="flex flex-col h-[calc(100vh-4rem-4rem)] md:h-[calc(100vh-4rem)] max-w-2xl mx-auto">
+    <div className="fixed inset-x-0 top-16 bottom-16 md:bottom-0 bg-white flex flex-col">
+      <div className="flex-1 flex flex-col min-h-0 max-w-2xl mx-auto w-full">
       {/* Header */}
-      <div className="px-4 py-4 border-b border-gray-100 bg-white">
+      <div className="shrink-0 px-4 py-4 border-b border-gray-100 bg-white">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-[#0F766E] flex items-center justify-center text-white font-bold text-lg">
             M
@@ -25,6 +26,7 @@ export default function ChatPage() {
       </div>
 
       <ChatInterface />
+      </div>
     </div>
   )
 }

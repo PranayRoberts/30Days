@@ -79,9 +79,9 @@ export default function ChatInterface() {
   }
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto px-4 py-4 space-y-4">
+      <div className="flex-1 overflow-y-auto min-h-0 px-4 py-4 space-y-4">
         {messages.map((msg, i) => (
           <ChatMessage key={i} message={msg} />
         ))}
@@ -90,12 +90,12 @@ export default function ChatInterface() {
       </div>
 
       {/* Suggested questions */}
-      <div className="px-4 py-2 border-t border-gray-100 bg-white">
+      <div className="shrink-0 px-4 py-2 border-t border-gray-100 bg-white">
         <SuggestedQuestions onSelect={(q) => sendMessage(q)} />
       </div>
 
       {/* Input */}
-      <div className="px-4 py-3 border-t border-gray-200 bg-white">
+      <div className="shrink-0 px-4 py-3 border-t border-gray-200 bg-white">
         <div className="flex gap-2 items-end">
           <textarea
             ref={inputRef}
