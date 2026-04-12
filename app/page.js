@@ -20,18 +20,18 @@ const steps = [
 ]
 
 const flagItems = [
-  { src: 'https://flagcdn.com/in.svg', label: 'India' },
-  { src: 'https://flagcdn.com/cn.svg', label: 'China' },
-  { src: 'https://flagcdn.com/us.svg', label: 'United States' },
-  { src: 'https://flagcdn.com/gb.svg', label: 'United Kingdom' },
-  { src: 'https://flagcdn.com/fr.svg', label: 'France' },
-  { src: 'https://flagcdn.com/de.svg', label: 'Germany' },
-  { src: 'https://flagcdn.com/br.svg', label: 'Brazil' },
-  { src: 'https://flagcdn.com/jp.svg', label: 'Japan' },
-  { src: 'https://flagcdn.com/sa.svg', label: 'Saudi Arabia' },
-  { src: 'https://flagcdn.com/vn.svg', label: 'Vietnam' },
-  { src: 'https://flagcdn.com/ca.svg', label: 'Canada' },
-  { src: 'https://flagcdn.com/ru.svg', label: 'Russia' },
+  { code: 'in', label: 'India' },
+  { code: 'cn', label: 'China' },
+  { code: 'us', label: 'United States' },
+  { code: 'gb', label: 'United Kingdom' },
+  { code: 'fr', label: 'France' },
+  { code: 'de', label: 'Germany' },
+  { code: 'br', label: 'Brazil' },
+  { code: 'jp', label: 'Japan' },
+  { code: 'sa', label: 'Saudi Arabia' },
+  { code: 'vn', label: 'Vietnam' },
+  { code: 'ca', label: 'Canada' },
+  { code: 'ru', label: 'Russia' },
 ]
 
 export const metadata = {
@@ -75,13 +75,13 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/timeline"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#FCD34D] text-[#7C1D1D] font-bold text-base shadow-lg hover:bg-[#FDE68A] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#FCD34D] !text-[#7C1D1D] font-bold text-base shadow-lg hover:bg-[#FDE68A] hover:-translate-y-0.5"
             >
               Start Your Journey <ArrowRight size={18} />
             </Link>
             <Link
               href="/resources"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border-2 border-white/30 text-white font-semibold text-base hover:bg-white/10 backdrop-blur-sm"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-white !text-[#7C1D1D] font-semibold text-base hover:bg-amber-50"
             >
               Explore Resources
             </Link>
@@ -149,27 +149,28 @@ export default function HomePage() {
           <p className="text-white/80 text-sm uppercase tracking-wide font-medium mb-4">Our community</p>
           <h2 className="text-2xl font-bold text-white mb-12">Built by international students, for international students</h2>
           
-          {/* Animated flag cascade */}
-          <div className="relative h-36 overflow-hidden">
+          {/* Scrolling flag marquee */}
+          <div className="overflow-hidden">
             <style>{`
-              @keyframes rowSlide {
-                0% { transform: translateX(-25%); opacity: 0; }
-                10% { opacity: 1; }
-                90% { opacity: 1; }
-                100% { transform: translateX(120%); opacity: 0; }
+              @keyframes marquee {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
               }
-              .flag-row { animation: rowSlide 8s linear infinite; }
+              .flag-marquee { animation: marquee 20s linear infinite; }
             `}</style>
-            
-            {flagItems.map(({ src, label }, idx) => (
-              <div
-                key={`${label}-${idx}`}
-                className="flag-row absolute top-4 pointer-events-none"
-                style={{ left: `${idx * 18}%` }}
-              >
-                <img src={src} alt={label} className="w-28 h-28 object-contain rounded-2xl" />
-              </div>
-            ))}
+            <div className="flag-marquee flex gap-4 w-max">
+              {[...flagItems, ...flagItems].map(({ code, label }, idx) => (
+                <div key={`${code}-${idx}`} className="flex-shrink-0">
+                  <img
+                    src={`https://flagcdn.com/w80/${code}.png`}
+                    alt={label}
+                    width={80}
+                    height={53}
+                    className="rounded-lg shadow-md"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -185,7 +186,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/auth/signup"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#C2410C] text-white font-bold text-base shadow-md hover:bg-[#9A3412] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#C2410C] !text-white font-bold text-base shadow-md hover:bg-[#9A3412] hover:-translate-y-0.5"
             >
               Create Free Account <ArrowRight size={18} />
             </Link>

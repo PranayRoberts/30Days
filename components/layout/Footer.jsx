@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { MapPin } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -8,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
             <Link href="/" className="flex items-center gap-2 font-bold text-lg text-white mb-2">
-              <MapPin size={20} className="text-[#F97316]" />
+              <img src="/australia-logo.svg" alt="" width={20} height={25} />
               30 Days in Australia
             </Link>
             <p className="text-sm text-gray-400 max-w-xs">

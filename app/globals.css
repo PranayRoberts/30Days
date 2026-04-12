@@ -8,6 +8,14 @@
   --color-secondary: #F97316;
   --color-secondary-dark: #EA6C0C;
   --color-accent: #FBBF24;
+
+  /* Warm navbar palette */
+  --color-nav-from: #7C1D1D;
+  --color-nav-via: #C2410C;
+  --color-nav-to: #B45309;
+  --color-nav-mobile-dark: #5C1308;
+  --color-nav-gold: #FCD34D;
+  --color-nav-gold-light: #FDE68A;
   --color-stone: #F4F4F5;
   --color-charcoal: #18181B;
   --color-muted: #52525B;
@@ -54,9 +62,14 @@ a {
   color: white !important;
 }
 
+/* White for mobile bottom nav links */
+.mobile-bottom-nav a {
+  color: white !important;
+}
+
 /* Exception: Sign up button should show dark brown text on warm gold background */
 .site-nav a[href="/auth/signup"] {
-  color: #7C1D1D !important;
+  color: var(--color-nav-from) !important;
 }
 
 /* Dark text for dropdown menus with white backgrounds - only in nav */

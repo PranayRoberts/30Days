@@ -47,7 +47,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="site-nav sticky top-0 z-50 bg-gradient-to-r from-[#7C1D1D] via-[#C2410C] to-[#B45309] shadow-lg border-b-2 border-[#FCD34D]">
+    <nav className="site-nav sticky top-0 z-50 bg-gradient-to-r from-nav-from via-nav-via to-nav-to shadow-lg border-b-2 border-nav-gold">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
 
         {/* Logo */}
@@ -94,11 +94,11 @@ export default function Navbar() {
                     onClick={() => setMoreOpen(false)}
                     className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors ${
                       pathname?.startsWith(href)
-                        ? 'text-[#C2410C] bg-orange-50'
-                        : 'text-[#18181B] hover:bg-gray-50'
+                        ? 'text-nav-via bg-orange-50'
+                        : 'text-charcoal hover:bg-gray-50'
                     }`}
                   >
-                    <Icon size={16} className={pathname?.startsWith(href) ? 'text-[#C2410C]' : 'text-[#52525B]'} />
+                    <Icon size={16} className={pathname?.startsWith(href) ? 'text-nav-via' : 'text-muted'} />
                     {label}
                   </Link>
                 ))}
@@ -115,7 +115,7 @@ export default function Navbar() {
                 onClick={() => setUserMenuOpen(!userMenuOpen)}
                 className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-white hover:bg-white/15 border border-white/30 transition-colors"
               >
-                <div className="w-7 h-7 rounded-full bg-[#FCD34D] flex items-center justify-center text-[#7C1D1D] text-xs font-bold">
+                <div className="w-7 h-7 rounded-full bg-nav-gold flex items-center justify-center text-nav-from text-xs font-bold">
                   {user.email?.[0]?.toUpperCase() || 'U'}
                 </div>
                 <ChevronDown size={14} className="text-amber-200" />
@@ -125,9 +125,9 @@ export default function Navbar() {
                   <Link
                     href="/journal"
                     onClick={() => setUserMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-3 text-sm font-medium text-[#18181B] hover:bg-orange-50 transition-colors"
+                    className="flex items-center gap-2.5 px-4 py-3 text-sm font-medium text-charcoal hover:bg-orange-50 transition-colors"
                   >
-                    <User size={15} className="text-[#52525B]" />
+                    <User size={15} className="text-muted" />
                     My Journal
                   </Link>
                   <button
@@ -150,7 +150,7 @@ export default function Navbar() {
               </Link>
               <Link
                 href="/auth/signup"
-                className="px-4 py-2 rounded-lg text-sm font-bold bg-[#FCD34D] hover:bg-[#FDE68A] shadow-sm transition-colors"
+                className="px-4 py-2 rounded-lg text-sm font-bold bg-nav-gold hover:bg-nav-gold-light shadow-sm transition-colors"
               >
                 Sign up
               </Link>
@@ -170,7 +170,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-[#5C1308] border-t border-[#FCD34D]/30 px-4 py-3 space-y-1">
+        <div className="md:hidden bg-nav-mobile-dark border-t border-nav-gold/30 px-4 py-3 space-y-1">
           {navLinks.map(link => (
             <Link
               key={link.href}
@@ -225,7 +225,7 @@ export default function Navbar() {
                 <Link
                   href="/auth/signup"
                   onClick={() => setMobileOpen(false)}
-                  className="flex-1 px-4 py-3 rounded-lg text-sm font-bold bg-[#FCD34D] text-center hover:bg-[#FDE68A] transition-colors"
+                  className="flex-1 px-4 py-3 rounded-lg text-sm font-bold bg-nav-gold text-center hover:bg-nav-gold-light transition-colors"
                 >
                   Sign up
                 </Link>

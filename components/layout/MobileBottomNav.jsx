@@ -16,7 +16,10 @@ export default function MobileBottomNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 safe-area-pb">
+    <nav
+      className="mobile-bottom-nav md:hidden fixed bottom-0 left-0 right-0 z-50 border-t-2 border-nav-gold safe-area-pb"
+      style={{ background: 'linear-gradient(to right, var(--color-nav-from), var(--color-nav-via), var(--color-nav-to))' }}
+    >
       <div className="grid grid-cols-5 w-full h-16">
         {tabs.map(({ href, label, Icon }) => {
           const active = pathname?.startsWith(href)
@@ -24,12 +27,12 @@ export default function MobileBottomNav() {
             <Link
               key={href}
               href={href}
-              className={`flex flex-col items-center justify-center gap-0.5 px-3 py-2 ${
-                active ? 'text-[#0F766E]' : 'text-[#78716C]'
+              className={`flex flex-col items-center justify-center gap-0.5 px-3 py-2 transition-opacity !text-white ${
+                active ? 'opacity-100' : 'opacity-60 hover:opacity-90'
               }`}
             >
               <Icon size={22} strokeWidth={active ? 2.5 : 1.8} />
-              <span className={`text-xs font-medium truncate ${active ? 'text-[#0F766E]' : 'text-[#78716C]'}`}>
+              <span className="text-xs font-medium truncate">
                 {label}
               </span>
             </Link>
